@@ -1,0 +1,598 @@
+[
+  {
+    "slug": "webp-to-jpg",
+    "from": "WebP",
+    "to": "JPG",
+    "mime": "image/jpeg",
+    "title": "Free WebP to JPG Converter Online",
+    "description": "Convert a WebP image to JPG in your browser. No sign-up and no file upload. Download a JPG copy in seconds.",
+    "intro": "Convert WebP images to JPG when you need a format accepted by older apps, forms, and image viewers. Choose a WebP file and download a JPG copy directly from your browser.",
+    "detail": "JPG works in a wide range of apps and devices. It does not keep transparent pixels, so transparent areas are filled with white. JPG uses lossy compression; converting cannot recover detail that was already lost in the WebP source."
+  },
+  {
+    "slug": "webp-to-png",
+    "from": "WebP",
+    "to": "PNG",
+    "mime": "image/png",
+    "title": "Free WebP to PNG Converter Online",
+    "description": "Turn a WebP image into a PNG file in your browser. Keep transparency, skip uploads, and download your image free.",
+    "intro": "Need a PNG copy of a WebP image for editing or an app that does not accept WebP? Select your file and create a PNG download without sending it to a server.",
+    "detail": "PNG supports transparent areas, which are preserved when the browser decodes the source correctly. Converting a lossy WebP to PNG does not restore the original image detail, and the resulting PNG may be larger."
+  },
+  {
+    "slug": "png-to-webp",
+    "from": "PNG",
+    "to": "WebP",
+    "mime": "image/webp",
+    "title": "Free PNG to WebP Converter Online",
+    "description": "Convert PNG images to WebP in your browser for web use. Fast, private, and free with no upload required.",
+    "intro": "Create a WebP copy of a PNG for websites and apps that support modern image formats. Choose a PNG file and download the converted image from your device.",
+    "detail": "WebP output can be smaller, though the result depends on the image and compression. This converter uses the browser's WebP encoder; compare the output before replacing a high-detail original. Transparency is retained by supported browsers."
+  },
+  {
+    "slug": "jpg-to-webp",
+    "from": "JPG",
+    "to": "WebP",
+    "mime": "image/webp",
+    "title": "Free JPG to WebP Converter Online",
+    "description": "Convert JPG to WebP online in your browser. Make a WebP copy without an account or uploading your photo.",
+    "intro": "Make a WebP version of a JPG image for a website or app. Select your JPG and download a browser-generated WebP copy.",
+    "detail": "WebP may reduce file size for web delivery, but the size and appearance depend on the source and browser encoder. Re-encoding an already compressed JPG can add quality loss, so keep your original."
+  },
+  {
+    "slug": "png-to-jpg",
+    "from": "PNG",
+    "to": "JPG",
+    "mime": "image/jpeg",
+    "title": "Free PNG to JPG Converter Online",
+    "description": "Convert PNG to JPG online for compatibility and smaller photo files. Your image stays in your browser; no upload or account.",
+    "intro": "Create a JPG copy of a PNG for forms, websites, or apps that require JPEG. Select your image and download the converted copy.",
+    "detail": "JPG does not support transparency. Transparent pixels are flattened onto a white background. JPG is lossy, so keep the PNG original if you need lossless editing or crisp text and line art."
+  },
+  {
+    "slug": "jpg-to-png",
+    "from": "JPG",
+    "to": "PNG",
+    "mime": "image/png",
+    "title": "Free JPG to PNG Converter Online",
+    "description": "Convert JPG images to PNG in your browser. No upload, no sign-up, and a quick download to your device.",
+    "intro": "Make a PNG copy of a JPG image when a workflow asks for PNG. The conversion runs in your browser and the result downloads to your device.",
+    "detail": "PNG output does not restore quality lost in the original JPG. The new file may be larger, especially for photographs. Use the JPG original when smaller file size matters."
+  },
+  {
+    "slug": "avif-to-jpg",
+    "from": "AVIF",
+    "to": "JPG",
+    "mime": "image/jpeg",
+    "title": "Free AVIF to JPG Converter Online",
+    "description": "Convert AVIF images to JPG when your browser can open AVIF. Private, free, and processed on your device.",
+    "intro": "Create a JPG copy of an AVIF image for wider compatibility. Select an AVIF file; your browser must support decoding AVIF for this conversion to work.",
+    "detail": "AVIF support varies by browser and device. If the image does not open, try a browser with AVIF support or convert it with an image app that can read AVIF. JPG does not preserve transparency."
+  },
+  {
+    "kind": "pdf",
+    "slug": "merge-pdf",
+    "tool": "pdf-merge",
+    "heading": "Merge PDF Files Online",
+    "title": "Merge PDF Files Online Free — SnapKit",
+    "description": "Combine multiple PDF files into one document in your browser. No sign-up; your selected PDFs stay on your device.",
+    "intro": "Join multiple PDF files into a single document without uploading them to a converter server. Choose the files in the order you want them combined, then download the merged PDF.",
+    "detail": "Files are merged in the order shown after selection. Large PDFs can use substantial device memory. Password-protected or damaged documents may fail to open.",
+    "howTitle": "How to merge PDF files",
+    "actionLabel": "Select PDFs to merge",
+    "steps": [
+      "Choose at least two PDF files from your device.",
+      "Check their displayed order; the files are merged in that order.",
+      "Select Merge PDFs and save the combined document."
+    ],
+    "faq": "Can I merge PDF files for free?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "extract-pdf-pages",
+    "tool": "pdf-extract",
+    "heading": "Extract Pages from a PDF",
+    "title": "Extract Pages from PDF Online Free — SnapKit",
+    "description": "Save selected pages from a PDF as a new PDF. Enter page numbers or ranges; processing happens in your browser.",
+    "intro": "Create a smaller PDF containing only the pages you need. Enter page numbers or ranges such as 1-3,5, then download the extracted pages as a new PDF.",
+    "detail": "Page numbers start at 1. For example, 1-3,5 keeps pages 1, 2, 3, and 5, in that order. The original PDF remains unchanged on your device.",
+    "howTitle": "How to extract PDF pages",
+    "actionLabel": "Choose a PDF",
+    "steps": [
+      "Choose one PDF from your device.",
+      "Enter the pages to keep, for example 1-3,5.",
+      "Select Extract Pages and download the new PDF."
+    ],
+    "faq": "Can I extract PDF pages without uploading the file?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "rotate-pdf",
+    "tool": "pdf-rotate",
+    "heading": "Rotate PDF Pages Online",
+    "title": "Rotate PDF Pages Online Free — SnapKit",
+    "description": "Rotate all pages in a PDF by 90, 180, or 270 degrees. Free browser-based processing with no file upload.",
+    "intro": "Fix a PDF whose pages display sideways or upside down. Choose a PDF, select the rotation angle, and download a rotated copy.",
+    "detail": "The selected angle is applied to every page and added to each page's existing rotation. The original file is not changed.",
+    "howTitle": "How to rotate PDF pages",
+    "actionLabel": "Choose a PDF to rotate",
+    "steps": [
+      "Choose one PDF from your device.",
+      "Select 90, 180, or 270 degrees.",
+      "Select Rotate PDF and save the new file."
+    ],
+    "faq": "Can I rotate a PDF for free without uploading it?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "image-to-pdf",
+    "tool": "pdf-image",
+    "heading": "Convert Images to PDF Online",
+    "title": "Image to PDF Converter Online Free — SnapKit",
+    "description": "Convert one or more images to a PDF in your browser. Choose A4 or Letter pages; no account or image upload required.",
+    "intro": "Turn image files into a PDF with one image per page. Choose multiple images, set A4 or Letter page size, and download the PDF created on your device.",
+    "detail": "Images are fitted inside each page with a small margin. PNG files keep transparency. Other browser-readable image formats are rendered as PNG; animated formats use the first frame. Very large images may exceed your device's memory.",
+    "howTitle": "How to convert images to PDF",
+    "actionLabel": "Choose images",
+    "steps": [
+      "Select one or more image files from your device.",
+      "Choose A4 or Letter page size.",
+      "Select Create PDF and download the document."
+    ],
+    "faq": "Can I convert multiple images into one PDF?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "pdf-page-count",
+    "tool": "pdf-info",
+    "heading": "PDF Page Counter Online",
+    "title": "Count PDF Pages Online — SnapKit",
+    "description": "Find out how many pages a PDF contains. This free PDF page counter runs in your browser without uploading the document.",
+    "intro": "Check the page count of a PDF without opening a desktop editor. Select your file and SnapKit will count its pages locally in your browser.",
+    "detail": "This tool reads the document structure to count pages. Password-protected or damaged PDFs may not open. Your original file is not modified.",
+    "howTitle": "How to count PDF pages",
+    "actionLabel": "Choose a PDF",
+    "steps": [
+      "Choose one PDF from your device.",
+      "Select Show page count.",
+      "Read the number of pages shown on screen."
+    ],
+    "faq": "Can I count PDF pages without uploading the file?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "pdf-to-image",
+    "tool": "pdf-to-image",
+    "heading": "Convert PDF Pages to PNG or JPG",
+    "title": "PDF to Image Converter Free — SnapKit",
+    "description": "Convert a selected PDF page to PNG or JPG in your browser. Free PDF to image conversion with local processing and no upload.",
+    "intro": "Save a page from a PDF as a PNG or JPG image. Select your PDF, enter a page number, choose an image format, and download the rendered page.",
+    "detail": "This browser tool renders one selected page at a time at a moderate screen resolution. Very large or complex pages may need more device memory. The PDF renderer loads from a public CDN; your selected PDF data stays in this browser tab.",
+    "howTitle": "How to convert a PDF page to an image",
+    "actionLabel": "Choose a PDF",
+    "steps": [
+      "Choose a PDF file from your device.",
+      "Enter the page number and choose PNG or JPG.",
+      "Select Convert page to image and save the downloaded image."
+    ],
+    "faq": "Can I convert a PDF page to an image for free?"
+  },
+  {
+    "kind": "image",
+    "slug": "svg-to-png",
+    "from": "SVG",
+    "to": "PNG",
+    "mime": "image/png",
+    "title": "Free SVG to PNG Converter Online — SnapKit",
+    "description": "Convert an SVG vector graphic to a PNG image in your browser. Free, private, and no image upload required.",
+    "intro": "Create a PNG copy of an SVG graphic for apps, forms, or websites that need a raster image. Select an SVG file and download the PNG made by your browser.",
+    "detail": "The browser rasterizes the SVG at its intrinsic size. SVG features that rely on external fonts, images, or resources may look different or may not load. Keep the SVG original for scalable editing."
+  },
+  {
+    "kind": "image",
+    "slug": "svg-to-jpg",
+    "from": "SVG",
+    "to": "JPG",
+    "mime": "image/jpeg",
+    "title": "Free SVG to JPG Converter Online — SnapKit",
+    "description": "Turn an SVG vector file into a JPG image in your browser. Your image stays on your device; no sign-up or upload.",
+    "intro": "Make a JPG copy of an SVG for older apps and sites. Select an SVG file; the browser creates and downloads a JPG image on your device.",
+    "detail": "JPG does not support transparency, so transparent parts are filled white. The SVG is rasterized at the dimensions provided by the file and JPG compression may soften fine details."
+  },
+  {
+    "kind": "pdf",
+    "slug": "svg-to-pdf",
+    "tool": "pdf-image",
+    "heading": "Convert SVG to PDF Online",
+    "title": "SVG to PDF Converter Free — SnapKit",
+    "description": "Convert an SVG graphic to a PDF document in your browser. Free local SVG to PDF conversion with no upload required.",
+    "intro": "Place an SVG graphic on a standard A4 or Letter PDF page. Choose your SVG file and create a PDF copy locally in your browser.",
+    "detail": "The SVG is rasterized by your browser and placed on a PDF page, so this creates a convenient printable PDF rather than a fully editable vector PDF. External SVG resources may not render.",
+    "howTitle": "How to convert SVG to PDF",
+    "actionLabel": "Choose an SVG file",
+    "steps": [
+      "Choose an SVG graphic from your device.",
+      "Select A4 or Letter page size.",
+      "Select Create PDF and save the generated document."
+    ],
+    "faq": "Can I convert an SVG file to PDF for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "word-counter",
+    "tool": "word-count",
+    "heading": "Word Counter",
+    "title": "Word counter online free",
+    "description": "Count words, characters, lines, and estimated reading time in a text.",
+    "intro": "Paste or type text to see word, character, sentence, and line counts instantly.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use word counter for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "character-counter",
+    "tool": "character-count",
+    "heading": "Character Counter",
+    "title": "Character counter online free",
+    "description": "Count characters with spaces, without spaces, and UTF-8 bytes.",
+    "intro": "Use this character counter to check text length for posts, forms, essays, and messages.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use character counter for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "json-formatter",
+    "tool": "json-format",
+    "heading": "JSON Formatter",
+    "title": "Format JSON online free",
+    "description": "Format and validate JSON with readable indentation in your browser.",
+    "intro": "Paste JSON to check its syntax and create a neatly indented version for debugging or sharing.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use json formatter for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "json-minifier",
+    "tool": "json-minify",
+    "heading": "JSON Minifier",
+    "title": "Minify JSON online free",
+    "description": "Minify valid JSON by removing unnecessary whitespace in your browser.",
+    "intro": "Paste a JSON value and create a compact one-line version while keeping its data unchanged.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use json minifier for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "csv-to-json",
+    "tool": "csv-to-json",
+    "heading": "CSV to JSON Converter",
+    "title": "Convert CSV to JSON online free",
+    "description": "Convert CSV rows to a JSON array of objects in your browser.",
+    "intro": "Paste CSV with a header row to create JSON objects using each column name as a property.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use csv to json converter for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "json-to-csv",
+    "tool": "json-to-csv",
+    "heading": "JSON to CSV Converter",
+    "title": "Convert JSON to CSV online free",
+    "description": "Convert an array of JSON objects into CSV text in your browser.",
+    "intro": "Paste a JSON array of objects and create a CSV table with a header row.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use json to csv converter for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "password-generator",
+    "tool": "password-generator",
+    "heading": "Password Generator",
+    "title": "Random password generator online",
+    "description": "Generate a random password locally in your browser. No password is sent to a server.",
+    "intro": "Choose a password length and generate a random password on your device for an account or app.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use password generator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "uuid-generator",
+    "tool": "uuid-generator",
+    "heading": "UUID Generator",
+    "title": "Generate UUID v4 online free",
+    "description": "Generate a random UUID version 4 using browser cryptography.",
+    "intro": "Create a UUID v4 identifier locally for development, testing, and data records.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use uuid generator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "base64-encoder",
+    "tool": "base64-encode",
+    "heading": "Base64 Encoder",
+    "title": "Base64 encode online free",
+    "description": "Encode UTF-8 text to Base64 in your browser.",
+    "intro": "Paste text to encode its UTF-8 bytes as Base64. This is encoding, not encryption.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use base64 encoder for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "url-encoder",
+    "tool": "url-encode",
+    "heading": "URL Encoder",
+    "title": "URL encode online free",
+    "description": "Encode text as a URL component using standard browser encoding.",
+    "intro": "Convert spaces and reserved characters to percent-encoding for use as a URL parameter.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use url encoder for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "regex-tester",
+    "tool": "regex-tester",
+    "heading": "Regex Tester",
+    "title": "Regular expression tester online",
+    "description": "Test a regular expression against text in your browser.",
+    "intro": "Enter a pattern, optional flags, and sample text to list matching results and positions.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use regex tester for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "sha256-generator",
+    "tool": "sha256-hash",
+    "heading": "SHA-256 Hash Generator",
+    "title": "SHA-256 hash generator online",
+    "description": "Create a SHA-256 digest with the Web Crypto API in your browser.",
+    "intro": "Enter text to calculate a SHA-256 hash locally. Hashing is one-way and does not encrypt the input.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use sha-256 hash generator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "percentage-calculator",
+    "tool": "percentage",
+    "heading": "Percentage Calculator",
+    "title": "Percentage calculator online free",
+    "description": "Calculate a percentage of a number in your browser.",
+    "intro": "Enter a percentage and a number to find the corresponding value.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use percentage calculator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "discount-calculator",
+    "tool": "discount",
+    "heading": "Discount Calculator",
+    "title": "Discount calculator online free",
+    "description": "Calculate a discount amount and sale price from an original price.",
+    "intro": "Enter a price and discount percentage to see the savings and final price.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use discount calculator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "tip-calculator",
+    "tool": "tip",
+    "heading": "Tip Calculator",
+    "title": "Tip calculator online free",
+    "description": "Calculate a tip amount and total bill from a tip percentage.",
+    "intro": "Enter the bill amount and tip rate to calculate the tip and total.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use tip calculator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "age-calculator",
+    "tool": "age-calculator",
+    "heading": "Age Calculator",
+    "title": "Age calculator online free",
+    "description": "Calculate age in years from a date of birth.",
+    "intro": "Choose a birth date to calculate your age based on today’s date.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use age calculator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "date-difference-calculator",
+    "tool": "date-difference",
+    "heading": "Date Difference Calculator",
+    "title": "Date difference calculator online free",
+    "description": "Count the days between two dates.",
+    "intro": "Choose a start and end date to count the days between them, inclusive.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use date difference calculator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "color-contrast-checker",
+    "tool": "color-contrast",
+    "heading": "Color Contrast Checker",
+    "title": "Color contrast checker online free",
+    "description": "Calculate contrast ratio and WCAG AA checks for two HEX colors.",
+    "intro": "Enter foreground and background HEX colors to check contrast for normal and large text.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use color contrast checker for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "lorem-ipsum-generator",
+    "tool": "lorem-ipsum",
+    "heading": "Lorem Ipsum Generator",
+    "title": "Lorem ipsum generator online free",
+    "description": "Generate placeholder Lorem Ipsum paragraphs in your browser.",
+    "intro": "Choose how many sample paragraphs to create for a mockup or layout.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use lorem ipsum generator for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "text-compare",
+    "tool": "text-diff",
+    "heading": "Text Compare Tool",
+    "title": "Compare text online free",
+    "description": "Compare two text samples line by line in your browser.",
+    "intro": "Paste an original and revised text to see added, removed, and unchanged lines.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use text compare tool for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "url-parser",
+    "tool": "url-parser",
+    "heading": "URL Parser",
+    "title": "Parse URL online free",
+    "description": "Break a complete URL into protocol, host, path, query, and fragment.",
+    "intro": "Paste a full URL to inspect its component parts without sending it to a server.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the data you enter and browser support.",
+    "howTitle": "How to use this tool",
+    "actionLabel": "Open the tool",
+    "steps": [
+      "Open the tool from this page.",
+      "Enter or paste your values.",
+      "Run the tool and copy the result."
+    ],
+    "faq": "Can I use url parser for free?"
+  }
+]
