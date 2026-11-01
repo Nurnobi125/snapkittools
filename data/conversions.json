@@ -202,20 +202,23 @@
   {
     "kind": "pdf",
     "slug": "svg-to-pdf",
-    "tool": "pdf-image",
+    "tool": "svg-to-pdf",
     "heading": "Convert SVG to PDF Online",
-    "title": "SVG to PDF Converter Free — SnapKit",
-    "description": "Convert an SVG graphic to a PDF document in your browser. Free local SVG to PDF conversion with no upload required.",
-    "intro": "Place an SVG graphic on a standard A4 or Letter PDF page. Choose your SVG file and create a PDF copy locally in your browser.",
-    "detail": "The SVG is rasterized by your browser and placed on a PDF page, so this creates a convenient printable PDF rather than a fully editable vector PDF. External SVG resources may not render.",
+    "title": "Free SVG to PDF Converter Online — SnapKit",
+    "description": "Convert SVG to PDF online for free. Choose page size, orientation, margins, and render resolution. Your file stays in your browser; the PDF artwork is rasterized.",
+    "intro": "Place SVG artwork on an A3, A4, A5, Letter, Legal, or Tabloid PDF page. Choose automatic or manual orientation, fit, margins, and render resolution. Processing stays in your browser.",
+    "detail": "The browser rasterizes the SVG at the selected 1×–4× resolution and places it on a PDF page. Higher resolution can improve print sharpness but uses more memory. The PDF is printable, not an editable vector PDF. External SVG resources may not render.",
     "howTitle": "How to convert SVG to PDF",
-    "actionLabel": "Choose an SVG file",
+    "actionLabel": "Open SVG to PDF converter",
     "steps": [
       "Choose an SVG graphic from your device.",
-      "Select A4 or Letter page size.",
+      "Choose a page size, orientation, render resolution, fit mode, and margin.",
       "Select Create PDF and save the generated document."
     ],
-    "faq": "Can I convert an SVG file to PDF for free?"
+    "faq": "Does this make an editable vector PDF?",
+    "faqAnswer": "No. SnapKit rasterizes the SVG and places the rendered image on a PDF page. The result is printable, but its artwork is not editable as vector paths.",
+    "relatedSlugs": ["image-to-pdf", "svg-to-png", "svg-to-jpg"],
+    "banglaHref": "../../index-bn.html?tool=svg-to-pdf#tools"
   },
   {
     "kind": "utility",

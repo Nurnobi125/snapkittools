@@ -31,6 +31,7 @@ The site and Windows apps are published by Rafix Technologies. The Windows apps 
 - PDF merge, selected-page extraction, rotation, image-to-PDF, page count, and PDF page-to-PNG/JPG run in the browser. pdf-lib and PDF.js lazy-load from jsDelivr only when a PDF tool needs them; files are not uploaded to SnapKit. PDF-to-image accepts PDFs up to 100 MB and renders one page at a time. SVG can be converted to PNG, JPG, or a rasterized printable PDF.
 - Image-to-PDF-এ প্রতিটি ছবির সর্বোচ্চ ফাইল আকার ৪০ MB; খুব বড় বা অনেক ছবি একসাথে নিলে ডিভাইসের memory সীমা প্রযোজ্য।
 - `everyday-tools.html`-এ ৫০০+ searchable browser tools: text, developer, math/date, quick tools, and hundreds of practical unit-conversion pairs. The list displays 36 cards per page.
+- `chrome-extension/` ফোল্ডারে SnapKit-এর Chrome extension-এর source আছে। `chrome://extensions` থেকে Developer mode → Load unpacked করে folder-টি বেছে নিন।
 - মূল সাইটের default ভাষা English। বাংলা সংস্করণ `index-bn.html` এবং বাংলা privacy page `privacy-bn.html`; English/Bangla switch link দুই হোমপেজ ও privacy পাতায় আছে। `privacy.html` English সংস্করণ। দুটো ভাষার ফাইলই GitHub repository-তে প্রকাশ করুন।
 - সাঁইত্রিশটি specific English search landing page: image, PDF, and SVG tools plus 20 common text, developer, and calculator tools. `/tools/` links to every landing page; 500+ remaining small tools stay searchable in the catalog. প্রতিটি পেজে আলাদা title, description, steps, সীমাবদ্ধতা ও internal links থাকে; বৈধ site URL দিলে canonical URL-ও তৈরি হয়।
 
