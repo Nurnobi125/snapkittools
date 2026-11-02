@@ -217,7 +217,11 @@
     ],
     "faq": "Does this make an editable vector PDF?",
     "faqAnswer": "No. SnapKit rasterizes the SVG and places the rendered image on a PDF page. The result is printable, but its artwork is not editable as vector paths.",
-    "relatedSlugs": ["image-to-pdf", "svg-to-png", "svg-to-jpg"],
+    "relatedSlugs": [
+      "image-to-pdf",
+      "svg-to-png",
+      "svg-to-jpg"
+    ],
     "banglaHref": "../../index-bn.html?tool=svg-to-pdf#tools"
   },
   {
@@ -597,5 +601,95 @@
       "Run the tool and copy the result."
     ],
     "faq": "Can I use url parser for free?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "jpg-to-pdf",
+    "tool": "pdf-image",
+    "heading": "Convert JPG to PDF Online",
+    "title": "JPG to PDF Converter – Free & Online — SnapKit",
+    "description": "Convert JPG to PDF online for free.",
+    "intro": "Turn one or more JPG photos into a PDF with one image per page. Choose A4 or Letter page size and download the PDF created on your device.",
+    "detail": "Images are fitted inside each page with a small margin. This page opens the same browser tool as Image to PDF, which also accepts PNG and other browser-readable images. Very large photos may exceed your device’s memory.",
+    "howTitle": "How to convert JPG to PDF",
+    "actionLabel": "Choose JPG images",
+    "steps": [
+      "Select one or more JPG files from your device.",
+      "Choose A4 or Letter page size.",
+      "Select Create PDF and download the document."
+    ],
+    "faq": "Is this JPG to PDF converter free?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "png-to-pdf",
+    "tool": "pdf-image",
+    "heading": "Convert PNG to PDF Online",
+    "title": "PNG to PDF Converter – Free & Online — SnapKit",
+    "description": "Convert PNG to PDF online for free.",
+    "intro": "Turn PNG images and screenshots into a PDF with one image per page. Choose A4 or Letter page size and download the PDF created on your device.",
+    "detail": "Images are fitted inside each page with a small margin and PNG transparency is kept. This page opens the same browser tool as Image to PDF. Very large images may exceed your device’s memory.",
+    "howTitle": "How to convert PNG to PDF",
+    "actionLabel": "Choose PNG images",
+    "steps": [
+      "Select one or more PNG files from your device.",
+      "Choose A4 or Letter page size.",
+      "Select Create PDF and download the document."
+    ],
+    "faq": "Is this PNG to PDF converter free?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "pdf-to-jpg",
+    "tool": "pdf-to-image",
+    "heading": "Convert PDF to JPG Online",
+    "title": "PDF to JPG Converter – Free & Online — SnapKit",
+    "description": "Convert a PDF page to JPG online for free.",
+    "intro": "Save a page from a PDF as a JPG image. Select your PDF, enter a page number, choose JPG as the image format and download the rendered page.",
+    "detail": "This browser tool renders one selected page at a time at a moderate screen resolution. Choose JPG in the Image format menu inside the tool. Very large or complex pages may need more device memory.",
+    "howTitle": "How to convert a PDF page to JPG",
+    "actionLabel": "Choose a PDF",
+    "steps": [
+      "Choose a PDF file from your device.",
+      "Enter the page number and choose JPG as the image format.",
+      "Select Convert page to image and save the downloaded JPG."
+    ],
+    "faq": "Can I convert a PDF to JPG for free?"
+  },
+  {
+    "kind": "pdf",
+    "slug": "pdf-to-png",
+    "tool": "pdf-to-image",
+    "heading": "Convert PDF to PNG Online",
+    "title": "PDF to PNG Converter – Free & Online — SnapKit",
+    "description": "Convert a PDF page to PNG online for free.",
+    "intro": "Save a page from a PDF as a PNG image. Select your PDF, enter a page number, choose PNG as the image format and download the rendered page.",
+    "detail": "This browser tool renders one selected page at a time at a moderate screen resolution. PNG is lossless, so text and graphics stay crisp, but the file can be larger than a JPG.",
+    "howTitle": "How to convert a PDF page to PNG",
+    "actionLabel": "Choose a PDF",
+    "steps": [
+      "Choose a PDF file from your device.",
+      "Enter the page number and choose PNG as the image format.",
+      "Select Convert page to image and save the downloaded PNG."
+    ],
+    "faq": "Can I convert a PDF to PNG for free?"
+  },
+  {
+    "kind": "utility",
+    "slug": "essay-word-counter",
+    "tool": "word-count",
+    "heading": "Essay Word Counter",
+    "title": "Essay Word Counter – Check Essay Length — SnapKit",
+    "description": "Count words in an essay.",
+    "intro": "Paste your essay to see word, character, sentence and line counts instantly, so you can check it against a required length.",
+    "detail": "This free browser tool runs locally in the current tab. No account or paid API is required. Results can depend on the text you paste and browser support.",
+    "howTitle": "How to check your essay length",
+    "actionLabel": "Open the word counter",
+    "steps": [
+      "Open the word counter from this page.",
+      "Paste your essay into the text box.",
+      "Read the word and character count and adjust your text."
+    ],
+    "faq": "Is this essay word counter free?"
   }
 ]

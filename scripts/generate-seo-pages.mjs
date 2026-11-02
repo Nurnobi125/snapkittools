@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const routes = JSON.parse(await readFile(path.join(root, 'data/conversions.json'), 'utf8'));
+const seo = JSON.parse(await readFile(path.join(root, 'data/seo-content.json'), 'utf8'));
 const config = JSON.parse(await readFile(path.join(root, 'site-config.json'), 'utf8'));
 const siteUrl = String(config.siteUrl || '').trim().replace(/\/$/, '');
 let validSiteUrl = false;
@@ -16,14 +17,17 @@ const esc = (s) => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll
 const link = (route) => `../${route.slug}/`;
 
 for (const route of routes) {
+  const s = seo[route.slug] || {};
+  const description = s.description || route.description;
   const pdfTool = route.kind === 'pdf';
   const utilityTool = route.kind === 'utility';
   const url = `${siteUrl}/tools/${route.slug}/`;
-  const related = route.relatedSlugs
-    ? route.relatedSlugs.map((slug) => routes.find((item) => item.slug === slug)).filter(Boolean)
+  const relatedSlugs = s.related || route.relatedSlugs;
+  const related = relatedSlugs
+    ? relatedSlugs.map((slug) => routes.find((item) => item.slug === slug)).filter(Boolean)
     : routes.filter((item) => item.slug !== route.slug && (item.kind === route.kind)).slice(0, 3);
   const heading = pdfTool || utilityTool ? route.heading : `${route.from} to ${route.to} Converter`;
-  const displayTitle = route.title.replace(/\s*[—|]\s*SnapKit$/i, '');
+  const displayTitle = (s.title || route.title).replace(/\s*[—|]\s*SnapKit$/i, '');
   const howTitle = pdfTool || utilityTool ? route.howTitle : `How to convert ${route.from} to ${route.to}`;
   const actionUrl = utilityTool ? `../../everyday-tools.html?tool=${route.tool}` : pdfTool ? `../../index.html?tool=${route.tool}#tools` : `../../index.html?tool=convert&amp;format=${encodeURIComponent(route.mime)}#tools`;
   const actionLabel = pdfTool || utilityTool ? route.actionLabel : `Choose ${route.from} file`;
@@ -38,24 +42,30 @@ for (const route of routes) {
       : 'No. Processing happens in this tab. The PDF library is fetched from the CDN on first use, but your selected PDF bytes are not sent to that service.')
     : 'No. The image is read locally by your browser and the converted copy is downloaded to your device. GitHub Pages may process normal website request logs as the host.';
   const relatedLabel = route.slug === 'svg-to-pdf' ? 'Related SVG and PDF tools' : pdfTool ? 'Related PDF tools' : utilityTool ? 'Related tools' : 'Related converters';
-  const whyAnswer = route.slug === 'svg-to-pdf' ? 'Some SVG features and external resources may not render in a browser canvas. Try embedding the artwork and fonts in the SVG, then use a current browser.' : pdfTool ? 'Some encrypted, damaged, or unusually complex PDFs may not be supported. Use a current browser and a PDF without a password.' : utilityTool ? route.detail : `Image decoding depends on your browser. ${esc(route.from)} files may not be supported on every device. Try a current browser or use a local image app that supports the file.`;
+  const whyAnswer = route.tool === 'pdf-image' ? 'Very large images, or formats your browser cannot read, may fail. Try a current browser, or convert the image to JPG or PNG first.' : route.slug === 'svg-to-pdf' ? 'Some SVG features and external resources may not render in a browser canvas. Try embedding the artwork and fonts in the SVG, then use a current browser.' : pdfTool ? 'Some encrypted, damaged, or unusually complex PDFs may not be supported. Use a current browser and a PDF without a password.' : utilityTool ? route.detail : `Image decoding depends on your browser. ${esc(route.from)} files may not be supported on every device. Try a current browser or use a local image app that supports the file.`;
+  const ogTitle = `${displayTitle} — SnapKit`;
+  const extraFaq = s.faq || [];
   const faqAnswer = route.faqAnswer || 'Yes. This static version has no account or paid API. Your browser does the processing.';
   const banglaHref = route.banglaHref || (pdfTool ? `../../index-bn.html?tool=${route.tool}#tools` : utilityTool ? '../../index-bn.html' : actionUrl.replace('../../index.html', '../../index-bn.html'));
+  const faqItems = [[faqWhat, faqAnswer], [inputQuestion, inputAnswer], ["Why can't my file open or tool run?", whyAnswer.replace(/<[^>]+>/g, '')], ...extraFaq];
+  const faqLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqItems.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) })}</script>`;
+  const crumbLd = publishable ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` }, { '@type': 'ListItem', position: 2, name: 'Tools', item: `${siteUrl}/tools/` }, { '@type': 'ListItem', position: 3, name: heading, item: url }] })}</script>` : '';
   const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="${esc(route.description)}"><meta name="theme-color" content="#f7f8f4">
-<meta property="og:type" content="website"><meta property="og:site_name" content="SnapKit"><meta property="og:locale" content="en_US"><meta property="og:title" content="${esc(route.title)}"><meta property="og:description" content="${esc(route.description)}">${publishable ? `<meta property="og:url" content="${url}">` : ''}
-<meta name="twitter:card" content="summary"><meta name="twitter:title" content="${esc(route.title)}"><meta name="twitter:description" content="${esc(route.description)}">${publishable ? `<link rel="canonical" href="${url}">` : ''}
-<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebApplication', name: route.title, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any device with a compatible modern browser', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description: route.description, ...(publishable ? { url } : {}) })}</script>
-<title>${esc(displayTitle)} | SnapKit</title><link rel="stylesheet" href="../../tool-pages.css"><link rel="stylesheet" href="../../theme.css"><script src="../../theme.js"></script></head>
+<meta name="description" content="${esc(description)}"><meta name="theme-color" content="#f7f8f4">
+<meta property="og:type" content="website"><meta property="og:site_name" content="SnapKit"><meta property="og:locale" content="en_US"><meta property="og:title" content="${esc(ogTitle)}"><meta property="og:description" content="${esc(description)}">${publishable ? `<meta property="og:url" content="${url}">` : ''}
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="${esc(ogTitle)}"><meta name="twitter:description" content="${esc(description)}">${publishable ? `<link rel="canonical" href="${url}">` : ''}
+<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'WebApplication', name: displayTitle, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any device with a compatible modern browser', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description, ...(publishable ? { url } : {}) })}</script>
+${faqLd}${crumbLd}<title>${esc(displayTitle)} | SnapKit</title><link rel="stylesheet" href="../../tool-pages.css"><link rel="stylesheet" href="../../theme.css"><script src="../../theme.js"></script></head>
 <body><header class="top"><a class="brand" href="../../">✳ snapkit</a><a class="back" href="../../tools/">All tools</a> <a class="back" href="../../applications.html">Windows apps</a></header>
 <main><p class="eyebrow">${category}</p><h1>${esc(heading)}</h1><p class="lead">${esc(route.intro)}</p>
 <a class="cta" href="${actionUrl}">${esc(actionLabel)} <span>↗</span></a>
 <p class="privacy">✳ Files are processed in your browser. They are not uploaded to SnapKit.</p>
-<section><h2>${esc(howTitle)}</h2><ol>${steps.map((step) => `<li>${esc(step)}</li>`).join('')}</ol><p>${esc(route.detail)}</p></section>
-<section><h2>Frequently asked questions</h2><details><summary>${esc(faqWhat)}</summary><p>${esc(faqAnswer)}</p></details><details><summary>${esc(inputQuestion)}</summary><p>${esc(inputAnswer)}</p></details><details><summary>Why can't my file open or tool run?</summary><p>${whyAnswer}</p></details></section>
+<section><h2>${esc(howTitle)}</h2><ol>${steps.map((step) => `<li>${esc(step)}</li>`).join('')}</ol><p>${esc(route.detail)}</p>${s.extra ? `<p>${esc(s.extra)}</p>` : ''}</section>
+<section><h2>Frequently asked questions</h2><details><summary>${esc(faqWhat)}</summary><p>${esc(faqAnswer)}</p></details><details><summary>${esc(inputQuestion)}</summary><p>${esc(inputAnswer)}</p></details><details><summary>Why can't my file open or tool run?</summary><p>${whyAnswer}</p></details>${extraFaq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</section>
 <nav class="related" aria-label="${relatedLabel}"><b>${relatedLabel}</b>${related.map((item) => `<a href="${link(item)}">${esc(item.heading || `${item.from} to ${item.to}`)}</a>`).join('')}</nav>
-<p class="bangla" lang="bn">বাংলা সংস্করণে যেতে SnapKit-এর <a href="${banglaHref}">বাংলা পেজটি</a> দেখুন।</p></main><footer>© 2026 Rafix Technologies · SnapKit · <a href="../../privacy.html">Privacy</a> · <a href="../../">Home</a></footer></body></html>`;
+${s.bnH ? `<section lang="bn"><h2>${esc(s.bnH)} — সহজ উপায়</h2><p>${esc(s.bnP)}</p></section>
+` : ''}<p class="bangla" lang="bn">বাংলা সংস্করণে যেতে SnapKit-এর <a href="${banglaHref}">বাংলা পেজটি</a> দেখুন।</p></main><footer>© 2026 Rafix Technologies · SnapKit · <a href="../../privacy.html">Privacy</a> · <a href="../../">Home</a></footer></body></html>`;
   const dir = path.join(root, 'tools', route.slug);
   await mkdir(dir, { recursive: true });
   await writeFile(path.join(dir, 'index.html'), html, 'utf8');
