@@ -98,7 +98,7 @@
           status.textContent = `Page ${pageNumber} of ${pdf.numPages} downloaded as ${format === 'image/jpeg' ? 'JPG' : 'PNG'}.`;
           await pdf.destroy(); return;
         }
-        const { PDFDocument, degrees } = await loadPdfLib();
+        const { PDFDocument, degrees, rgb } = await loadPdfLib();
         let bytes;
         let filename;
         if (imageFiles) {
@@ -112,7 +112,7 @@
           if (!Number.isFinite(marginMm) || marginMm < 0 || marginMm > 40) throw new Error('Margin ০ থেকে ৪০ mm-এর মধ্যে দিন।');
           const margin = marginMm * 72 / 25.4;
           const bg = root.querySelector('#pdf-background').value;
-          const background = { r: parseInt(bg.slice(1, 3), 16) / 255, g: parseInt(bg.slice(3, 5), 16) / 255, b: parseInt(bg.slice(5, 7), 16) / 255 };
+          const background = rgb(parseInt(bg.slice(1, 3), 16) / 255, parseInt(bg.slice(3, 5), 16) / 255, parseInt(bg.slice(5, 7), 16) / 255);
           output.setTitle(root.querySelector('#pdf-title').value.trim() || (svgToPdf ? 'SVG artwork' : 'Images to PDF'));
           for (const file of files) {
             const renderScale = svgToPdf ? Number(root.querySelector('#pdf-vector-scale').value) : 1;

@@ -32,21 +32,24 @@ for (const route of routes) {
   const actionUrl = utilityTool ? `../../everyday-tools.html?tool=${route.tool}` : pdfTool ? `../../index.html?tool=${route.tool}#tools` : `../../index.html?tool=convert&amp;format=${encodeURIComponent(route.mime)}#tools`;
   const actionLabel = pdfTool || utilityTool ? route.actionLabel : `Choose ${route.from} file`;
   const steps = pdfTool || utilityTool ? route.steps : [`Choose a ${route.from} image from your device.`, `Select ${route.to} as the output format if it is not already selected.`, 'Convert and download the new image.'];
-  const category = pdfTool ? 'FREE ONLINE PDF TOOL' : utilityTool ? 'FREE ONLINE BROWSER TOOL' : 'FREE ONLINE IMAGE CONVERTER';
+  const categoryBase = pdfTool ? 'FREE ONLINE PDF TOOL' : utilityTool ? 'FREE ONLINE BROWSER TOOL' : 'FREE ONLINE IMAGE CONVERTER';
   const faqWhat = pdfTool || utilityTool ? route.faq : `Is this ${route.from} to ${route.to} converter free?`;
-  const inputQuestion = utilityTool ? 'Is my input uploaded?' : route.slug === 'svg-to-pdf' ? 'Are my SVG files uploaded?' : pdfTool ? (route.tool === 'pdf-image' ? 'Are my images uploaded?' : 'Are my PDF files uploaded?') : 'Do you upload or store my image?';
-  const inputAnswer = utilityTool ? 'No. This tool runs in your browser, and the text or values you enter are not sent to SnapKit.' : route.slug === 'svg-to-pdf' ? 'No. The SVG is read and rasterized in your browser. pdf-lib loads from a CDN when needed, but the selected SVG bytes stay in this browser tab.' : pdfTool ? (route.tool === 'pdf-image'
+  const inputQuestionBase = utilityTool ? 'Is my input uploaded?' : route.slug === 'svg-to-pdf' ? 'Are my SVG files uploaded?' : pdfTool ? (route.tool === 'pdf-image' ? 'Are my images uploaded?' : 'Are my PDF files uploaded?') : 'Do you upload or store my image?';
+  const inputAnswerBase = utilityTool ? 'No. This tool runs in your browser, and the text or values you enter are not sent to SnapKit.' : route.slug === 'svg-to-pdf' ? 'No. The SVG is read and rasterized in your browser. pdf-lib loads from a CDN when needed, but the selected SVG bytes stay in this browser tab.' : pdfTool ? (route.tool === 'pdf-image'
     ? 'No. Images are read locally by your browser, and the PDF library is fetched from the CDN on first use. Your selected image bytes are not sent to the CDN.'
     : route.tool === 'pdf-to-image'
       ? 'No. PDF.js loads from the CDN on first use to render a page, but the selected PDF bytes stay in this browser tab.'
       : 'No. Processing happens in this tab. The PDF library is fetched from the CDN on first use, but your selected PDF bytes are not sent to that service.')
     : 'No. The image is read locally by your browser and the converted copy is downloaded to your device. GitHub Pages may process normal website request logs as the host.';
   const relatedLabel = route.slug === 'svg-to-pdf' ? 'Related SVG and PDF tools' : pdfTool ? 'Related PDF tools' : utilityTool ? 'Related tools' : 'Related converters';
-  const whyAnswer = route.tool === 'pdf-image' ? 'Very large images, or formats your browser cannot read, may fail. Try a current browser, or convert the image to JPG or PNG first.' : route.slug === 'svg-to-pdf' ? 'Some SVG features and external resources may not render in a browser canvas. Try embedding the artwork and fonts in the SVG, then use a current browser.' : pdfTool ? 'Some encrypted, damaged, or unusually complex PDFs may not be supported. Use a current browser and a PDF without a password.' : utilityTool ? route.detail : `Image decoding depends on your browser. ${esc(route.from)} files may not be supported on every device. Try a current browser or use a local image app that supports the file.`;
+  const whyAnswer = route.whyA ? esc(route.whyA) : route.tool === 'pdf-image' ? 'Very large images, or formats your browser cannot read, may fail. Try a current browser, or convert the image to JPG or PNG first.' : route.slug === 'svg-to-pdf' ? 'Some SVG features and external resources may not render in a browser canvas. Try embedding the artwork and fonts in the SVG, then use a current browser.' : pdfTool ? 'Some encrypted, damaged, or unusually complex PDFs may not be supported. Use a current browser and a PDF without a password.' : utilityTool ? route.detail : `Image decoding depends on your browser. ${esc(route.from)} files may not be supported on every device. Try a current browser or use a local image app that supports the file.`;
   const ogTitle = `${displayTitle} — SnapKit`;
   const extraFaq = s.faq || [];
   const faqAnswer = route.faqAnswer || 'Yes. This static version has no account or paid API. Your browser does the processing.';
   const banglaHref = route.banglaHref || (pdfTool ? `../../index-bn.html?tool=${route.tool}#tools` : utilityTool ? '../../index-bn.html' : actionUrl.replace('../../index.html', '../../index-bn.html'));
+  const category = route.category || categoryBase;
+  const inputQuestion = route.inputQ || inputQuestionBase;
+  const inputAnswer = route.inputA || inputAnswerBase;
   const faqItems = [[faqWhat, faqAnswer], [inputQuestion, inputAnswer], ["Why can't my file open or tool run?", whyAnswer.replace(/<[^>]+>/g, '')], ...extraFaq];
   const faqLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqItems.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) })}</script>`;
   const crumbLd = publishable ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` }, { '@type': 'ListItem', position: 2, name: 'Tools', item: `${siteUrl}/tools/` }, { '@type': 'ListItem', position: 3, name: heading, item: url }] })}</script>` : '';
@@ -59,13 +62,12 @@ for (const route of routes) {
 ${faqLd}${crumbLd}<title>${esc(displayTitle)} | SnapKit</title><link rel="stylesheet" href="../../tool-pages.css"><link rel="stylesheet" href="../../theme.css"><script src="../../theme.js"></script></head>
 <body><header class="top"><a class="brand" href="../../">✳ snapkit</a><a class="back" href="../../tools/">All tools</a> <a class="back" href="../../applications.html">Windows apps</a></header>
 <main><p class="eyebrow">${category}</p><h1>${esc(heading)}</h1><p class="lead">${esc(route.intro)}</p>
-<a class="cta" href="${actionUrl}">${esc(actionLabel)} <span>↗</span></a>
-<p class="privacy">✳ Files are processed in your browser. They are not uploaded to SnapKit.</p>
+${route.inline ? `<div data-ocr-app data-lang="${route.ocrLang || 'eng'}"></div>\n<p class="privacy">✳ ${esc(route.privacyNote)}</p>` : `<a class="cta" href="${actionUrl}">${esc(actionLabel)} <span>↗</span></a>\n<p class="privacy">✳ Files are processed in your browser. They are not uploaded to SnapKit.</p>`}
 <section><h2>${esc(howTitle)}</h2><ol>${steps.map((step) => `<li>${esc(step)}</li>`).join('')}</ol><p>${esc(route.detail)}</p>${s.extra ? `<p>${esc(s.extra)}</p>` : ''}</section>
 <section><h2>Frequently asked questions</h2><details><summary>${esc(faqWhat)}</summary><p>${esc(faqAnswer)}</p></details><details><summary>${esc(inputQuestion)}</summary><p>${esc(inputAnswer)}</p></details><details><summary>Why can't my file open or tool run?</summary><p>${whyAnswer}</p></details>${extraFaq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</section>
 <nav class="related" aria-label="${relatedLabel}"><b>${relatedLabel}</b>${related.map((item) => `<a href="${link(item)}">${esc(item.heading || `${item.from} to ${item.to}`)}</a>`).join('')}</nav>
 ${s.bnH ? `<section lang="bn"><h2>${esc(s.bnH)} — সহজ উপায়</h2><p>${esc(s.bnP)}</p></section>
-` : ''}<p class="bangla" lang="bn">বাংলা সংস্করণে যেতে SnapKit-এর <a href="${banglaHref}">বাংলা পেজটি</a> দেখুন।</p></main><footer>© 2026 Rafix Technologies · SnapKit · <a href="../../privacy.html">Privacy</a> · <a href="../../">Home</a></footer></body></html>`;
+` : ''}<p class="bangla" lang="bn">বাংলা সংস্করণে যেতে SnapKit-এর <a href="${banglaHref}">বাংলা পেজটি</a> দেখুন।</p></main><footer>© 2026 Rafix Technologies · SnapKit · <a href="../../privacy.html">Privacy</a> · <a href="../../">Home</a></footer>${route.inline ? '<script src="../../ocr-tool.js" defer></script>' : ''}</body></html>`;
   const dir = path.join(root, 'tools', route.slug);
   await mkdir(dir, { recursive: true });
   await writeFile(path.join(dir, 'index.html'), html, 'utf8');

@@ -239,7 +239,7 @@
    "jpg-to-pdf",
    "png-to-pdf",
    "merge-pdf",
-   "svg-to-pdf"
+   "image-to-text"
   ]
  },
  "jpg-to-pdf": {
@@ -462,7 +462,7 @@
   "related": [
    "character-counter",
    "essay-word-counter",
-   "text-compare"
+   "ocr-online"
   ]
  },
  "essay-word-counter": {
@@ -506,7 +506,7 @@
   "related": [
    "word-counter",
    "essay-word-counter",
-   "text-compare"
+   "ocr-online"
   ]
  },
  "lorem-ipsum-generator": {
@@ -925,6 +925,98 @@
    "lorem-ipsum-generator",
    "text-compare",
    "json-formatter"
+  ]
+ },
+ "ocr-online": {
+  "title": "Free Online OCR – Extract Text from Images",
+  "description": "Free online OCR: extract text from photos, scans and screenshots. Copy it or save as TXT or Word. Runs in your browser – no upload to SnapKit.",
+  "extra": "Use this free OCR online tool to copy text out of a picture instead of typing it again. It works with photos of documents, screenshots, signs and scanned pages, and you can save the result as a text file or a Word document.",
+  "faq": [
+   [
+    "What is OCR?",
+    "OCR stands for optical character recognition. It finds letters in an image and converts them to text you can edit and search."
+   ],
+   [
+    "Why is some of my text wrong?",
+    "OCR can misread blurry, small or decorative text, and handwriting is usually not recognized well. Use a sharp, high-resolution image and proofread the result."
+   ]
+  ],
+  "bnH": "অনলাইন OCR",
+  "bnP": "ছবি থেকে লেখা কপি করতে ছবি বাছুন, ভাষা ঠিক করুন এবং Extract text চাপুন। ফলাফল কপি করুন বা TXT/Word ফাইলে নামান। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "image-to-text",
+   "image-to-word",
+   "bangla-ocr",
+   "word-counter"
+  ]
+ },
+ "image-to-text": {
+  "title": "Image to Text Converter – Free Online OCR",
+  "description": "Convert an image to text online for free. Turn photos and screenshots into editable text with OCR. Private in your browser – no sign-up.",
+  "extra": "Looking for a picture to text converter? Choose an image with printed text and the tool turns it into text you can copy, edit or save. It is handy for screenshots, scanned notes, receipts and book pages.",
+  "faq": [
+   [
+    "Which images work best?",
+    "Sharp, well-lit images with dark text on a plain background work best. Crop away extra background before you run the tool."
+   ],
+   [
+    "Can it read handwriting?",
+    "Not reliably. The tool is made for printed text, and handwriting often comes out wrong."
+   ]
+  ],
+  "bnH": "ছবি থেকে টেক্সট",
+  "bnP": "ছবিতে থাকা ছাপানো লেখাকে এডিট করার মতো টেক্সটে বদলান। স্ক্রিনশট, স্ক্যান করা নোট বা বইয়ের পাতার জন্য কাজের। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "ocr-online",
+   "image-to-word",
+   "bangla-ocr",
+   "word-counter"
+  ]
+ },
+ "image-to-word": {
+  "title": "Image to Word Converter – Photo to DOCX Free",
+  "description": "Convert an image or photo to a Word (.docx) file online for free. OCR in your browser – no upload to SnapKit, no sign-up.",
+  "extra": "Need a photo to Word converter? Take a picture of a page, run OCR and download the recognized text as a .docx file you can open in Microsoft Word or Google Docs. The file holds text only, so you will need to restore formatting yourself.",
+  "faq": [
+   [
+    "Does the Word file keep the layout?",
+    "No. It contains the recognized text only. Pictures, tables and the original page layout are not recreated."
+   ],
+   [
+    "Can I open the .docx in Google Docs?",
+    "Yes. Word documents open in Microsoft Word, Google Docs and most word processors."
+   ]
+  ],
+  "bnH": "ছবি থেকে ওয়ার্ড ফাইল",
+  "bnP": "পাতার ছবি তুলে OCR চালান এবং লেখাটি .docx ফাইল হিসেবে নামান। শুধু টেক্সট আসে, মূল ডিজাইন বা টেবিল আসে না। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "image-to-text",
+   "ocr-online",
+   "bangla-ocr",
+   "word-counter"
+  ]
+ },
+ "bangla-ocr": {
+  "title": "Bangla OCR Online – Image to Bengali Text",
+  "description": "Bangla OCR online: read Bengali text from photos, scans and screenshots and copy it. Free, in your browser – no upload to SnapKit.",
+  "extra": "This Bangla OCR (Bengali OCR) tool reads printed Bangla from images and turns it into text you can copy. Accuracy is lower than for English, so use a clear, high-resolution image and proofread the output.",
+  "faq": [
+   [
+    "How accurate is Bangla OCR?",
+    "It is less accurate than English OCR. Clean printed text works best, while small print, old books and handwriting often have mistakes."
+   ],
+   [
+    "Can it read Bangla and English together?",
+    "Yes. Choose English + Bangla for pages with both languages."
+   ]
+  ],
+  "bnH": "বাংলা OCR",
+  "bnP": "ছবি থেকে বাংলা লেখা বের করতে এখানে ছবি দিন। ভাষা বাংলা সিলেক্ট থাকবে। ফলাফলে ভুল থাকতে পারে, তাই কপি করার আগে মিলিয়ে নিন। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "ocr-online",
+   "image-to-text",
+   "image-to-word",
+   "word-counter"
   ]
  }
 }
