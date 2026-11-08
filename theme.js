@@ -10,7 +10,7 @@
   document.querySelector('meta[name="color-scheme"]')?.setAttribute('content', initial);
 
   const addToggle = () => {
-    const header = document.querySelector('header.nav, header.top, header.shell.nav');
+    const header = document.querySelector('header.sk-nav, header.nav, header.top, header.shell.nav');
     const target = header ? (header.querySelector('.navright') || header) : document.querySelector('.box');
     if (!target || target.querySelector('.theme-toggle')) return;
     const button = document.createElement('button');

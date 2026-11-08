@@ -33,7 +33,7 @@ The site and Windows apps are published by Rafix Technologies. The Windows apps 
 - `everyday-tools.html`-এ ৫০০+ searchable browser tools: text, developer, math/date, quick tools, and hundreds of practical unit-conversion pairs. The list displays 36 cards per page.
 - `chrome-extension/` ফোল্ডারে SnapKit-এর Chrome extension-এর source আছে। `chrome://extensions` থেকে Developer mode → Load unpacked করে folder-টি বেছে নিন।
 - মূল সাইটের default ভাষা English। বাংলা সংস্করণ `index-bn.html` এবং বাংলা privacy page `privacy-bn.html`; English/Bangla switch link দুই হোমপেজ ও privacy পাতায় আছে। `privacy.html` English সংস্করণ। দুটো ভাষার ফাইলই GitHub repository-তে প্রকাশ করুন।
-- সাঁইত্রিশটি specific English search landing page: image, PDF, and SVG tools plus 20 common text, developer, and calculator tools. `/tools/` links to every landing page; 500+ remaining small tools stay searchable in the catalog. প্রতিটি পেজে আলাদা title, description, steps, সীমাবদ্ধতা ও internal links থাকে; বৈধ site URL দিলে canonical URL-ও তৈরি হয়।
+- সাঁইত্রিশটি specific English search landing page: image, PDF, and SVG tools plus 20 common text, developer, and calculator tools. `/tools/` links to every landing page; 700+ remaining small tools stay searchable in the catalog. প্রতিটি পেজে আলাদা title, description, steps, সীমাবদ্ধতা ও internal links থাকে; বৈধ site URL দিলে canonical URL-ও তৈরি হয়।
 
 ## সীমা ও খরচ
 
@@ -73,3 +73,20 @@ GitHub-এর অফিসিয়াল গাইডে branch থেকে �
 
 
 
+
+
+## বহুভাষার SEO পেজ (নতুন)
+
+- `node scripts/build-seo.mjs` চালালে English পেজ, ১৩টি ভাষার পেজ (`data/i18n/*.json`), canonical, hreflang, `sitemap.xml` ও `robots.txt` একসাথে তৈরি হয়। নতুন ভাষা যোগ করতে `data/i18n/es.json` কপি করে অনুবাদ করুন, তারপর কমান্ডটি চালান।
+- বিস্তারিত অডিট: `SEO-REPORT.md`।
+
+## AI সহকারীর জন্য সাইট-তথ্য
+
+- `llms.txt`-এ SnapKit-এর বাংলা পরিচিতি, প্রধান টুলের যাচাইকৃত লিংক এবং AI assistant-কে পেজভিত্তিক তথ্য যাচাইয়ের নির্দেশনা আছে।
+- `ai-index.json` হলো `data/conversions.json`, `data/seo-content.json` ও প্রকাশিত locale page থেকে তৈরি versioned machine-readable catalog; এতে operation, format, purpose, steps, FAQs, privacy/limitation note এবং ৮০০+ localized page URL থাকে। এর contract `ai-index.schema.json`-এ সংজ্ঞায়িত।
+- `llms-full.txt`-এর পূর্ণ tool directory একই উৎস থেকে auto-generate হয়; হাতে আলাদা করে URL তালিকা আপডেটের প্রয়োজন নেই।
+- `node scripts/build-seo.mjs` চালালে AI catalog এবং বাংলা tool directory-ও তৈরি ও validate হয়। `scripts/validate-ai-index.mjs` route count, canonical URL, missing output, duplicate URL/ID এবং crawler access পরীক্ষা করে; ব্যর্থ হলে build থামে।
+- প্রকাশিত root URL-এ ফাইলগুলো পাওয়া যাবে: `https://snapkittools.online/llms.txt`, `https://snapkittools.online/llms-full.txt`, `https://snapkittools.online/ai-index.json` এবং `https://snapkittools.online/ai-index.schema.json`।
+- `robots.txt`-এ `OAI-SearchBot`-কে স্পষ্টভাবে অনুমতি দেওয়া হয়েছে। `GPTBot`-এর আলাদা training preference এখানে নির্ধারণ করা হয়নি; সাধারণ `*` rule সব crawler-কে অনুমতি দেয়।
+- HTML পেজের `<head>`-এ `rel="describedby"` দিয়ে JSON catalog ও বাংলা AI guide প্রকাশ করা হয়, যাতে পেজ থেকে machine-readable তথ্য আবিষ্কার করা যায়।
+- catalog-টি compatible assistant-এর জন্য অতিরিক্ত discovery layer; Google বলে AI Search-এ আসতে `llms.txt` বা নতুন AI markup লাগে না এবং তারা `llms.txt` ব্যবহার করে না। [Google AI features guidance](https://developers.google.com/search/docs/appearance/ai-features)। OpenAI ChatGPT Search-এ discoverability-এর জন্য `OAI-SearchBot` allow করতে বলে; তবুও ranking বা mention নিশ্চিত নয়। [OpenAI publisher FAQ](https://help.openai.com/en/articles/12627856)। পরিবর্তিত capability থাকলে সংশ্লিষ্ট টুল পেজ ও privacy policy-কে প্রাধান্য দিন।

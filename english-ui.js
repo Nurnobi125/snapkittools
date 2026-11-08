@@ -32,6 +32,7 @@
     'বন্ধ করুন': 'Close', 'আগে একটি ছবি বেছে নিন।': 'Choose an image first.', 'একটি ছবি ফাইল বেছে নিন।': 'Choose an image file.', 'এই ফরম্যাটটি এই ব্রাউজারে খোলা যাচ্ছে না। JPEG বা PNG রূপান্তর করে চেষ্টা করুন।': 'This browser cannot open this format. Try converting it to JPEG or PNG.',
     'ফরম্যাট': 'Format', 'প্রস্থ': 'Width', 'উচ্চতা': 'Height', 'রিসাইজ ও ডাউনলোড': 'Resize and download', 'কনভার্ট ও ডাউনলোড': 'Convert and download', 'রঙ বের করুন': 'Extract colors',
     'ছবি থেকে PDF': 'Image to PDF', 'PDF পৃষ্ঠা সংখ্যা': 'PDF page counter', 'ছবির ফাইল এখানে ছাড়ুন': 'Drop image files here', 'ছবি এখানে ছাড়ুন': 'Drop images here', 'এক বা একাধিক ছবি · প্রতি ছবিতে একটি পৃষ্ঠা': 'One or more images · one page per image', 'ছবি বাছুন': 'Choose images', 'এখনও কোনো ফাইল বাছেননি।': 'No files selected yet.', 'PDF পেজ সেটিংস': 'PDF page settings', 'পেজের ধরন': 'Page size', 'দিক / Orientation': 'Orientation', 'Auto — প্রতিটি ছবির shape অনুযায়ী': 'Auto — match each image', 'Portrait — সব পেজ লম্বা': 'Portrait — all pages vertical', 'Landscape — সব পেজ আড়াআড়ি': 'Landscape — all pages horizontal', 'ছবি পেজে বসানোর নিয়ম': 'Image placement', 'Fit — পুরো ছবি, অনুপাত ঠিক থাকবে': 'Fit — show the full image, preserve proportions', 'Fill — পুরো পেজ ভরবে, অনুপাত বদলাতে পারে': 'Fill — fill the page; proportions may change', 'পেজের চারপাশে margin (mm)': 'Page margin (mm)', 'স্বচ্ছ ছবির background': 'Background for transparent images', 'PDF তৈরি করুন': 'Create PDF', 'পৃষ্ঠা আকার': 'Page size',
+    'SVG থেকে PDF তৈরি করুন': 'Create PDF from SVG', 'SVG ফাইল এখানে ছাড়ুন': 'Drop an SVG file here', 'SVG বাছুন': 'Choose SVG', 'একটি ভেক্টর SVG · PDF পেজে বসানো হবে': 'A vector SVG file · placed onto the PDF page',
     'ফাইল আপনার ব্রাউজারেই প্রসেস হবে। pdf-lib loads from CDN when needed.': 'Your files are processed in your browser. pdf-lib loads from a CDN when needed.', 'ফাইল আপনার ব্রাউজারেই প্রসেস হবে। PDF.js renderer loads from CDN on first use.': 'Your file is processed in your browser. The PDF.js renderer loads from a CDN on first use.', 'Margin ০ থেকে ৪০ mm-এর মধ্যে দিন।': 'Enter a margin between 0 and 40 mm.', 'Page margin খুব বড়; কম margin বেছে নিন।': 'The page margin is too large. Choose a smaller margin.',
     'এই ফরম্যাটে রূপান্তর সম্ভব হয়নি। অন্য ফরম্যাট চেষ্টা করুন।': 'This format could not be converted. Try another format.', 'এই ব্রাউজারে নির্বাচিত ফরম্যাটটি সমর্থিত নয়; PNG ফাইল ডাউনলোড হয়েছে.': 'This browser does not support the selected format; a PNG file was downloaded.',
     'কাজ শেষ—ফাইল ডাউনলোড হয়েছে।': 'Done — your file has been downloaded.', 'কাজ শেষ—PDF ডাউনলোড হয়েছে।': 'Done — your PDF has been downloaded.', 'রঙগুলো ছবির আনুমানিক প্রধান রং।': 'These are approximate prominent colors from the image.',
@@ -91,7 +92,7 @@
       }
     }
   };
-  document.documentElement.lang = 'en';
+  if (!document.documentElement.lang || document.documentElement.lang === 'en') document.documentElement.lang = 'en';
   const dialog = document.querySelector('#overlay');
   if (dialog) {
     translate(dialog);

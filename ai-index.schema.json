@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://snapkittools.online/ai-index.schema.json",
+  "title": "SnapKit public tool catalog",
+  "description": "Versioned public metadata for SnapKit pages and browser-based tools. This is descriptive data, not a live API or ranking claim.",
+  "type": "object",
+  "required": ["schema_version", "site", "discovery", "assistant_guidance", "tools"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "site": {
+      "type": "object",
+      "required": ["name", "publisher", "origin", "default_language", "supported_page_languages", "free_to_use", "account_required", "privacy_policy", "privacy_policy_bn", "tool_directory", "everyday_tools_catalog"],
+      "properties": {
+        "name": { "type": "string" },
+        "publisher": { "type": "string" },
+        "origin": { "type": "string", "format": "uri" },
+        "default_language": { "type": "string" },
+        "supported_page_languages": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+        "free_to_use": { "type": "boolean" },
+        "account_required": { "type": "boolean" },
+        "privacy_policy": { "type": "string", "format": "uri" },
+        "privacy_policy_bn": { "type": "string", "format": "uri" },
+        "tool_directory": { "type": "string", "format": "uri" },
+        "everyday_tools_catalog": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "discovery": {
+      "type": "object",
+      "required": ["llms_txt", "llms_full_txt", "machine_catalog", "machine_catalog_schema", "sitemap", "robots"],
+      "properties": {
+        "llms_txt": { "type": "string", "format": "uri" },
+        "llms_full_txt": { "type": "string", "format": "uri" },
+        "machine_catalog": { "type": "string", "format": "uri" },
+        "machine_catalog_schema": { "type": "string", "format": "uri" },
+        "sitemap": { "type": "string", "format": "uri" },
+        "robots": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+    "assistant_guidance": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "slug", "category", "operation", "related_tool_ids", "pages"],
+        "properties": {
+          "id": { "type": "string" },
+          "slug": { "type": "string" },
+          "category": { "type": "string" },
+          "operation": { "type": "string" },
+          "input_format": { "type": "string" },
+          "output_format": { "type": "string" },
+          "output_mime_type": { "type": "string" },
+          "app_tool_id": { "type": "string" },
+          "purpose": { "type": "string" },
+          "important_details": { "type": "string" },
+          "additional_details": { "type": "string" },
+          "steps": { "type": "array", "items": { "type": "string" } },
+          "common_questions": { "type": "array", "items": { "type": "array", "prefixItems": [{ "type": "string" }, { "type": "string" }], "minItems": 2, "maxItems": 2 } },
+          "page_specific_questions": { "type": "array", "items": { "type": "array", "prefixItems": [{ "type": "string" }, { "type": "string" }], "minItems": 2, "maxItems": 2 } },
+          "privacy": { "type": "string" },
+          "limitations": { "type": "string" },
+          "related_tool_ids": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+          "pages": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["language", "url", "title", "description", "heading"],
+              "properties": {
+                "language": { "type": "string" },
+                "url": { "type": "string", "format": "uri" },
+                "title": { "type": "string" },
+                "description": { "type": "string" },
+                "heading": { "type": "string" },
+                "summary": { "type": "string" },
+                "privacy_note": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

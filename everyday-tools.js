@@ -1,4 +1,7 @@
 (() => {
+  const lcw=(t)=>t.replace(/\b[A-Z][a-z]+/g,(w)=>/^(Celsius|Fahrenheit)$/.test(w)?w:w.toLowerCase());
+  const tcase=(t)=>t.replace(/\b[a-z]+/g,(w)=>w==='per'||w==='of'?w:w[0].toUpperCase()+w.slice(1));
+  const unitName=(label,unit)=>{const m=label.match(/^(.*?) \((.*)\)$/);return lcw(m?m[1]:label)+' ('+unit+(m?', '+m[2]:'')+')';};
   const categories = ['Text', 'Developer', 'Math & dates', 'Unit converters', 'Quick fun'];
   const textField = [{ id: 'text', label: 'Text', type: 'textarea', placeholder: 'Paste or type your text here…' }];
   const field = (id, label, type = 'text', placeholder = '', value = '') => ({ id, label, type, placeholder, value });
@@ -68,7 +71,7 @@
     ['mb-to-mib','Megabytes to Mebibytes','MB','MiB','x ÷ 1.048576'],['mib-to-mb','Mebibytes to Megabytes','MiB','MB','x × 1.048576'],['gb-to-gib','Gigabytes to Gibibytes','GB','GiB','x ÷ 1.073742'],['gib-to-gb','Gibibytes to Gigabytes','GiB','GB','x × 1.073742'],
     ['grams-to-ounces','Grams to Ounces','g','oz','x ÷ 28.3495'],['ounces-to-grams','Ounces to Grams','oz','g','x × 28.3495'],['kpa-to-psi','Kilopascals to PSI','kPa','psi','x × 0.145038'],['psi-to-kpa','PSI to Kilopascals','psi','kPa','x × 6.894757']
   ];
-  conversions.forEach(([id,title,from,to,formula])=>add(id,title,'Unit converters',`Convert ${from} to ${to}. Formula: ${formula}.`,[field('value',`Value (${from})`,'number')]));
+  conversions.forEach(([id,title,from,to,formula])=>add(id,title,'Unit converters',`Convert ${lcw(title)} (${from} to ${to}). Formula: ${formula}.`,[field('value',`Value (${from})`,'number')]));
 
   // Add concrete pairwise conversions with shared standard-unit base factors.
   const generatedConversions = new Map();
@@ -87,10 +90,10 @@
   const slugPart=(label)=>label.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
   const titles=new Set(tools.map(x=>x.title.toLowerCase()));
   for(const [group,units] of Object.entries(unitGroups)) for(let a=0;a<units.length;a++) for(let b=0;b<units.length;b++){
-    if(a===b) continue; const [from,fromUnit,fromFactor]=units[a],[to,toUnit,toFactor]=units[b],title=from+' to '+to;
+    if(a===b) continue; const [from,fromUnit,fromFactor]=units[a],[to,toUnit,toFactor]=units[b],title=tcase(from)+' to '+tcase(to);
     if(titles.has(title.toLowerCase())) continue; const id=slugPart(group)+'-'+slugPart(from)+'-to-'+slugPart(to);
     generatedConversions.set(id,{factor:fromFactor/toFactor,toUnit});
-    add(id,title,'Unit converters',`Convert ${from.toLowerCase()} (${fromUnit}) to ${to.toLowerCase()} (${toUnit}) using standard ${group.toLowerCase()} units.`,[field('value',`Value (${fromUnit})`,'number')]); titles.add(title.toLowerCase());
+    add(id,title,'Unit converters',`Convert ${unitName(from,fromUnit)} to ${unitName(to,toUnit)} using standard ${group.toLowerCase()} units.`,[field('value',`Value (${fromUnit})`,'number')]); titles.add(title.toLowerCase());
   }
 
   [
@@ -113,6 +116,9 @@
   let currentPage=0; const pageSize=36;
   document.querySelector('#result-count').textContent = `${tools.length} tools`;
   document.title = `${tools.length}+ Free Everyday Tools — SnapKit`;
+  const FIELD_FIX={'json-format':['JSON','Paste your JSON here…'],'json-minify':['JSON','Paste your JSON here…'],'json-validate':['JSON','Paste your JSON here…'],'json-to-csv':['JSON array of objects','Paste a JSON array of objects here…'],'csv-to-json':['CSV','Paste CSV with a header row here…'],'csv-to-tsv':['CSV','Paste your CSV here…'],'xml-escape':['XML text','Paste the text to escape here…'],'xml-unescape':['XML text','Paste the text to decode here…'],'jwt-decode':['JWT','Paste a JWT here (header.payload.signature)…'],'sha256-hash':['Text to hash','Paste or type the text to hash…'],'json-stringify':['Text to quote','Paste or type the text to quote as a JSON string…'],'age-calculator':['Date of birth',null],'weekday-finder':['Date',null]};
+  tools.forEach((t)=>{const f=FIELD_FIX[t.id];if(f&&t.fields.length===1){t.fields=[Object.assign({},t.fields[0],{label:f[0]},f[1]?{placeholder:f[1]}:{})];}});
+  tools.forEach((t)=>{if(t.id==='color-contrast')t.category='Developer';});
   document.querySelector('h1').innerHTML = `${tools.length}+ small tools.<br><em>Big time saver.</em>`;
 
   function renderCategories() {
@@ -133,12 +139,14 @@
     if (!matches.length) { document.querySelector('#pagination').replaceChildren(); const empty=document.createElement('div');empty.className='empty';empty.textContent='No matching tools. Try another search.';grid.append(empty);return; }
     const pageCount=Math.ceil(matches.length/pageSize); currentPage=Math.min(currentPage,pageCount-1);
     matches.slice(currentPage*pageSize,(currentPage+1)*pageSize).forEach((item) => {
+const CAT_ICON={'Text':['M4 6h16M4 11h16M4 16h9M16 17l2 2 3-4','#2f7bd0','#e2f0ff'],'Developer':['M7 8l-4 4 4 4M17 8l4 4-4 4M14 5l-4 14','#7050d6','#eee9ff'],'Math & dates':['M5 3h14v18H5zM8 7h8M8 12h2m4 0h2M8 16h2m4 0h2','#e5502f','#ffe9e3'],'Unit converters':['M4 8h15l-4-4m4 4-4 4M20 16H5l4 4m-4-4 4-4','#4d8a1f','#e3f6d6'],'Quick fun':['m12 2 1.7 7.3L21 12l-7.3 1.7L12 21l-1.7-7.3L3 12l7.3-2.7L12 2Z','#c47a00','#fff0cc']};
+      const catIcon=(name)=>{const [d,fg,bg]=CAT_ICON[name]||CAT_ICON.Text;const ns='http://www.w3.org/2000/svg';const box=document.createElement('span');box.className='ti';box.style.cssText='background:'+bg+';color:'+fg;const svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('aria-hidden','true');const path=document.createElementNS(ns,'path');path.setAttribute('d',d);svg.append(path);box.append(svg);return box;};
       const card = document.createElement('button');
       card.className='card';card.type='button';
       const cat=document.createElement('div');cat.className='cat';cat.textContent=item.category;
       const title=document.createElement('h3');title.textContent=item.title;
       const desc=document.createElement('p');desc.textContent=item.description;
-      card.append(cat,title,desc);card.onclick=()=>open(item);grid.append(card);
+      card.append(catIcon(item.category),cat,title,desc);card.onclick=()=>open(item);grid.append(card);
     });
     const pager=document.querySelector('#pagination');pager.replaceChildren();if(pageCount>1){const prev=document.createElement('button');prev.className='category';prev.textContent='Previous';prev.disabled=currentPage===0;prev.onclick=()=>{currentPage--;renderTools()};const label=document.createElement('span');label.textContent=`Page ${currentPage+1} of ${pageCount}`;const next=document.createElement('button');next.className='category';next.textContent='Next';next.disabled=currentPage>=pageCount-1;next.onclick=()=>{currentPage++;renderTools()};pager.append(prev,label,next);}
   }
@@ -214,7 +222,7 @@
     if(id==='uuid-generator'){if(!crypto.randomUUID)throw new Error('Use a current browser with Web Crypto support.');return crypto.randomUUID();}
     if(id==='password-generator'){const length=Math.max(8,Math.min(128,Math.floor(num('length')))),chars='ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%^&*_-+=';const bytes=crypto.getRandomValues(new Uint8Array(length));return [...bytes].map((b)=>chars[b%chars.length]).join('');}
     if(id==='random-number'){const min=Math.ceil(num('min')),max=Math.floor(num('max'));if(max<min||!Number.isSafeInteger(min)||!Number.isSafeInteger(max))throw new Error('Enter safe whole-number bounds with maximum greater than or equal to minimum.');const range=max-min+1;if(range>4294967295)throw new Error('Keep the range within 32-bit integers.');const limit=Math.floor(4294967296/range)*range;let x;do{x=crypto.getRandomValues(new Uint32Array(1))[0];}while(x>=limit);return String(min+x%range);}
-    if(id==='sha256-hash'){if(!crypto.subtle)throw new Error('SHA-256 needs a secure HTTPS page. Open the GitHub Pages version.');const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text));return [...new Uint8Array(digest)].map((b)=>b.toString(16).padStart(2,'0')).join('');}
+    if(id==='sha256-hash'){if(!crypto.subtle)throw new Error('SHA-256 needs a secure HTTPS page. Open the https:// version of this site.');const digest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text));return [...new Uint8Array(digest)].map((b)=>b.toString(16).padStart(2,'0')).join('');}
     if(id==='regex-tester'){let regex;try{regex=new RegExp(v.pattern,v.flags||'g');}catch(error){throw new Error(`Regular expression error: ${error.message}`);}const matches=[...v.text.matchAll(new RegExp(regex.source,regex.flags.includes('g')?regex.flags:regex.flags+'g'))];return matches.length?matches.map((m)=>`Match at ${m.index}: ${m[0]}`).join('\n'):'No matches.';}
     if(id==='url-parser'){try{const u=new URL(text);return JSON.stringify({protocol:u.protocol,host:u.host,hostname:u.hostname,port:u.port,path:u.pathname,query:u.search,fragment:u.hash},null,2);}catch{throw new Error('Enter a complete URL, including https://.');}}
     if(id==='query-string-parser'){const raw=text.includes('?')?text.slice(text.indexOf('?')+1).split('#')[0]:text.replace(/^\?/,'');return JSON.stringify(Object.fromEntries(new URLSearchParams(raw)),null,2);}
