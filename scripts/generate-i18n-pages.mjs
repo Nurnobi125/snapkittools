@@ -26,12 +26,25 @@ for (const f of files) {
   langs.push(l);
 }
 
+const MODE_SLUG_MAP = {
+  'resize-image': 'resize',
+  'remove-image-metadata': 'clean',
+  'color-palette': 'palette',
+  'social-preview': 'og'
+};
+
 const pairOf = (r) => (r.from && r.to ? [r.from, r.to] : PAIRS[r.slug] || null);
-const kindOf = (r) => (r.inline ? 'ocr' : r.kind === 'pdf' ? 'pdf' : r.kind === 'utility' ? 'util' : 'convert');
+const kindOf = (r) => (r.inline ? 'ocr' : r.kind === 'pdf' ? 'pdf' : r.kind === 'utility' ? 'util' : r.mode ? 'util' : 'convert');
 const nameOf = (l, r) => {
   const pair = pairOf(r);
   if (pair) return fill(l.ui.convertName, pair[0], pair[1]);
-  return l.names[NAMED.indexOf(r.slug)];
+  if (MODE_SLUG_MAP[r.slug]) {
+    const cardInfo = (CARD_TEXTS[l.code] || CARD_TEXTS.en)[MODE_SLUG_MAP[r.slug]];
+    if (cardInfo) return cardInfo[0];
+  }
+  const idx = NAMED.indexOf(r.slug);
+  if (idx !== -1 && l.names[idx]) return l.names[idx];
+  return r.heading || r.slug;
 };
 
 const ctaOf = (l, r) => {
@@ -131,10 +144,32 @@ function buildInteractiveHomepage(l) {
     { '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: l.code, mainEntity: l.ui.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }
   ];
 
+  const CARD_TARGET_SLUG = {
+    convert: 'jpg-to-png',
+    resize: 'resize-image',
+    clean: 'remove-image-metadata',
+    palette: 'color-palette',
+    og: 'social-preview',
+    soon: 'tools',
+    compress: 'image-compressor',
+    split: 'split-pdf',
+    'pdf-merge': 'merge-pdf',
+    'pdf-extract': 'extract-pdf-pages',
+    'pdf-rotate': 'rotate-pdf',
+    'pdf-image': 'image-to-pdf',
+    'pdf-info': 'pdf-page-count',
+    'pdf-to-image': 'pdf-to-image',
+    'svg-to-png': 'svg-to-png',
+    'svg-to-jpg': 'svg-to-jpg',
+    'svg-to-pdf': 'svg-to-pdf'
+  };
+
   const cardsHtmlStr = CARD_ORDER.map((id) => {
     const info = cards[id] || CARD_TEXTS.en[id];
     const icon = ICONS_MAP[id];
-    return `<article class="tool" data-tool="${id}"><div class="icon ${icon.cls}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${icon.svg}</svg></div><h3>${esc(info[0])}</h3><p>${esc(info[1])}</p><span class="arrow" aria-hidden="true">↗</span></article>`;
+    const targetSlug = CARD_TARGET_SLUG[id];
+    const href = targetSlug === 'tools' ? 'tools/' : `tools/${targetSlug}/`;
+    return `<a class="tool" href="${href}" style="text-decoration:none;color:inherit"><div class="icon ${icon.cls}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${icon.svg}</svg></div><h3>${esc(info[0])}</h3><p>${esc(info[1])}</p><span class="arrow" aria-hidden="true">↗</span></a>`;
   }).join('\n      ');
 
   const everydayCard = `<a class="tool" href="${prefix}everyday-tools.html" style="text-decoration:none;color:inherit"><div class="icon ${ICONS_MAP.everyday.cls}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${ICONS_MAP.everyday.svg}</svg></div><h3>${esc(cards.everyday[0])}</h3><p>${esc(cards.everyday[1])}</p><span class="arrow" aria-hidden="true">↗</span></a>`;
@@ -398,8 +433,13 @@ for (const l of langs) {
     const [a, b] = pair || ['', ''];
     const leadKey = pair ? 'convert' : kind;
     const stepsKey = kind === 'convert' ? 'convert' : kind;
-    const lead = fill(l.ui.lead[leadKey], a, b);
-    const steps = l.ui.steps[stepsKey].map((s) => fill(s, a, b));
+    let lead = fill(l.ui.lead[leadKey], a, b);
+    let steps = l.ui.steps[stepsKey].map((s) => fill(s, a, b));
+    if (MODE_SLUG_MAP[r.slug]) {
+      const cardInfo = (CARD_TEXTS[l.code] || CARD_TEXTS.en)[MODE_SLUG_MAP[r.slug]];
+      if (cardInfo) lead = cardInfo[1];
+      if (r.steps && l.code === 'en') steps = r.steps;
+    }
     const cta = ctaOf(l, r);
     const ctaLabel = pair && kind === 'convert' ? fill(l.ui.convertCta, a, b) : l.ui.openTool;
     const title = `${name} – ${l.ui.suffix} | SnapKit`;
@@ -413,14 +453,42 @@ for (const l of langs) {
       { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'SnapKit', item: abs(homePath(l.code)) }, { '@type': 'ListItem', position: 2, name: l.ui.allTools, item: abs(dirPath(l.code)) }, { '@type': 'ListItem', position: 3, name, item: url }] },
       faqLd
     ];
+    let toolMountHtml = '';
+    let toolScriptHtml = '';
+    if (r.mode) {
+      toolMountHtml = `<div data-tool-converter data-mode="${esc(r.mode)}"></div>`;
+      toolScriptHtml = '<script src="../../../converter-tool.js" defer></script>';
+    } else if (r.inline) {
+      toolMountHtml = `<div data-ocr-app data-lang="${r.ocrLang || 'eng'}"></div>`;
+      toolScriptHtml = '<script src="../../../ocr-tool.js" defer></script>';
+    } else if (r.tool === 'compress') {
+      const targetKb = r.slug.match(/(\d+)kb/)?.[1] || '';
+      toolMountHtml = `<div data-tool-compress ${targetKb ? `data-target-kb="${targetKb}"` : ''}></div>`;
+      toolScriptHtml = '<script src="../../../compress-tool.js" defer></script>';
+    } else if (r.tool === 'split') {
+      toolMountHtml = '<div data-tool-split></div>';
+      toolScriptHtml = '<script src="../../../split-tool.js" defer></script>';
+    } else if (r.kind === 'pdf') {
+      toolMountHtml = `<div data-tool-pdf="${esc(r.tool)}"></div>`;
+      toolScriptHtml = '<script src="../../../pdf-tools.js" defer></script>';
+    } else if (pair) {
+      toolMountHtml = `<div data-tool-converter data-from="${esc(pair[0])}" data-to="${esc(pair[1])}" data-mime="${esc(r.mime || 'image/jpeg')}"></div>`;
+      toolScriptHtml = '<script src="../../../converter-tool.js" defer></script>';
+    } else if (r.kind === 'utility') {
+      toolMountHtml = `<div data-tool-utility data-tool-id="${esc(r.tool)}"></div>`;
+      toolScriptHtml = '<script src="../../../utility-tool.js" defer></script>';
+    } else {
+      toolMountHtml = `<a class="cta" href="${esc(cta.href)}">${esc(ctaLabel)} <span>↗</span></a>`;
+    }
+
     const html = `${head({ l, title, description, ld, depth: 3 })}
 ${header(l)}<main><p class="eyebrow">${esc(l.ui.suffix.toUpperCase())}</p><h1>${esc(name)}</h1><p class="lead">${esc(lead)}</p>
-<a class="cta" href="${esc(cta.href)}">${esc(ctaLabel)} <span>↗</span></a>
-<p class="privacy">✳ ${esc(l.ui.privacy)}</p>${cta.english && l.ui.uiNote ? `<p class="note">${esc(l.ui.uiNote)}</p>` : ''}
+${toolMountHtml}
+<p class="privacy">✳ ${esc(l.ui.privacy)}</p>${cta.english && l.ui.uiNote && !toolScriptHtml ? `<p class="note">${esc(l.ui.uiNote)}</p>` : ''}
 <section><h2>${esc(l.ui.howTo)}</h2><ol>${steps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol></section>
 ${faqHtml}
 <nav class="related" aria-label="${esc(l.ui.related)}"><b>${esc(l.ui.related)}</b>${related.map((x) => `<a href="../${x.slug}/">${esc(nameOf(l, x))}</a>`).join('')}</nav>
-${switcher(l, (c) => toolPath(c, r.slug))}</main>${footer(l)}`;
+${switcher(l, (c) => toolPath(c, r.slug))}</main>${footer(l)}${toolScriptHtml}`;
     await write(`${l.code}/tools/${r.slug}/index.html`, html);
     pages++;
   }

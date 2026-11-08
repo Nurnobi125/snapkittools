@@ -1023,5 +1023,81 @@
       "compress-image-to-150kb"
     ],
     "relatedLabel": "Related image tools"
+  },
+  {
+    "slug": "resize-image",
+    "kind": "image",
+    "mode": "resize",
+    "heading": "Resize Image Online Free",
+    "title": "Resize Image Online Free – Change Photo Dimensions | SnapKit",
+    "description": "Resize images online for free. Enter custom width and height in pixels and download your resized photo without quality loss. 100% private in browser.",
+    "intro": "Change photo and picture dimensions for social media, websites, forms or email. Enter new dimensions, keep aspect ratio, and download instantly.",
+    "detail": "Image resizing is performed using browser high-quality canvas bicubic interpolation. Files are processed locally on your device without upload.",
+    "howTitle": "How to resize an image online",
+    "steps": [
+      "Choose an image from your device.",
+      "Enter your desired width and height in pixels.",
+      "Select Resize & Download to save your image."
+    ],
+    "category": "FREE ONLINE IMAGE TOOL",
+    "faq": "Is this image resizer free?",
+    "faqAnswer": "Yes. It is free, has no file size limit, and runs completely in your browser."
+  },
+  {
+    "slug": "remove-image-metadata",
+    "kind": "image",
+    "mode": "clean",
+    "heading": "Remove Image Metadata Online",
+    "title": "Remove Image Metadata Online Free – Strip EXIF from Photos | SnapKit",
+    "description": "Remove EXIF, GPS location, and camera metadata from photos online. Free, safe, and private in your browser – no upload required.",
+    "intro": "Strip location tags, camera settings, and personal EXIF metadata before sharing your photos online.",
+    "detail": "This tool reads your image into an in-memory browser canvas and exports a clean copy with zero EXIF or GPS tags attached.",
+    "howTitle": "How to remove EXIF metadata from photos",
+    "steps": [
+      "Select a photo from your phone or computer.",
+      "Click Download Clean Copy.",
+      "Save your private, metadata-free photo."
+    ],
+    "category": "FREE ONLINE IMAGE PRIVACY TOOL",
+    "faq": "Does this remove GPS location and camera data?",
+    "faqAnswer": "Yes. By re-encoding the raw image pixels in your browser canvas, all embedded EXIF tags and GPS data are eliminated."
+  },
+  {
+    "slug": "color-palette",
+    "kind": "image",
+    "mode": "palette",
+    "heading": "Image Color Palette Generator",
+    "title": "Image Color Palette Generator – Extract Dominant Hex Colors | SnapKit",
+    "description": "Extract 5 dominant colors and HEX codes from any picture online. Free, instant, and private color palette picker.",
+    "intro": "Generate a color palette from any image or photo. Find the 5 most prominent colors and copy their HEX color codes with one click.",
+    "detail": "The color palette algorithm samples pixels across the image to find the most frequent color clusters, returning precise HEX codes.",
+    "howTitle": "How to extract colors from an image",
+    "steps": [
+      "Choose any photo, logo, or design.",
+      "Click Extract Dominant Colors.",
+      "Click any color swatch to copy its HEX code."
+    ],
+    "category": "FREE ONLINE DESIGN TOOL",
+    "faq": "Can I copy the HEX color codes?",
+    "faqAnswer": "Yes. Click on any of the color swatches to instantly copy the HEX code to your clipboard."
+  },
+  {
+    "slug": "social-preview",
+    "kind": "utility",
+    "mode": "social-preview",
+    "heading": "Social Media Link Preview Simulator",
+    "title": "Social Media Link Preview Simulator – OpenGraph & Twitter Card Preview | SnapKit",
+    "description": "Preview how your website link, title, and description look when shared on Facebook, Twitter, WhatsApp, and LinkedIn.",
+    "intro": "Test how your links, OpenGraph metadata, and social cards will appear to users on social media feeds and messaging apps.",
+    "detail": "Simulate social sharing cards before publishing your post or web page to ensure the title and description are properly formatted.",
+    "howTitle": "How to preview a social share card",
+    "steps": [
+      "Enter your page title and summary description.",
+      "Check the live interactive card preview.",
+      "Adjust text length for optimal display across platforms."
+    ],
+    "category": "FREE ONLINE DEVELOPER TOOL",
+    "faq": "Does this send requests to any server?",
+    "faqAnswer": "No. The preview simulator updates entirely in real-time inside your browser tab."
   }
 ]

@@ -1,1 +1,28 @@
 :root{--ink:#17251f;--muted:#68756d;--line:#e7ebe5;--paper:#f7f8f4;--white:#fff;--green:#caff6c;--deep:#26382e}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}.top,main,footer{max-width:900px;margin:auto;padding-left:24px;padding-right:24px}.top{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:850;font-size:22px;color:inherit;text-decoration:none}.back,footer a,main a:not(.cta){color:#476d2e}.eyebrow{margin-top:54px;font-size:12px;letter-spacing:1.5px;font-weight:800;color:#718172}.top+.missing{display:none}h1{font-size:clamp(38px,7vw,64px);line-height:1.05;letter-spacing:-2.8px;margin:12px 0}.lead{font-size:19px;color:#65736a;max-width:700px}.cta{display:inline-flex;align-items:center;gap:24px;margin:14px 0 4px;background:var(--deep);color:white;text-decoration:none;font-weight:750;border-radius:12px;padding:14px 18px}.cta span{font-size:19px}.privacy{font-size:14px;color:var(--muted);margin:9px 0 42px}.privacy:first-letter{color:#5e8738}section{border-top:1px solid var(--line);padding:20px 0}h2{font-size:23px;letter-spacing:-.5px;margin:0 0 12px}li{margin:7px 0}section p{color:#526157}details{padding:14px 0;border-top:1px solid var(--line)}summary{font-weight:700;cursor:pointer}details p{font-size:15px;margin-bottom:0}.related{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:24px 0}.related b{width:100%}.related a{background:white;border:1px solid var(--line);border-radius:99px;padding:8px 12px;text-decoration:none;font-size:14px}.bangla{margin:18px 0 44px;font-size:14px;color:var(--muted)}footer{border-top:1px solid var(--line);padding-top:19px;padding-bottom:24px;color:var(--muted);font-size:12px}@media(max-width:520px){.eyebrow{margin-top:38px}.lead{font-size:17px}.top{height:65px}}
+/* Interactive tool inline styling */
+.drop{border:1.5px dashed #cbd4c9;border-radius:16px;background:var(--white);padding:32px 20px;text-align:center;transition:background .2s,border-color .2s;margin:18px 0}
+.drop.drag{background:#f2ffdf;border-color:#8cb853}
+.drop .uploadicon{font-size:32px;line-height:1}
+.drop strong{display:block;margin:10px 0 4px;font-size:16px}
+.drop small{color:var(--muted);font-size:13px}
+.btn{border:0;border-radius:10px;background:var(--deep);color:#fff;padding:11px 18px;font-size:13px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:opacity .15s}
+.btn:hover{opacity:.92}
+:root[data-theme="dark"] .btn{background:#caff6c;color:#17251f}
+.drop .btn{margin-top:14px}
+.controls{display:flex;gap:12px;align-items:center;margin:14px 0;flex-wrap:wrap}
+.controls select,.controls input[type=number],.controls input[type=text]{border:1px solid var(--line);border-radius:9px;padding:9px 12px;background:var(--white);color:var(--ink);font:inherit}
+.controls label{font-size:13px;font-weight:600;color:var(--ink)}
+.pdf-settings{border:1px solid var(--line);border-radius:14px;padding:16px;background:var(--white);margin:14px 0}
+.pdf-settings legend{font-weight:700;font-size:14px;padding:0 6px}
+.pdf-settings label{display:block;font-size:12px;font-weight:600;color:var(--muted);margin:10px 0 4px}
+.pdf-settings select,.pdf-settings input[type=number],.pdf-settings input[type=text]{width:100%;border:1px solid var(--line);border-radius:9px;padding:9px 11px;background:var(--white);color:var(--ink);font:inherit}
+.pdf-settings input[type=color]{width:54px;height:38px;border:1px solid var(--line);border-radius:8px;background:var(--white);cursor:pointer}
+.pdf-settings input[type=range]{width:100%;accent-color:#688b39}
+.status{font-size:13px;color:var(--muted);margin:12px 0 6px;min-height:22px}
+.status a{color:#315d20;font-weight:750}
+.preview{max-width:100%;max-height:220px;border-radius:12px;margin-top:14px;display:none;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+.pdf-image-layout{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:14px}
+@media(max-width:720px){.pdf-image-layout{grid-template-columns:1fr}}
+.hidden{display:none!important}
+.util-card{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:20px;margin:18px 0}
+

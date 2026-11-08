@@ -130,4 +130,20 @@
     };
   }
   window.SnapKitSplit = { render };
+
+  if (typeof document !== 'undefined') {
+    const init = () => {
+      document.querySelectorAll('[data-tool-split]').forEach((el) => {
+        if (!el._mounted) {
+          el._mounted = true;
+          render(el);
+        }
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  }
 })();

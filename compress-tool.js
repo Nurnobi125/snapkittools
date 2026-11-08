@@ -67,7 +67,7 @@
       img.onload = () => res({ img, url }); img.onerror = () => { URL.revokeObjectURL(url); rej(new Error(T.bad)); }; img.src = url;
     });
   }
-  function render(root) {
+  function render(root, defaultTargetKb) {
     let files = [];
     root.innerHTML = `<div class="drop" id="drop"><div class="uploadicon">＋</div><strong>${T.drop}</strong><small>${T.or}</small><br><button class="btn" id="c-browse" type="button">${T.pick}</button><input id="c-file" type="file" accept="image/jpeg,image/png,image/webp,image/*" multiple class="hidden"></div>
 <div class="controls"><label for="c-fmt">${T.fmt}</label><select id="c-fmt"><option value="same">${T.same}</option><option value="image/jpeg">JPG</option><option value="image/webp">WebP</option></select>
@@ -76,7 +76,8 @@
 <p class="status" id="c-status">${T.ready}</p><div id="c-out"></div>`;
     const $ = (s) => root.querySelector(s), status = (s) => { $('#c-status').textContent = s; };
     const input = $('#c-file'), drop = $('#drop');
-    const pre = Number(new URLSearchParams(location.search).get('kb')); if (pre >= 5 && pre <= 20000) $('#c-kb').value = String(Math.round(pre));
+    const targetVal = Number(defaultTargetKb) || Number(root.getAttribute('data-target-kb')) || Number(new URLSearchParams(location.search).get('kb'));
+    if (targetVal >= 5 && targetVal <= 20000) $('#c-kb').value = String(Math.round(targetVal));
     $('#c-browse').onclick = () => input.click();
     const take = (list) => { files = [...list].filter((f) => f.type.startsWith('image/')); status(files.length ? `${files.length} · ${files.map((f) => f.name).join(', ').slice(0, 120)}` : T.first); };
     input.onchange = () => take(input.files);
@@ -121,4 +122,20 @@
     };
   }
   window.SnapKitCompress = { render };
+
+  if (typeof document !== 'undefined') {
+    const init = () => {
+      document.querySelectorAll('[data-tool-compress]').forEach((el) => {
+        if (!el._mounted) {
+          el._mounted = true;
+          render(el);
+        }
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  }
 })();

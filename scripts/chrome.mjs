@@ -105,7 +105,7 @@ export function navHtml(c, hrefFor) {
   const langItems = CODES.map((x) => `<a href="${(hrefFor && hrefFor(x)) || homeOf(x)}" hreflang="${x}" lang="${x}"${x === c ? ' aria-current="true"' : ''}>${esc(NATIVE[x])}</a>`).join('');
   const langDd = `<details class="sk-lang sk-lang-header"><summary aria-label="${esc(t.lang || 'Language')}"><span aria-hidden="true">🌐</span> <span class="sk-lang-name">${esc(NATIVE[c] || NATIVE.en)}</span><i class="sk-chevron" aria-hidden="true"></i></summary><div class="sk-langlist">${langItems}</div></details>`;
   const mobileLang = `<div class="sk-mobile-lang"><b><span aria-hidden="true">🌐</span> ${esc(t.lang || 'Language')}</b><div class="sk-mobile-langlist">${langItems}</div></div>`;
-  return `<!--sk-nav--><header class="sk-nav" id="sk-nav"><div class="sk-wrap"><a class="sk-brand" href="${homeOf(c)}"><span class="sk-logo" aria-hidden="true">✳</span>snapkit</a>`
+  return `<!--sk-nav--><header class="sk-nav" id="sk-nav"><div class="sk-wrap" data-nosnippet><a class="sk-brand" href="${homeOf(c)}"><span class="sk-logo" aria-hidden="true">✳</span>snapkit</a>`
     + `<button class="sk-burger" type="button" aria-label="${esc(t.menu || 'Menu')}" aria-expanded="false" aria-controls="sk-menu"><span></span><span></span><span></span></button>`
     + `<nav class="sk-menu" id="sk-menu" aria-label="${esc(t.menu || 'Menu')}">${quick}${dd(t.convert, convertPanel)}${dd(allLabel, allPanel)}<a class="sk-link" href="/applications.html">${esc(t.apps)}</a>${mobileLang}</nav>`
     + `<div class="navright">${langDd}</div></div></header><!--/sk-nav-->`;

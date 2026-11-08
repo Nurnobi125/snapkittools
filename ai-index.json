@@ -80,7 +80,7 @@
           "description": "Convert WebP to JPG online for free. Open WebP images in any app. Private browser conversion – no upload and no sign-up. Download JPG instantly.",
           "heading": "WebP to JPG Converter",
           "summary": "Convert WebP images to JPG when you need a format accepted by older apps, forms, and image viewers. Choose a WebP file and download a JPG copy directly from your browser.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -271,7 +271,7 @@
           "description": "Convert WebP to PNG online for free. Keep transparency, skip uploads and download your PNG fast. Runs privately in your browser.",
           "heading": "WebP to PNG Converter",
           "summary": "Need a PNG copy of a WebP image for editing or an app that does not accept WebP? Select your file and create a PNG download without sending it to a server.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -462,7 +462,7 @@
           "description": "Convert PNG to WebP online for free to make web images smaller. Fast and private in your browser – no upload, no account.",
           "heading": "PNG to WebP Converter",
           "summary": "Create a WebP copy of a PNG for websites and apps that support modern image formats. Choose a PNG file and download the converted image from your device.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -653,7 +653,7 @@
           "description": "Convert JPG to WebP online for free. Make lighter website images fast, privately in your browser – no upload and no account.",
           "heading": "JPG to WebP Converter",
           "summary": "Make a WebP version of a JPG image for a website or app. Select your JPG and download a browser-generated WebP copy.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -844,7 +844,7 @@
           "description": "Convert PNG to JPG online for free. Make smaller JPEG files for uploads and email. Runs in your browser – no upload, no account needed.",
           "heading": "PNG to JPG Converter",
           "summary": "Create a JPG copy of a PNG for forms, websites, or apps that require JPEG. Select your image and download the converted copy.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -1035,7 +1035,7 @@
           "description": "Convert JPG to PNG online for free. Fast JPEG to PNG converter that runs in your browser – no upload, no sign-up. Download your PNG in seconds.",
           "heading": "JPG to PNG Converter",
           "summary": "Make a PNG copy of a JPG image when a workflow asks for PNG. The conversion runs in your browser and the result downloads to your device.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -1226,7 +1226,7 @@
           "description": "Convert AVIF to JPG online for free when your browser can open AVIF. Private, fast, on your device – no upload and no sign-up.",
           "heading": "AVIF to JPG Converter",
           "summary": "Create a JPG copy of an AVIF image for wider compatibility. Select an AVIF file; your browser must support decoding AVIF for this conversion to work.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -1439,7 +1439,7 @@
           "description": "Merge PDF files online for free. Combine two or more PDFs, or merge PDF and JPG into one document. No upload, no sign-up.",
           "heading": "Merge PDF Files Online",
           "summary": "Join multiple PDF files into a single document without uploading them to a converter server. Choose the files in the order you want them combined, then download the merged PDF.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -1644,7 +1644,7 @@
           "description": "Extract pages from a PDF online for free. Enter page numbers or ranges like 1-3,5 and save them as a new PDF. Private in your browser.",
           "heading": "Extract Pages from a PDF",
           "summary": "Create a smaller PDF containing only the pages you need. Enter page numbers or ranges such as 1-3,5, then download the extracted pages as a new PDF.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -1844,7 +1844,7 @@
           "description": "Rotate PDF pages 90, 180 or 270 degrees online for free. Fix sideways PDFs privately in your browser – no upload.",
           "heading": "Rotate PDF Pages Online",
           "summary": "Fix a PDF whose pages display sideways or upside down. Choose a PDF, select the rotation angle, and download a rotated copy.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -2049,7 +2049,7 @@
           "description": "Convert images to PDF online for free. Turn JPG, PNG and photos into one PDF, A4 or Letter. Private in your browser – no upload.",
           "heading": "Convert Images to PDF Online",
           "summary": "Turn image files into a PDF with one image per page. Choose multiple images, set A4 or Letter page size, and download the PDF created on your device.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -2249,7 +2249,7 @@
           "description": "Count the pages in a PDF online for free. Select a file and get the page count privately in your browser – no upload.",
           "heading": "PDF Page Counter Online",
           "summary": "Check the page count of a PDF without opening a desktop editor. Select your file and SnapKit will count its pages locally in your browser.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -2450,7 +2450,7 @@
           "description": "Convert a PDF page to PNG or JPG online for free. Private in your browser – no upload, no sign-up. Download the image fast.",
           "heading": "Convert PDF Pages to PNG or JPG",
           "summary": "Save a page from a PDF as a PNG or JPG image. Select your PDF, enter a page number, choose an image format, and download the rendered page.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -2641,7 +2641,7 @@
           "description": "Convert SVG to PNG online for free. Turn vector graphics into PNG images privately in your browser – no upload, no sign-up.",
           "heading": "SVG to PNG Converter",
           "summary": "Create a PNG copy of an SVG graphic for apps, forms, or websites that need a raster image. Select an SVG file and download the PNG made by your browser.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -2832,7 +2832,7 @@
           "description": "Convert SVG to JPG online for free. Make a JPEG copy of your vector file privately in your browser – no upload, no sign-up.",
           "heading": "SVG to JPG Converter",
           "summary": "Make a JPG copy of an SVG for older apps and sites. Select an SVG file; the browser creates and downloads a JPG image on your device.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Converted directly in your browser canvas. No file uploads."
         },
         {
           "language": "ar",
@@ -3032,7 +3032,7 @@
           "description": "Convert SVG to PDF online for free. Choose page size, orientation, margins and resolution. Private, in your browser – no upload.",
           "heading": "Convert SVG to PDF Online",
           "summary": "Place SVG artwork on an A3, A4, A5, Letter, Legal, or Tabloid PDF page. Choose automatic or manual orientation, fit, margins, and render resolution. Processing stays in your browser.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -3232,7 +3232,7 @@
           "description": "Free online word counter. Count words, characters, sentences and lines, plus reading time. Runs in your browser – paste text and see results instantly.",
           "heading": "Word Counter",
           "summary": "Paste or type text to see word, character, sentence, and line counts instantly.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -3432,7 +3432,7 @@
           "description": "Free online character counter. Count characters with and without spaces, plus UTF-8 bytes. Runs in your browser – paste text and see the result.",
           "heading": "Character Counter",
           "summary": "Use this character counter to check text length for posts, forms, essays, and messages.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -3632,7 +3632,7 @@
           "description": "Free online JSON formatter and validator. Beautify JSON, find syntax errors and copy clean output. Runs in your browser.",
           "heading": "JSON Formatter",
           "summary": "Paste JSON to check its syntax and create a neatly indented version for debugging or sharing.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -3832,7 +3832,7 @@
           "description": "Free online JSON minifier. Remove whitespace to make JSON compact while keeping the data unchanged. Runs in your browser.",
           "heading": "JSON Minifier",
           "summary": "Paste a JSON value and create a compact one-line version while keeping its data unchanged.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -4032,7 +4032,7 @@
           "description": "Convert CSV to JSON online for free. Turn rows with a header into a JSON array of objects. Runs in your browser – no upload.",
           "heading": "CSV to JSON Converter",
           "summary": "Paste CSV with a header row to create JSON objects using each column name as a property.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -4232,7 +4232,7 @@
           "description": "Convert JSON to CSV online for free. Turn a JSON array of objects into a CSV table for Excel or Google Sheets. Runs in your browser.",
           "heading": "JSON to CSV Converter",
           "summary": "Paste a JSON array of objects and create a CSV table with a header row.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -4432,7 +4432,7 @@
           "description": "Free password generator. Create strong random passwords locally in your browser. Nothing is sent to a server.",
           "heading": "Password Generator",
           "summary": "Choose a password length and generate a random password on your device for an account or app.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -4632,7 +4632,7 @@
           "description": "Free UUID v4 generator. Create random UUIDs with browser cryptography for development and testing. Runs in your browser.",
           "heading": "UUID Generator",
           "summary": "Create a UUID v4 identifier locally for development, testing, and data records.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -4832,7 +4832,7 @@
           "description": "Free online Base64 encoder. Convert UTF-8 text to Base64 instantly in your browser. Remember: Base64 is encoding, not encryption.",
           "heading": "Base64 Encoder",
           "summary": "Paste text to encode its UTF-8 bytes as Base64. This is encoding, not encryption.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -5032,7 +5032,7 @@
           "description": "Free online URL encoder. Convert spaces and special characters to percent-encoding for URL parameters. Runs in your browser.",
           "heading": "URL Encoder",
           "summary": "Convert spaces and reserved characters to percent-encoding for use as a URL parameter.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -5232,7 +5232,7 @@
           "description": "Free online regex tester. Try a regular expression on sample text and see matches with positions. Runs in your browser.",
           "heading": "Regex Tester",
           "summary": "Enter a pattern, optional flags, and sample text to list matching results and positions.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -5432,7 +5432,7 @@
           "description": "Free SHA-256 hash generator. Create a SHA-256 digest from text with the Web Crypto API in your browser. Hashing is one-way.",
           "heading": "SHA-256 Hash Generator",
           "summary": "Enter text to calculate a SHA-256 hash locally. Hashing is one-way and does not encrypt the input.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -5632,7 +5632,7 @@
           "description": "Free percentage calculator. Find a percentage of any number instantly in your browser – quick, simple, no sign-up.",
           "heading": "Percentage Calculator",
           "summary": "Enter a percentage and a number to find the corresponding value.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -5832,7 +5832,7 @@
           "description": "Free discount calculator. Enter a price and discount percentage to see your savings and final sale price. Runs in your browser.",
           "heading": "Discount Calculator",
           "summary": "Enter a price and discount percentage to see the savings and final price.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -6032,7 +6032,7 @@
           "description": "Free tip calculator. Enter your bill and tip percentage to get the tip amount and total. Runs in your browser.",
           "heading": "Tip Calculator",
           "summary": "Enter the bill amount and tip rate to calculate the tip and total.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -6232,7 +6232,7 @@
           "description": "Free age calculator. Choose a date of birth and see your age in years based on today’s date. Runs in your browser.",
           "heading": "Age Calculator",
           "summary": "Choose a birth date to calculate your age based on today’s date.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -6432,7 +6432,7 @@
           "description": "Free date difference calculator. Count the days between two dates, inclusive. Runs in your browser – quick and simple.",
           "heading": "Date Difference Calculator",
           "summary": "Choose a start and end date to count the days between them, inclusive.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -6632,7 +6632,7 @@
           "description": "Free color contrast checker. Check WCAG AA contrast between two HEX colors for normal and large text. Runs in your browser.",
           "heading": "Color Contrast Checker",
           "summary": "Enter foreground and background HEX colors to check contrast for normal and large text.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -6832,7 +6832,7 @@
           "description": "Free Lorem Ipsum generator. Create placeholder paragraphs for mockups and layouts instantly in your browser – no sign-up.",
           "heading": "Lorem Ipsum Generator",
           "summary": "Choose how many sample paragraphs to create for a mockup or layout.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -7032,7 +7032,7 @@
           "description": "Compare two texts online for free. See added, removed and unchanged lines. Private in your browser – no sign-up.",
           "heading": "Text Compare Tool",
           "summary": "Paste an original and revised text to see added, removed, and unchanged lines.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -7232,7 +7232,7 @@
           "description": "Free online URL parser. Break a URL into protocol, host, path, query and fragment. Runs in your browser – nothing is sent.",
           "heading": "URL Parser",
           "summary": "Paste a full URL to inspect its component parts without sending it to a server.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -7436,7 +7436,7 @@
           "description": "Convert JPG to PDF online for free. Turn one or many JPG photos into a PDF, A4 or Letter. Private in your browser – no upload.",
           "heading": "Convert JPG to PDF Online",
           "summary": "Turn one or more JPG photos into a PDF with one image per page. Choose A4 or Letter page size and download the PDF created on your device.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -7640,7 +7640,7 @@
           "description": "Convert PNG to PDF online for free. Turn screenshots and PNG images into a PDF, A4 or Letter. Private in your browser – no upload.",
           "heading": "Convert PNG to PDF Online",
           "summary": "Turn PNG images and screenshots into a PDF with one image per page. Choose A4 or Letter page size and download the PDF created on your device.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -7840,7 +7840,7 @@
           "description": "Convert a PDF page to JPG online for free. Choose the page, select JPG and download. Private in your browser – no upload.",
           "heading": "Convert PDF to JPG Online",
           "summary": "Save a page from a PDF as a JPG image. Select your PDF, enter a page number, choose JPG as the image format and download the rendered page.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -8040,7 +8040,7 @@
           "description": "Convert a PDF page to PNG online for free. Sharp text and graphics, private in your browser – no upload, no sign-up.",
           "heading": "Convert PDF to PNG Online",
           "summary": "Save a page from a PDF as a PNG image. Select your PDF, enter a page number, choose PNG as the image format and download the rendered page.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF processing happens on your device. Safe, private, and fast."
         },
         {
           "language": "ar",
@@ -8240,7 +8240,7 @@
           "description": "Free essay word counter. Paste your essay to count words, characters and reading time instantly. Private in your browser – no sign-up.",
           "heading": "Essay Word Counter",
           "summary": "Paste your essay to see word, character, sentence and line counts instantly, so you can check it against a required length.",
-          "privacy_note": "✳ Your text and values stay in your browser. Nothing is sent to SnapKit."
+          "privacy_note": "✳ Input and calculations stay private on your device. Nothing is sent to any server."
         },
         {
           "language": "ar",
@@ -9271,7 +9271,7 @@
           "description": "Compress image online for free. Reduce JPG, PNG and WebP size, or compress a photo to 100 KB. Private in your browser – no upload.",
           "heading": "Image Compressor – Reduce Image Size Online",
           "summary": "Make photos and images smaller for forms, email, websites and messaging apps. Choose one or many images, set the quality or a maximum size in KB, and download the compressed copies.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Files stay on your device. Never uploaded to SnapKit servers."
         },
         {
           "language": "ar",
@@ -9481,7 +9481,7 @@
           "description": "Split a PDF online for free. Make one file per page, split by page range, or every N pages, and download a ZIP. Private in your browser.",
           "heading": "Split PDF Online – Separate PDF Pages",
           "summary": "Cut one PDF into several. Make one file per page, split by page ranges you type, or create a new PDF for every N pages, then download the pieces one by one or as a single ZIP.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ PDF pages are separated locally in your browser. Nothing is uploaded."
         },
         {
           "language": "ar",
@@ -9688,7 +9688,7 @@
           "description": "Compress a JPG, PNG or WebP image to 50 KB or less in your browser. Free, private, no upload and no sign-up.",
           "heading": "Compress Image to 50KB Online",
           "summary": "Some online forms, exam portals and job applications accept only very small pictures. This page opens the image compressor with a 50 KB limit already filled in, so you can shrink a photo or scan and download a file under 50 KB.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Files stay on your device. Never uploaded to SnapKit servers."
         }
       ]
     },
@@ -9742,7 +9742,7 @@
           "description": "Reduce an image to 100 KB or less online. Compress JPG, PNG or WebP in your browser, free, with no upload and no sign-up.",
           "heading": "Compress Image to 100KB Online",
           "summary": "Profile photos, document scans and application forms often ask for images under 100 KB. This page opens the image compressor with a 100 KB limit already filled in, so one click gets you a smaller copy.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Files stay on your device. Never uploaded to SnapKit servers."
         }
       ]
     },
@@ -9792,7 +9792,7 @@
           "description": "Compress an image to 150 KB or less online. Keep more detail than a 100 KB limit. Free, private, no upload.",
           "heading": "Compress Image to 150KB Online",
           "summary": "A 150 KB limit gives you more room than 100 KB, which helps with product photos, listing images and CMS uploads that reject large files. This page opens the compressor with 150 KB filled in.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Files stay on your device. Never uploaded to SnapKit servers."
         }
       ]
     },
@@ -9842,7 +9842,7 @@
           "description": "Compress a photo to 200 KB or less online. Good for email, chat apps and web pages. Free, no upload, no sign-up.",
           "heading": "Compress Image to 200KB Online",
           "summary": "Email attachments, chat apps and web pages all load faster with smaller pictures. This page opens the image compressor with a 200 KB limit already filled in so you can shrink a photo quickly.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Files stay on your device. Never uploaded to SnapKit servers."
         }
       ]
     },
@@ -9892,7 +9892,743 @@
           "description": "Reduce a JPG, PNG or WebP image to under 500 KB in your browser. Keeps more detail. Free, private, no upload.",
           "heading": "Reduce Image Size to 500KB Online",
           "summary": "When 100 KB is too small, 500 KB keeps far more detail while still being light enough for websites, blogs and many upload forms. This page opens the compressor with a 500 KB limit already filled in.",
-          "privacy_note": "✳ Files are processed in your browser. They are not uploaded to SnapKit."
+          "privacy_note": "✳ Files stay on your device. Never uploaded to SnapKit servers."
+        }
+      ]
+    },
+    {
+      "id": "snapkit:resize-image",
+      "slug": "resize-image",
+      "category": "image",
+      "operation": "image",
+      "purpose": "Change photo and picture dimensions for social media, websites, forms or email. Enter new dimensions, keep aspect ratio, and download instantly.",
+      "important_details": "Image resizing is performed using browser high-quality canvas bicubic interpolation. Files are processed locally on your device without upload.",
+      "steps": [
+        "Choose an image from your device.",
+        "Enter your desired width and height in pixels.",
+        "Select Resize & Download to save your image."
+      ],
+      "common_questions": [
+        [
+          "Is this image resizer free?",
+          "Yes. It is free, has no file size limit, and runs completely in your browser."
+        ]
+      ],
+      "related_tool_ids": [],
+      "pages": [
+        {
+          "language": "en",
+          "url": "https://snapkittools.online/tools/resize-image/",
+          "title": "Resize Image Online Free – Change Photo Dimensions | SnapKit",
+          "description": "Resize images online for free. Enter custom width and height in pixels and download your resized photo without quality loss. 100% private in browser.",
+          "heading": "Resize Image Online Free",
+          "summary": "Change photo and picture dimensions for social media, websites, forms or email. Enter new dimensions, keep aspect ratio, and download instantly.",
+          "privacy_note": "✳ Processed locally on your device in real-time. Zero server uploads."
+        },
+        {
+          "language": "ar",
+          "url": "https://snapkittools.online/ar/tools/resize-image/",
+          "title": "تغيير حجم الصورة – مجاناً أونلاين | SnapKit",
+          "description": "تغيير حجم الصورة: مجاني وخاص ويعمل في متصفحك. بلا رفع ملفات وبلا تسجيل.",
+          "heading": "تغيير حجم الصورة",
+          "summary": "حدد الأبعاد وحمّل صورتك بالحجم الجديد.",
+          "privacy_note": "✳ تتم معالجة الملفات في متصفحك ولا يتم رفعها إلى SnapKit."
+        },
+        {
+          "language": "bn",
+          "url": "https://snapkittools.online/bn/tools/resize-image/",
+          "title": "ছবি রিসাইজ – বিনামূল্যে অনলাইন | SnapKit",
+          "description": "ছবি রিসাইজ: বিনামূল্যে, নিরাপদ এবং আপনার ব্রাউজারেই চলে। আপলোড বা সাইন-আপ লাগে না।",
+          "heading": "ছবি রিসাইজ",
+          "summary": "সঠিক মাপ দিন, মান বজায় রেখে ডাউনলোড নিন।",
+          "privacy_note": "✳ ফাইল আপনার ব্রাউজারেই প্রসেস হয়। SnapKit-এ আপলোড করা হয় না।"
+        },
+        {
+          "language": "de",
+          "url": "https://snapkittools.online/de/tools/resize-image/",
+          "title": "Bildgröße ändern – Kostenlos Online | SnapKit",
+          "description": "Bildgröße ändern: Kostenlos, privat und direkt im Browser. Ohne Upload und ohne Anmeldung.",
+          "heading": "Bildgröße ändern",
+          "summary": "Neue Maße festlegen und skaliertes Bild herunterladen.",
+          "privacy_note": "✳ Dateien werden in Ihrem Browser verarbeitet. Sie werden nicht an SnapKit hochgeladen."
+        },
+        {
+          "language": "es",
+          "url": "https://snapkittools.online/es/tools/resize-image/",
+          "title": "Redimensionar imagen – Gratis Online | SnapKit",
+          "description": "Redimensionar imagen: Gratis, privado y funciona en tu navegador. Sin subir archivos ni registrarte.",
+          "heading": "Redimensionar imagen",
+          "summary": "Ajusta el ancho y alto y descarga tu imagen redimensionada.",
+          "privacy_note": "✳ Los archivos se procesan en tu navegador. No se suben a SnapKit."
+        },
+        {
+          "language": "fr",
+          "url": "https://snapkittools.online/fr/tools/resize-image/",
+          "title": "Redimensionner une image – Gratuit en ligne | SnapKit",
+          "description": "Redimensionner une image: Gratuit, privé et fonctionne dans votre navigateur. Sans envoi de fichiers ni inscription.",
+          "heading": "Redimensionner une image",
+          "summary": "Définissez la taille et téléchargez votre image redimensionnée.",
+          "privacy_note": "✳ Les fichiers sont traités dans votre navigateur. Ils ne sont pas envoyés à SnapKit."
+        },
+        {
+          "language": "hi",
+          "url": "https://snapkittools.online/hi/tools/resize-image/",
+          "title": "इमेज रीसाइज़ करें – मुफ़्त ऑनलाइन | SnapKit",
+          "description": "इमेज रीसाइज़ करें: मुफ़्त, निजी और आपके ब्राउज़र में चलता है। न अपलोड, न साइन-अप।",
+          "heading": "इमेज रीसाइज़ करें",
+          "summary": "नए आयाम सेट करें और अपनी इमेज डाउनलोड करें।",
+          "privacy_note": "✳ फ़ाइलें आपके ब्राउज़र में प्रोसेस होती हैं। वे SnapKit पर अपलोड नहीं की जातीं।"
+        },
+        {
+          "language": "id",
+          "url": "https://snapkittools.online/id/tools/resize-image/",
+          "title": "Ubah ukuran gambar – Gratis Online | SnapKit",
+          "description": "Ubah ukuran gambar: Gratis, privat, dan berjalan di browser Anda. Tanpa unggah file dan tanpa daftar.",
+          "heading": "Ubah ukuran gambar",
+          "summary": "Tentukan dimensi baru lalu unduh gambar Anda.",
+          "privacy_note": "✳ File diproses di browser Anda. File tidak diunggah ke SnapKit."
+        },
+        {
+          "language": "it",
+          "url": "https://snapkittools.online/it/tools/resize-image/",
+          "title": "Ridimensiona immagine – Gratuito Online | SnapKit",
+          "description": "Ridimensiona immagine: Gratuito, privato e funziona nel tuo browser. Senza caricamento file né registrazione.",
+          "heading": "Ridimensiona immagine",
+          "summary": "Imposta le dimensioni e scarica la tua immagine ridimensionata.",
+          "privacy_note": "✳ I file vengono elaborati nel tuo browser. Non vengono caricati su SnapKit."
+        },
+        {
+          "language": "ja",
+          "url": "https://snapkittools.online/ja/tools/resize-image/",
+          "title": "画像サイズ変更 – 無料オンライン | SnapKit",
+          "description": "画像サイズ変更: 無料・プライバシー重視でブラウザ上で動作。アップロードも登録も不要です。",
+          "heading": "画像サイズ変更",
+          "summary": "サイズを指定してリサイズした画像をダウンロード。",
+          "privacy_note": "✳ ファイルはブラウザ内で処理され、SnapKitにはアップロードされません。"
+        },
+        {
+          "language": "ko",
+          "url": "https://snapkittools.online/ko/tools/resize-image/",
+          "title": "이미지 크기 조절 – 무료 온라인 | SnapKit",
+          "description": "이미지 크기 조절: 무료이며 개인정보를 보호하고 브라우저에서 작동합니다. 업로드와 가입이 필요 없습니다.",
+          "heading": "이미지 크기 조절",
+          "summary": "원하는 너비와 높이를 입력하고 조절된 이미지를 다운로드하세요.",
+          "privacy_note": "✳ 파일은 브라우저에서 처리되며 SnapKit으로 업로드되지 않습니다."
+        },
+        {
+          "language": "nl",
+          "url": "https://snapkittools.online/nl/tools/resize-image/",
+          "title": "Afbeelding verkleinen – Gratis Online | SnapKit",
+          "description": "Afbeelding verkleinen: Gratis, privé en werkt in je browser. Geen bestanden uploaden of registreren.",
+          "heading": "Afbeelding verkleinen",
+          "summary": "Geef afmetingen op en download je geschaalde afbeelding.",
+          "privacy_note": "✳ Bestanden worden lokaal verwerkt in je browser. Ze worden niet geüpload naar SnapKit."
+        },
+        {
+          "language": "pl",
+          "url": "https://snapkittools.online/pl/tools/resize-image/",
+          "title": "Zmień rozmiar obrazu – Za darmo online | SnapKit",
+          "description": "Zmień rozmiar obrazu: Darmowe, prywatne i działające w przeglądarce. Bez wysyłania plików i bez rejestracji.",
+          "heading": "Zmień rozmiar obrazu",
+          "summary": "Wprowadź wymiary i pobierz przeskalowany plik.",
+          "privacy_note": "✳ Pliki są przetwarzane w Twojej przeglądarce. Nie są wysyłane do SnapKit."
+        },
+        {
+          "language": "pt",
+          "url": "https://snapkittools.online/pt/tools/resize-image/",
+          "title": "Redimensionar imagem – Grátis Online | SnapKit",
+          "description": "Redimensionar imagem: Grátis, privado e funciona no navegador. Sem upload e sem cadastro.",
+          "heading": "Redimensionar imagem",
+          "summary": "Defina as dimensões e baixe sua imagem redimensionada.",
+          "privacy_note": "✳ Os arquivos são processados no seu navegador. Eles não são enviados ao SnapKit."
+        },
+        {
+          "language": "ru",
+          "url": "https://snapkittools.online/ru/tools/resize-image/",
+          "title": "Изменение размера – бесплатно онлайн | SnapKit",
+          "description": "Изменение размера: Бесплатно, конфиденциально, работает в браузере. Без загрузки файлов и регистрации.",
+          "heading": "Изменение размера",
+          "summary": "Укажите размеры и скачайте измененное изображение.",
+          "privacy_note": "✳ Файлы обрабатываются в вашем браузере и не загружаются на SnapKit."
+        },
+        {
+          "language": "tr",
+          "url": "https://snapkittools.online/tr/tools/resize-image/",
+          "title": "Görseli yeniden boyutlandır – Ücretsiz Online | SnapKit",
+          "description": "Görseli yeniden boyutlandır: Ücretsiz, gizli ve tarayıcınızda çalışır. Dosya yükleme ve üyelik yok.",
+          "heading": "Görseli yeniden boyutlandır",
+          "summary": "Yeni boyutları girin ve boyutlandırılan görseli indirin.",
+          "privacy_note": "✳ Dosyalar tarayıcınızda işlenir. SnapKit'e yüklenmez."
+        },
+        {
+          "language": "vi",
+          "url": "https://snapkittools.online/vi/tools/resize-image/",
+          "title": "Đổi kích thước ảnh – Miễn phí trực tuyến | SnapKit",
+          "description": "Đổi kích thước ảnh: Miễn phí, riêng tư và chạy ngay trên trình duyệt. Không tải tệp lên, không cần đăng ký.",
+          "heading": "Đổi kích thước ảnh",
+          "summary": "Đặt chiều rộng, chiều cao và tải ảnh đã đổi kích thước.",
+          "privacy_note": "✳ Tệp được xử lý ngay trên trình duyệt của bạn và không được tải lên SnapKit."
+        },
+        {
+          "language": "zh",
+          "url": "https://snapkittools.online/zh/tools/resize-image/",
+          "title": "修改图片尺寸 – 免费在线 | SnapKit",
+          "description": "修改图片尺寸: 免费、安全且直接在浏览器中运行。无需上传文件，无需注册。",
+          "heading": "修改图片尺寸",
+          "summary": "设定新的宽度和高度，并立即下载修改后的图片。",
+          "privacy_note": "✳ 文件在浏览器本地处理，绝不会上传到 SnapKit。"
+        }
+      ]
+    },
+    {
+      "id": "snapkit:remove-image-metadata",
+      "slug": "remove-image-metadata",
+      "category": "image",
+      "operation": "image",
+      "purpose": "Strip location tags, camera settings, and personal EXIF metadata before sharing your photos online.",
+      "important_details": "This tool reads your image into an in-memory browser canvas and exports a clean copy with zero EXIF or GPS tags attached.",
+      "steps": [
+        "Select a photo from your phone or computer.",
+        "Click Download Clean Copy.",
+        "Save your private, metadata-free photo."
+      ],
+      "common_questions": [
+        [
+          "Does this remove GPS location and camera data?",
+          "Yes. By re-encoding the raw image pixels in your browser canvas, all embedded EXIF tags and GPS data are eliminated."
+        ]
+      ],
+      "related_tool_ids": [],
+      "pages": [
+        {
+          "language": "en",
+          "url": "https://snapkittools.online/tools/remove-image-metadata/",
+          "title": "Remove Image Metadata Online Free – Strip EXIF from Photos | SnapKit",
+          "description": "Remove EXIF, GPS location, and camera metadata from photos online. Free, safe, and private in your browser – no upload required.",
+          "heading": "Remove Image Metadata Online",
+          "summary": "Strip location tags, camera settings, and personal EXIF metadata before sharing your photos online.",
+          "privacy_note": "✳ Processed locally on your device in real-time. Zero server uploads."
+        },
+        {
+          "language": "ar",
+          "url": "https://snapkittools.online/ar/tools/remove-image-metadata/",
+          "title": "مسح بيانات الصورة – مجاناً أونلاين | SnapKit",
+          "description": "مسح بيانات الصورة: مجاني وخاص ويعمل في متصفحك. بلا رفع ملفات وبلا تسجيل.",
+          "heading": "مسح بيانات الصورة",
+          "summary": "إنشاء نسخة جديدة بدون بيانات EXIF.",
+          "privacy_note": "✳ تتم معالجة الملفات في متصفحك ولا يتم رفعها إلى SnapKit."
+        },
+        {
+          "language": "bn",
+          "url": "https://snapkittools.online/bn/tools/remove-image-metadata/",
+          "title": "মেটাডেটা পরিষ্কার – বিনামূল্যে অনলাইন | SnapKit",
+          "description": "মেটাডেটা পরিষ্কার: বিনামূল্যে, নিরাপদ এবং আপনার ব্রাউজারেই চলে। আপলোড বা সাইন-আপ লাগে না।",
+          "heading": "মেটাডেটা পরিষ্কার",
+          "summary": "নতুন কপি বানিয়ে ছবির EXIF তথ্য মুছে ফেলুন।",
+          "privacy_note": "✳ ফাইল আপনার ব্রাউজারেই প্রসেস হয়। SnapKit-এ আপলোড করা হয় না।"
+        },
+        {
+          "language": "de",
+          "url": "https://snapkittools.online/de/tools/remove-image-metadata/",
+          "title": "Bild-Metadaten entfernen – Kostenlos Online | SnapKit",
+          "description": "Bild-Metadaten entfernen: Kostenlos, privat und direkt im Browser. Ohne Upload und ohne Anmeldung.",
+          "heading": "Bild-Metadaten entfernen",
+          "summary": "Neue Kopie ohne EXIF-Metadaten erstellen.",
+          "privacy_note": "✳ Dateien werden in Ihrem Browser verarbeitet. Sie werden nicht an SnapKit hochgeladen."
+        },
+        {
+          "language": "es",
+          "url": "https://snapkittools.online/es/tools/remove-image-metadata/",
+          "title": "Eliminar metadatos – Gratis Online | SnapKit",
+          "description": "Eliminar metadatos: Gratis, privado y funciona en tu navegador. Sin subir archivos ni registrarte.",
+          "heading": "Eliminar metadatos",
+          "summary": "Crea una copia limpia sin metadatos EXIF comunes.",
+          "privacy_note": "✳ Los archivos se procesan en tu navegador. No se suben a SnapKit."
+        },
+        {
+          "language": "fr",
+          "url": "https://snapkittools.online/fr/tools/remove-image-metadata/",
+          "title": "Supprimer les métadonnées – Gratuit en ligne | SnapKit",
+          "description": "Supprimer les métadonnées: Gratuit, privé et fonctionne dans votre navigateur. Sans envoi de fichiers ni inscription.",
+          "heading": "Supprimer les métadonnées",
+          "summary": "Créez une copie sans métadonnées EXIF.",
+          "privacy_note": "✳ Les fichiers sont traités dans votre navigateur. Ils ne sont pas envoyés à SnapKit."
+        },
+        {
+          "language": "hi",
+          "url": "https://snapkittools.online/hi/tools/remove-image-metadata/",
+          "title": "मेटाडेटा हटाएँ – मुफ़्त ऑनलाइन | SnapKit",
+          "description": "मेटाडेटा हटाएँ: मुफ़्त, निजी और आपके ब्राउज़र में चलता है। न अपलोड, न साइन-अप।",
+          "heading": "मेटाडेटा हटाएँ",
+          "summary": "सामान्य EXIF मेटाडेटा के बिना साफ़ कॉपी बनाएँ।",
+          "privacy_note": "✳ फ़ाइलें आपके ब्राउज़र में प्रोसेस होती हैं। वे SnapKit पर अपलोड नहीं की जातीं।"
+        },
+        {
+          "language": "id",
+          "url": "https://snapkittools.online/id/tools/remove-image-metadata/",
+          "title": "Hapus metadata gambar – Gratis Online | SnapKit",
+          "description": "Hapus metadata gambar: Gratis, privat, dan berjalan di browser Anda. Tanpa unggah file dan tanpa daftar.",
+          "heading": "Hapus metadata gambar",
+          "summary": "Buat salinan baru tanpa metadata EXIF.",
+          "privacy_note": "✳ File diproses di browser Anda. File tidak diunggah ke SnapKit."
+        },
+        {
+          "language": "it",
+          "url": "https://snapkittools.online/it/tools/remove-image-metadata/",
+          "title": "Rimuovi metadati immagine – Gratuito Online | SnapKit",
+          "description": "Rimuovi metadati immagine: Gratuito, privato e funziona nel tuo browser. Senza caricamento file né registrazione.",
+          "heading": "Rimuovi metadati immagine",
+          "summary": "Crea una nuova copia senza i metadati EXIF.",
+          "privacy_note": "✳ I file vengono elaborati nel tuo browser. Non vengono caricati su SnapKit."
+        },
+        {
+          "language": "ja",
+          "url": "https://snapkittools.online/ja/tools/remove-image-metadata/",
+          "title": "メタデータ削除 – 無料オンライン | SnapKit",
+          "description": "メタデータ削除: 無料・プライバシー重視でブラウザ上で動作。アップロードも登録も不要です。",
+          "heading": "メタデータ削除",
+          "summary": "EXIF情報を削除したクリーンな画像を作成します。",
+          "privacy_note": "✳ ファイルはブラウザ内で処理され、SnapKitにはアップロードされません。"
+        },
+        {
+          "language": "ko",
+          "url": "https://snapkittools.online/ko/tools/remove-image-metadata/",
+          "title": "이미지 메타데이터 제거 – 무료 온라인 | SnapKit",
+          "description": "이미지 메타데이터 제거: 무료이며 개인정보를 보호하고 브라우저에서 작동합니다. 업로드와 가입이 필요 없습니다.",
+          "heading": "이미지 메타데이터 제거",
+          "summary": "EXIF 메타데이터를 제거한 새로운 이미지 복사본을 생성합니다.",
+          "privacy_note": "✳ 파일은 브라우저에서 처리되며 SnapKit으로 업로드되지 않습니다."
+        },
+        {
+          "language": "nl",
+          "url": "https://snapkittools.online/nl/tools/remove-image-metadata/",
+          "title": "Metadata verwijderen – Gratis Online | SnapKit",
+          "description": "Metadata verwijderen: Gratis, privé en werkt in je browser. Geen bestanden uploaden of registreren.",
+          "heading": "Metadata verwijderen",
+          "summary": "Maak een nieuwe schone kopie zonder EXIF-gegevens.",
+          "privacy_note": "✳ Bestanden worden lokaal verwerkt in je browser. Ze worden niet geüpload naar SnapKit."
+        },
+        {
+          "language": "pl",
+          "url": "https://snapkittools.online/pl/tools/remove-image-metadata/",
+          "title": "Usuń metadane – Za darmo online | SnapKit",
+          "description": "Usuń metadane: Darmowe, prywatne i działające w przeglądarce. Bez wysyłania plików i bez rejestracji.",
+          "heading": "Usuń metadane",
+          "summary": "Utwórz czystą kopię obrazu bez danych EXIF.",
+          "privacy_note": "✳ Pliki są przetwarzane w Twojej przeglądarce. Nie są wysyłane do SnapKit."
+        },
+        {
+          "language": "pt",
+          "url": "https://snapkittools.online/pt/tools/remove-image-metadata/",
+          "title": "Remover metadados – Grátis Online | SnapKit",
+          "description": "Remover metadados: Grátis, privado e funciona no navegador. Sem upload e sem cadastro.",
+          "heading": "Remover metadados",
+          "summary": "Crie uma cópia sem os dados EXIF da imagem.",
+          "privacy_note": "✳ Os arquivos são processados no seu navegador. Eles não são enviados ao SnapKit."
+        },
+        {
+          "language": "ru",
+          "url": "https://snapkittools.online/ru/tools/remove-image-metadata/",
+          "title": "Очистка метаданных – бесплатно онлайн | SnapKit",
+          "description": "Очистка метаданных: Бесплатно, конфиденциально, работает в браузере. Без загрузки файлов и регистрации.",
+          "heading": "Очистка метаданных",
+          "summary": "Создайте копию без данных EXIF.",
+          "privacy_note": "✳ Файлы обрабатываются в вашем браузере и не загружаются на SnapKit."
+        },
+        {
+          "language": "tr",
+          "url": "https://snapkittools.online/tr/tools/remove-image-metadata/",
+          "title": "Görsel metaverilerini temizle – Ücretsiz Online | SnapKit",
+          "description": "Görsel metaverilerini temizle: Ücretsiz, gizli ve tarayıcınızda çalışır. Dosya yükleme ve üyelik yok.",
+          "heading": "Görsel metaverilerini temizle",
+          "summary": "EXIF bilgilerinden arındırılmış yeni bir kopya oluşturun.",
+          "privacy_note": "✳ Dosyalar tarayıcınızda işlenir. SnapKit'e yüklenmez."
+        },
+        {
+          "language": "vi",
+          "url": "https://snapkittools.online/vi/tools/remove-image-metadata/",
+          "title": "Xóa siêu dữ liệu ảnh – Miễn phí trực tuyến | SnapKit",
+          "description": "Xóa siêu dữ liệu ảnh: Miễn phí, riêng tư và chạy ngay trên trình duyệt. Không tải tệp lên, không cần đăng ký.",
+          "heading": "Xóa siêu dữ liệu ảnh",
+          "summary": "Tạo bản sao không chứa thông tin EXIF.",
+          "privacy_note": "✳ Tệp được xử lý ngay trên trình duyệt của bạn và không được tải lên SnapKit."
+        },
+        {
+          "language": "zh",
+          "url": "https://snapkittools.online/zh/tools/remove-image-metadata/",
+          "title": "清除图片元数据 – 免费在线 | SnapKit",
+          "description": "清除图片元数据: 免费、安全且直接在浏览器中运行。无需上传文件，无需注册。",
+          "heading": "清除图片元数据",
+          "summary": "创建不含常见 EXIF 拍摄信息的干净图片副本。",
+          "privacy_note": "✳ 文件在浏览器本地处理，绝不会上传到 SnapKit。"
+        }
+      ]
+    },
+    {
+      "id": "snapkit:color-palette",
+      "slug": "color-palette",
+      "category": "image",
+      "operation": "image",
+      "purpose": "Generate a color palette from any image or photo. Find the 5 most prominent colors and copy their HEX color codes with one click.",
+      "important_details": "The color palette algorithm samples pixels across the image to find the most frequent color clusters, returning precise HEX codes.",
+      "steps": [
+        "Choose any photo, logo, or design.",
+        "Click Extract Dominant Colors.",
+        "Click any color swatch to copy its HEX code."
+      ],
+      "common_questions": [
+        [
+          "Can I copy the HEX color codes?",
+          "Yes. Click on any of the color swatches to instantly copy the HEX code to your clipboard."
+        ]
+      ],
+      "related_tool_ids": [],
+      "pages": [
+        {
+          "language": "en",
+          "url": "https://snapkittools.online/tools/color-palette/",
+          "title": "Image Color Palette Generator – Extract Dominant Hex Colors | SnapKit",
+          "description": "Extract 5 dominant colors and HEX codes from any picture online. Free, instant, and private color palette picker.",
+          "heading": "Image Color Palette Generator",
+          "summary": "Generate a color palette from any image or photo. Find the 5 most prominent colors and copy their HEX color codes with one click.",
+          "privacy_note": "✳ Processed locally on your device in real-time. Zero server uploads."
+        },
+        {
+          "language": "ar",
+          "url": "https://snapkittools.online/ar/tools/color-palette/",
+          "title": "لوحة الألوان – مجاناً أونلاين | SnapKit",
+          "description": "لوحة الألوان: مجاني وخاص ويعمل في متصفحك. بلا رفع ملفات وبلا تسجيل.",
+          "heading": "لوحة الألوان",
+          "summary": "استخرج أبرز خمسة ألوان من أي صورة.",
+          "privacy_note": "✳ تتم معالجة الملفات في متصفحك ولا يتم رفعها إلى SnapKit."
+        },
+        {
+          "language": "bn",
+          "url": "https://snapkittools.online/bn/tools/color-palette/",
+          "title": "কালার প্যালেট – বিনামূল্যে অনলাইন | SnapKit",
+          "description": "কালার প্যালেট: বিনামূল্যে, নিরাপদ এবং আপনার ব্রাউজারেই চলে। আপলোড বা সাইন-আপ লাগে না।",
+          "heading": "কালার প্যালেট",
+          "summary": "ছবি থেকে পাঁচটি প্রধান রঙ খুঁজে বের করুন।",
+          "privacy_note": "✳ ফাইল আপনার ব্রাউজারেই প্রসেস হয়। SnapKit-এ আপলোড করা হয় না।"
+        },
+        {
+          "language": "de",
+          "url": "https://snapkittools.online/de/tools/color-palette/",
+          "title": "Farbpalette – Kostenlos Online | SnapKit",
+          "description": "Farbpalette: Kostenlos, privat und direkt im Browser. Ohne Upload und ohne Anmeldung.",
+          "heading": "Farbpalette",
+          "summary": "Die fünf dominanten Farben aus einem Bild ermitteln.",
+          "privacy_note": "✳ Dateien werden in Ihrem Browser verarbeitet. Sie werden nicht an SnapKit hochgeladen."
+        },
+        {
+          "language": "es",
+          "url": "https://snapkittools.online/es/tools/color-palette/",
+          "title": "Paleta de colores – Gratis Online | SnapKit",
+          "description": "Paleta de colores: Gratis, privado y funciona en tu navegador. Sin subir archivos ni registrarte.",
+          "heading": "Paleta de colores",
+          "summary": "Extrae los cinco colores principales de una imagen.",
+          "privacy_note": "✳ Los archivos se procesan en tu navegador. No se suben a SnapKit."
+        },
+        {
+          "language": "fr",
+          "url": "https://snapkittools.online/fr/tools/color-palette/",
+          "title": "Palette de couleurs – Gratuit en ligne | SnapKit",
+          "description": "Palette de couleurs: Gratuit, privé et fonctionne dans votre navigateur. Sans envoi de fichiers ni inscription.",
+          "heading": "Palette de couleurs",
+          "summary": "Extrayez les cinq couleurs dominantes d'une image.",
+          "privacy_note": "✳ Les fichiers sont traités dans votre navigateur. Ils ne sont pas envoyés à SnapKit."
+        },
+        {
+          "language": "hi",
+          "url": "https://snapkittools.online/hi/tools/color-palette/",
+          "title": "कलर पैलेट – मुफ़्त ऑनलाइन | SnapKit",
+          "description": "कलर पैलेट: मुफ़्त, निजी और आपके ब्राउज़र में चलता है। न अपलोड, न साइन-अप।",
+          "heading": "कलर पैलेट",
+          "summary": "इमेज से पाँच मुख्य रंग खोजें।",
+          "privacy_note": "✳ फ़ाइलें आपके ब्राउज़र में प्रोसेस होती हैं। वे SnapKit पर अपलोड नहीं की जातीं।"
+        },
+        {
+          "language": "id",
+          "url": "https://snapkittools.online/id/tools/color-palette/",
+          "title": "Palet warna – Gratis Online | SnapKit",
+          "description": "Palet warna: Gratis, privat, dan berjalan di browser Anda. Tanpa unggah file dan tanpa daftar.",
+          "heading": "Palet warna",
+          "summary": "Temukan lima warna utama dari sebuah gambar.",
+          "privacy_note": "✳ File diproses di browser Anda. File tidak diunggah ke SnapKit."
+        },
+        {
+          "language": "it",
+          "url": "https://snapkittools.online/it/tools/color-palette/",
+          "title": "Tavolozza dei colori – Gratuito Online | SnapKit",
+          "description": "Tavolozza dei colori: Gratuito, privato e funziona nel tuo browser. Senza caricamento file né registrazione.",
+          "heading": "Tavolozza dei colori",
+          "summary": "Estrai i cinque colori principali da un'immagine.",
+          "privacy_note": "✳ I file vengono elaborati nel tuo browser. Non vengono caricati su SnapKit."
+        },
+        {
+          "language": "ja",
+          "url": "https://snapkittools.online/ja/tools/color-palette/",
+          "title": "カラーパレット抽出 – 無料オンライン | SnapKit",
+          "description": "カラーパレット抽出: 無料・プライバシー重視でブラウザ上で動作。アップロードも登録も不要です。",
+          "heading": "カラーパレット抽出",
+          "summary": "画像から主要な5色を自動抽出します。",
+          "privacy_note": "✳ ファイルはブラウザ内で処理され、SnapKitにはアップロードされません。"
+        },
+        {
+          "language": "ko",
+          "url": "https://snapkittools.online/ko/tools/color-palette/",
+          "title": "색상 팔레트 추출 – 무료 온라인 | SnapKit",
+          "description": "색상 팔레트 추출: 무료이며 개인정보를 보호하고 브라우저에서 작동합니다. 업로드와 가입이 필요 없습니다.",
+          "heading": "색상 팔레트 추출",
+          "summary": "이미지에서 가장 눈에 띄는 5가지 대표 색상을 찾아냅니다.",
+          "privacy_note": "✳ 파일은 브라우저에서 처리되며 SnapKit으로 업로드되지 않습니다."
+        },
+        {
+          "language": "nl",
+          "url": "https://snapkittools.online/nl/tools/color-palette/",
+          "title": "Kleurenpalet – Gratis Online | SnapKit",
+          "description": "Kleurenpalet: Gratis, privé en werkt in je browser. Geen bestanden uploaden of registreren.",
+          "heading": "Kleurenpalet",
+          "summary": "Ontdek de vijf meest dominante kleuren in een afbeelding.",
+          "privacy_note": "✳ Bestanden worden lokaal verwerkt in je browser. Ze worden niet geüpload naar SnapKit."
+        },
+        {
+          "language": "pl",
+          "url": "https://snapkittools.online/pl/tools/color-palette/",
+          "title": "Paleta kolorów – Za darmo online | SnapKit",
+          "description": "Paleta kolorów: Darmowe, prywatne i działające w przeglądarce. Bez wysyłania plików i bez rejestracji.",
+          "heading": "Paleta kolorów",
+          "summary": "Wydobądź pięć głównych kolorów ze zdjęcia.",
+          "privacy_note": "✳ Pliki są przetwarzane w Twojej przeglądarce. Nie są wysyłane do SnapKit."
+        },
+        {
+          "language": "pt",
+          "url": "https://snapkittools.online/pt/tools/color-palette/",
+          "title": "Paleta de cores – Grátis Online | SnapKit",
+          "description": "Paleta de cores: Grátis, privado e funciona no navegador. Sem upload e sem cadastro.",
+          "heading": "Paleta de cores",
+          "summary": "Extraia as cinco cores predominantes de uma foto.",
+          "privacy_note": "✳ Os arquivos são processados no seu navegador. Eles não são enviados ao SnapKit."
+        },
+        {
+          "language": "ru",
+          "url": "https://snapkittools.online/ru/tools/color-palette/",
+          "title": "Палитра цветов – бесплатно онлайн | SnapKit",
+          "description": "Палитра цветов: Бесплатно, конфиденциально, работает в браузере. Без загрузки файлов и регистрации.",
+          "heading": "Палитра цветов",
+          "summary": "Определите пять основных цветов на изображении.",
+          "privacy_note": "✳ Файлы обрабатываются в вашем браузере и не загружаются на SnapKit."
+        },
+        {
+          "language": "tr",
+          "url": "https://snapkittools.online/tr/tools/color-palette/",
+          "title": "Renk paleti – Ücretsiz Online | SnapKit",
+          "description": "Renk paleti: Ücretsiz, gizli ve tarayıcınızda çalışır. Dosya yükleme ve üyelik yok.",
+          "heading": "Renk paleti",
+          "summary": "Görseldeki en belirgin beş rengi bulun.",
+          "privacy_note": "✳ Dosyalar tarayıcınızda işlenir. SnapKit'e yüklenmez."
+        },
+        {
+          "language": "vi",
+          "url": "https://snapkittools.online/vi/tools/color-palette/",
+          "title": "Bảng màu ảnh – Miễn phí trực tuyến | SnapKit",
+          "description": "Bảng màu ảnh: Miễn phí, riêng tư và chạy ngay trên trình duyệt. Không tải tệp lên, không cần đăng ký.",
+          "heading": "Bảng màu ảnh",
+          "summary": "Tìm năm màu sắc nổi bật nhất trong ảnh.",
+          "privacy_note": "✳ Tệp được xử lý ngay trên trình duyệt của bạn và không được tải lên SnapKit."
+        },
+        {
+          "language": "zh",
+          "url": "https://snapkittools.online/zh/tools/color-palette/",
+          "title": "提取调色板 – 免费在线 | SnapKit",
+          "description": "提取调色板: 免费、安全且直接在浏览器中运行。无需上传文件，无需注册。",
+          "heading": "提取调色板",
+          "summary": "自动识别并提取图片中的五种主要代表颜色。",
+          "privacy_note": "✳ 文件在浏览器本地处理，绝不会上传到 SnapKit。"
+        }
+      ]
+    },
+    {
+      "id": "snapkit:social-preview",
+      "slug": "social-preview",
+      "category": "utility",
+      "operation": "utility",
+      "purpose": "Test how your links, OpenGraph metadata, and social cards will appear to users on social media feeds and messaging apps.",
+      "important_details": "Simulate social sharing cards before publishing your post or web page to ensure the title and description are properly formatted.",
+      "steps": [
+        "Enter your page title and summary description.",
+        "Check the live interactive card preview.",
+        "Adjust text length for optimal display across platforms."
+      ],
+      "common_questions": [
+        [
+          "Does this send requests to any server?",
+          "No. The preview simulator updates entirely in real-time inside your browser tab."
+        ]
+      ],
+      "related_tool_ids": [],
+      "pages": [
+        {
+          "language": "en",
+          "url": "https://snapkittools.online/tools/social-preview/",
+          "title": "Social Media Link Preview Simulator – OpenGraph & Twitter Card Preview | SnapKit",
+          "description": "Preview how your website link, title, and description look when shared on Facebook, Twitter, WhatsApp, and LinkedIn.",
+          "heading": "Social Media Link Preview Simulator",
+          "summary": "Test how your links, OpenGraph metadata, and social cards will appear to users on social media feeds and messaging apps.",
+          "privacy_note": "✳ Processed locally on your device in real-time. Zero server uploads."
+        },
+        {
+          "language": "ar",
+          "url": "https://snapkittools.online/ar/tools/social-preview/",
+          "title": "معاينة المشاركة – مجاناً أونلاين | SnapKit",
+          "description": "معاينة المشاركة: مجاني وخاص ويعمل في متصفحك. بلا رفع ملفات وبلا تسجيل.",
+          "heading": "معاينة المشاركة",
+          "summary": "شاهد كيف ستظهر بطاقة الرابط عند مشاركته.",
+          "privacy_note": "✳ تتم معالجة الملفات في متصفحك ولا يتم رفعها إلى SnapKit."
+        },
+        {
+          "language": "bn",
+          "url": "https://snapkittools.online/bn/tools/social-preview/",
+          "title": "OG প্রিভিউ – বিনামূল্যে অনলাইন | SnapKit",
+          "description": "OG প্রিভিউ: বিনামূল্যে, নিরাপদ এবং আপনার ব্রাউজারেই চলে। আপলোড বা সাইন-আপ লাগে না।",
+          "heading": "OG প্রিভিউ",
+          "summary": "সোশ্যাল শেয়ারের কার্ড কেমন দেখাবে, দেখে নিন।",
+          "privacy_note": "✳ ফাইল আপনার ব্রাউজারেই প্রসেস হয়। SnapKit-এ আপলোড করা হয় না।"
+        },
+        {
+          "language": "de",
+          "url": "https://snapkittools.online/de/tools/social-preview/",
+          "title": "Social Preview – Kostenlos Online | SnapKit",
+          "description": "Social Preview: Kostenlos, privat und direkt im Browser. Ohne Upload und ohne Anmeldung.",
+          "heading": "Social Preview",
+          "summary": "Vorschau auf geteilte Link-Karten anzeigen.",
+          "privacy_note": "✳ Dateien werden in Ihrem Browser verarbeitet. Sie werden nicht an SnapKit hochgeladen."
+        },
+        {
+          "language": "es",
+          "url": "https://snapkittools.online/es/tools/social-preview/",
+          "title": "Vista previa social – Gratis Online | SnapKit",
+          "description": "Vista previa social: Gratis, privado y funciona en tu navegador. Sin subir archivos ni registrarte.",
+          "heading": "Vista previa social",
+          "summary": "Comprueba cómo se verá tu enlace al compartirlo.",
+          "privacy_note": "✳ Los archivos se procesan en tu navegador. No se suben a SnapKit."
+        },
+        {
+          "language": "fr",
+          "url": "https://snapkittools.online/fr/tools/social-preview/",
+          "title": "Aperçu social – Gratuit en ligne | SnapKit",
+          "description": "Aperçu social: Gratuit, privé et fonctionne dans votre navigateur. Sans envoi de fichiers ni inscription.",
+          "heading": "Aperçu social",
+          "summary": "Prévisualisez le rendu de votre lien sur les réseaux sociaux.",
+          "privacy_note": "✳ Les fichiers sont traités dans votre navigateur. Ils ne sont pas envoyés à SnapKit."
+        },
+        {
+          "language": "hi",
+          "url": "https://snapkittools.online/hi/tools/social-preview/",
+          "title": "सोशल शेयर प्रीव्यू – मुफ़्त ऑनलाइन | SnapKit",
+          "description": "सोशल शेयर प्रीव्यू: मुफ़्त, निजी और आपके ब्राउज़र में चलता है। न अपलोड, न साइन-अप।",
+          "heading": "सोशल शेयर प्रीव्यू",
+          "summary": "शेयर किए जाने पर आपका लिंक कैसा दिखेगा, जाँचें।",
+          "privacy_note": "✳ फ़ाइलें आपके ब्राउज़र में प्रोसेस होती हैं। वे SnapKit पर अपलोड नहीं की जातीं।"
+        },
+        {
+          "language": "id",
+          "url": "https://snapkittools.online/id/tools/social-preview/",
+          "title": "Pratinjau sosial – Gratis Online | SnapKit",
+          "description": "Pratinjau sosial: Gratis, privat, dan berjalan di browser Anda. Tanpa unggah file dan tanpa daftar.",
+          "heading": "Pratinjau sosial",
+          "summary": "Lihat bagaimana tampilan kartu tautan saat dibagikan.",
+          "privacy_note": "✳ File diproses di browser Anda. File tidak diunggah ke SnapKit."
+        },
+        {
+          "language": "it",
+          "url": "https://snapkittools.online/it/tools/social-preview/",
+          "title": "Anteprima social – Gratuito Online | SnapKit",
+          "description": "Anteprima social: Gratuito, privato e funziona nel tuo browser. Senza caricamento file né registrazione.",
+          "heading": "Anteprima social",
+          "summary": "Visualizza in anteprima come apparirà il tuo link condiviso.",
+          "privacy_note": "✳ I file vengono elaborati nel tuo browser. Non vengono caricati su SnapKit."
+        },
+        {
+          "language": "ja",
+          "url": "https://snapkittools.online/ja/tools/social-preview/",
+          "title": "SNSプレビュー – 無料オンライン | SnapKit",
+          "description": "SNSプレビュー: 無料・プライバシー重視でブラウザ上で動作。アップロードも登録も不要です。",
+          "heading": "SNSプレビュー",
+          "summary": "共有リンクの表示カードをシミュレーションします。",
+          "privacy_note": "✳ ファイルはブラウザ内で処理され、SnapKitにはアップロードされません。"
+        },
+        {
+          "language": "ko",
+          "url": "https://snapkittools.online/ko/tools/social-preview/",
+          "title": "소셜 공유 미리보기 – 무료 온라인 | SnapKit",
+          "description": "소셜 공유 미리보기: 무료이며 개인정보를 보호하고 브라우저에서 작동합니다. 업로드와 가입이 필요 없습니다.",
+          "heading": "소셜 공유 미리보기",
+          "summary": "링크를 공유했을 때 어떻게 표시되는지 미리 확인하세요.",
+          "privacy_note": "✳ 파일은 브라우저에서 처리되며 SnapKit으로 업로드되지 않습니다."
+        },
+        {
+          "language": "nl",
+          "url": "https://snapkittools.online/nl/tools/social-preview/",
+          "title": "Sociale voorvertoning – Gratis Online | SnapKit",
+          "description": "Sociale voorvertoning: Gratis, privé en werkt in je browser. Geen bestanden uploaden of registreren.",
+          "heading": "Sociale voorvertoning",
+          "summary": "Bekijk hoe je deellink eruitziet op sociale media.",
+          "privacy_note": "✳ Bestanden worden lokaal verwerkt in je browser. Ze worden niet geüpload naar SnapKit."
+        },
+        {
+          "language": "pl",
+          "url": "https://snapkittools.online/pl/tools/social-preview/",
+          "title": "Podgląd społecznościowy – Za darmo online | SnapKit",
+          "description": "Podgląd społecznościowy: Darmowe, prywatne i działające w przeglądarce. Bez wysyłania plików i bez rejestracji.",
+          "heading": "Podgląd społecznościowy",
+          "summary": "Sprawdź, jak Twój link prezentuje się po udostępnieniu.",
+          "privacy_note": "✳ Pliki są przetwarzane w Twojej przeglądarce. Nie są wysyłane do SnapKit."
+        },
+        {
+          "language": "pt",
+          "url": "https://snapkittools.online/pt/tools/social-preview/",
+          "title": "Prévia para redes sociais – Grátis Online | SnapKit",
+          "description": "Prévia para redes sociais: Grátis, privado e funciona no navegador. Sem upload e sem cadastro.",
+          "heading": "Prévia para redes sociais",
+          "summary": "Veja como seu link aparecerá ao ser compartilhado.",
+          "privacy_note": "✳ Os arquivos são processados no seu navegador. Eles não são enviados ao SnapKit."
+        },
+        {
+          "language": "ru",
+          "url": "https://snapkittools.online/ru/tools/social-preview/",
+          "title": "Превью для соцсетей – бесплатно онлайн | SnapKit",
+          "description": "Превью для соцсетей: Бесплатно, конфиденциально, работает в браузере. Без загрузки файлов и регистрации.",
+          "heading": "Превью для соцсетей",
+          "summary": "Посмотрите, как будет выглядеть ссылка при публикации.",
+          "privacy_note": "✳ Файлы обрабатываются в вашем браузере и не загружаются на SnapKit."
+        },
+        {
+          "language": "tr",
+          "url": "https://snapkittools.online/tr/tools/social-preview/",
+          "title": "Sosyal medya önizleme – Ücretsiz Online | SnapKit",
+          "description": "Sosyal medya önizleme: Ücretsiz, gizli ve tarayıcınızda çalışır. Dosya yükleme ve üyelik yok.",
+          "heading": "Sosyal medya önizleme",
+          "summary": "Bağlantınızın paylaşıldığında nasıl görüneceğini test edin.",
+          "privacy_note": "✳ Dosyalar tarayıcınızda işlenir. SnapKit'e yüklenmez."
+        },
+        {
+          "language": "vi",
+          "url": "https://snapkittools.online/vi/tools/social-preview/",
+          "title": "Xem trước chia sẻ – Miễn phí trực tuyến | SnapKit",
+          "description": "Xem trước chia sẻ: Miễn phí, riêng tư và chạy ngay trên trình duyệt. Không tải tệp lên, không cần đăng ký.",
+          "heading": "Xem trước chia sẻ",
+          "summary": "Xem trước hình ảnh thẻ liên kết khi chia sẻ mạng xã hội.",
+          "privacy_note": "✳ Tệp được xử lý ngay trên trình duyệt của bạn và không được tải lên SnapKit."
+        },
+        {
+          "language": "zh",
+          "url": "https://snapkittools.online/zh/tools/social-preview/",
+          "title": "社交分享卡片预览 – 免费在线 | SnapKit",
+          "description": "社交分享卡片预览: 免费、安全且直接在浏览器中运行。无需上传文件，无需注册。",
+          "heading": "社交分享卡片预览",
+          "summary": "预览您的链接在社交网络分享时的展示卡片效果。",
+          "privacy_note": "✳ 文件在浏览器本地处理，绝不会上传到 SnapKit。"
         }
       ]
     }

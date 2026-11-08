@@ -139,5 +139,28 @@ const urlset = sitemapEntries
   .map((e) => `  <url><loc>${e.loc}</loc><lastmod>${today}</lastmod>${e.alts ? allCodes.filter((c) => e.alts[c]).map((c) => `<xhtml:link rel="alternate" hreflang="${c}" href="${siteUrl}${e.alts[c]}"/>`).join('') + `<xhtml:link rel="alternate" hreflang="x-default" href="${siteUrl}${e.alts.en}"/>` : ''}</url>`)
   .join('\n');
 await writeFile(path.join(root, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urlset}\n</urlset>\n`, 'utf8');
-await writeFile(path.join(root, 'robots.txt'), `# Public pages are available to search and answer-engine crawlers.\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: *\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\n`, 'utf8');
+await writeFile(path.join(root, 'robots.txt'), `# Public pages are available to search and answer-engine crawlers.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: ${siteUrl}/sitemap.xml
+`, 'utf8');
 console.log(`Finalized ${pages.length} pages; sitemap has ${sitemapEntries.length} URLs.`);
