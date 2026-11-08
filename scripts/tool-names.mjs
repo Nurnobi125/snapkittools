@@ -1,0 +1,5 @@
+// Shared by generate-i18n-pages.mjs and chrome.mjs.
+// Order of data/i18n/*.json "names" arrays. Do not reorder; only append.
+export const NAMED = ['merge-pdf', 'extract-pdf-pages', 'rotate-pdf', 'image-to-pdf', 'pdf-page-count', 'pdf-to-image', 'word-counter', 'character-counter', 'json-formatter', 'json-minifier', 'password-generator', 'uuid-generator', 'base64-encoder', 'url-encoder', 'regex-tester', 'sha256-generator', 'percentage-calculator', 'discount-calculator', 'tip-calculator', 'age-calculator', 'date-difference-calculator', 'color-contrast-checker', 'lorem-ipsum-generator', 'text-compare', 'url-parser', 'essay-word-counter', 'ocr-online', 'image-to-text', 'image-to-word', 'bangla-ocr', 'image-compressor', 'split-pdf'];
+// Routes whose name is built from the pattern "{a} to {b}".
+export const PAIRS = { 'jpg-to-pdf': ['JPG', 'PDF'], 'png-to-pdf': ['PNG', 'PDF'], 'pdf-to-jpg': ['PDF', 'JPG'], 'pdf-to-png': ['PDF', 'PNG'], 'svg-to-pdf': ['SVG', 'PDF'], 'csv-to-json': ['CSV', 'JSON'], 'json-to-csv': ['JSON', 'CSV'] };
