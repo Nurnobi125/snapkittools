@@ -1,0 +1,1233 @@
+{
+ "jpg-to-png": {
+  "title": "JPG to PNG Converter – Free JPEG to PNG",
+  "description": "Convert JPG to PNG online for free. Fast JPEG to PNG converter that runs in your browser – no upload, no sign-up. Download your PNG in seconds.",
+  "extra": "Looking for a quick JPEG to PNG converter? This page lets you convert JPG to PNG free, without installing software. It works for a single photo or a screenshot saved as JPG, and the PNG is created on your own device.",
+  "faq": [
+   [
+    "Does JPG to PNG make the background transparent?",
+    "No. JPG has no transparency, so the new PNG keeps the same background. To remove a background you need a separate background remover."
+   ],
+   [
+    "Why is my PNG bigger than the JPG?",
+    "PNG is lossless, so photos usually become larger when saved as PNG. Keep the JPG if file size matters."
+   ]
+  ],
+  "bnH": "জেপিজি থেকে পিএনজি কনভার্ট",
+  "bnP": "জেপিজি (JPG) ছবি পিএনজি (PNG) ফরম্যাটে বদলাতে SnapKit-এর ফ্রি কনভার্টার ব্যবহার করুন। ছবি বাছুন, কনভার্ট করুন, আর ডাউনলোড করুন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "png-to-jpg",
+   "webp-to-png",
+   "image-to-pdf"
+  ]
+ },
+ "png-to-jpg": {
+  "title": "PNG to JPG Converter – Free PNG to JPEG",
+  "description": "Convert PNG to JPG online for free. Make smaller JPEG files for uploads and email. Runs in your browser – no upload, no account needed.",
+  "extra": "Need a smaller image for a website, form or email? Use this PNG to JPEG converter to change PNG to JPG in seconds. Because JPG files are usually lighter, they are easier to upload and share.",
+  "faq": [
+   [
+    "What happens to transparent areas in a PNG?",
+    "JPG cannot store transparency, so transparent pixels are placed on a white background."
+   ],
+   [
+    "Will I lose quality when I convert PNG to JPG?",
+    "JPG is lossy, so a small amount of detail can be lost. Keep your PNG original for editing or for sharp text and line art."
+   ]
+  ],
+  "bnH": "পিএনজি থেকে জেপিজি কনভার্ট",
+  "bnP": "পিএনজি (PNG) ছবিকে জেপিজি (JPG) করলে ফাইল ছোট হয়, তাই ওয়েবসাইটে আপলোড বা ইমেইলে পাঠানো সহজ হয়। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "jpg-to-png",
+   "png-to-webp",
+   "image-to-pdf"
+  ]
+ },
+ "webp-to-jpg": {
+  "title": "WebP to JPG Converter – Free & Instant",
+  "description": "Convert WebP to JPG online for free. Open WebP images in any app. Private browser conversion – no upload and no sign-up. Download JPG instantly.",
+  "extra": "Saved a picture from a website and it will not open? Many sites serve WebP images that older apps and editors cannot read. Use this WebP to JPEG converter to get a file that opens almost anywhere.",
+  "faq": [
+   [
+    "Why can’t I open my WebP image?",
+    "Some older programs and apps do not support WebP. Converting it to JPG makes it open on nearly every device."
+   ],
+   [
+    "Does WebP to JPG keep transparency?",
+    "No. JPG does not support transparency, so transparent areas are filled with white. Use WebP to PNG if you need to keep transparency."
+   ]
+  ],
+  "bnH": "ওয়েবপি থেকে জেপিজি কনভার্ট",
+  "bnP": "ওয়েবসাইট থেকে সেভ করা ওয়েবপি (WebP) ছবি অনেক সময় খোলে না। সেটিকে জেপিজি করে নিলে সব ডিভাইসে খুলবে। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "webp-to-png",
+   "jpg-to-webp",
+   "jpg-to-png"
+  ]
+ },
+ "webp-to-png": {
+  "title": "WebP to PNG Converter – Free Online",
+  "description": "Convert WebP to PNG online for free. Keep transparency, skip uploads and download your PNG fast. Runs privately in your browser.",
+  "extra": "Want to edit a WebP graphic or keep its transparent background? Converting WebP to PNG gives you a widely supported, lossless format that works in most editors and design tools.",
+  "faq": [
+   [
+    "Does WebP to PNG keep transparency?",
+    "Yes. If the WebP image has transparent areas, the PNG keeps them when your browser decodes the file correctly."
+   ],
+   [
+    "Why is the PNG larger than the WebP?",
+    "WebP is made for small files, while PNG is lossless. Converting does not restore lost detail and the PNG is often bigger."
+   ]
+  ],
+  "bnH": "ওয়েবপি থেকে পিএনজি কনভার্ট",
+  "bnP": "স্বচ্ছ ব্যাকগ্রাউন্ডসহ ওয়েবপি ছবি এডিট করতে চাইলে পিএনজিতে বদলে নিন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "webp-to-jpg",
+   "png-to-webp",
+   "png-to-jpg"
+  ]
+ },
+ "png-to-webp": {
+  "title": "PNG to WebP Converter – Smaller Images Free",
+  "description": "Convert PNG to WebP online for free to make web images smaller. Fast and private in your browser – no upload, no account.",
+  "extra": "Smaller images help pages load faster, which is good for visitors and for search. Use this PNG to WebP converter to create a lighter copy for your website, then compare it with the original.",
+  "faq": [
+   [
+    "Why convert PNG to WebP?",
+    "WebP files are often smaller than PNG, so pages can load faster. The result depends on the image."
+   ],
+   [
+    "Is WebP supported everywhere?",
+    "Current major browsers support WebP, but some older apps and editors may not open it."
+   ]
+  ],
+  "bnH": "পিএনজি থেকে ওয়েবপি কনভার্ট",
+  "bnP": "ওয়েবসাইটের ছবি ছোট করে লোডিং স্পিড বাড়াতে পিএনজি থেকে ওয়েবপি করা কাজে লাগে। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "jpg-to-webp",
+   "webp-to-png",
+   "png-to-jpg"
+  ]
+ },
+ "jpg-to-webp": {
+  "title": "JPG to WebP Converter – Smaller Images Free",
+  "description": "Convert JPG to WebP online for free. Make lighter website images fast, privately in your browser – no upload and no account.",
+  "extra": "Use this JPG to WebP converter to create a lightweight copy of your photo for a website or blog. Keep your original JPG, because re-saving an already compressed photo can reduce quality slightly.",
+  "faq": [
+   [
+    "Is WebP better than JPG?",
+    "WebP files are often smaller at similar quality, which helps pages load faster. JPG is still more widely supported by older apps."
+   ],
+   [
+    "Will my photo look different?",
+    "Usually the difference is hard to see, but results depend on the image and your browser’s encoder. Compare before replacing the original."
+   ]
+  ],
+  "bnH": "জেপিজি থেকে ওয়েবপি কনভার্ট",
+  "bnP": "ব্লগ বা ওয়েবসাইটের ছবি হালকা করতে জেপিজি থেকে ওয়েবপি করুন। মূল ছবিটি সবসময় আলাদা রেখে দিন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "png-to-webp",
+   "webp-to-jpg",
+   "jpg-to-png"
+  ]
+ },
+ "avif-to-jpg": {
+  "title": "AVIF to JPG Converter – Free Online",
+  "description": "Convert AVIF to JPG online for free when your browser can open AVIF. Private, fast, on your device – no upload and no sign-up.",
+  "extra": "AVIF gives small files, but many apps cannot open it yet. Use this AVIF to JPEG converter to get a universal JPG that works in email, documents and image editors.",
+  "faq": [
+   [
+    "What is an AVIF file?",
+    "AVIF is a newer image format that gives small files at good quality. Support is still growing across apps and devices."
+   ],
+   [
+    "Why does my AVIF not convert?",
+    "Your browser must be able to open AVIF first. Try an up-to-date browser if the file does not load."
+   ]
+  ],
+  "bnH": "এভিআইএফ থেকে জেপিজি কনভার্ট",
+  "bnP": "এভিআইএফ (AVIF) ছবি না খুললে জেপিজি করে নিন, তাহলে সব অ্যাপে খুলবে। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "webp-to-jpg",
+   "png-to-jpg",
+   "jpg-to-png"
+  ]
+ },
+ "svg-to-png": {
+  "title": "SVG to PNG Converter – Free Online",
+  "description": "Convert SVG to PNG online for free. Turn vector graphics into PNG images privately in your browser – no upload, no sign-up.",
+  "extra": "SVG is great for logos and icons, but many sites, apps and documents only accept raster images. This SVG to PNG converter makes a PNG copy you can upload anywhere.",
+  "faq": [
+   [
+    "Will my PNG be sharp?",
+    "PNG is made of pixels, so it is sharp at the size it is created. The converter uses the SVG’s own size, so very small SVGs give small PNGs."
+   ],
+   [
+    "Why does my SVG look different as PNG?",
+    "SVGs that depend on external fonts or images may not render exactly the same in a browser."
+   ]
+  ],
+  "bnH": "এসভিজি থেকে পিএনজি কনভার্ট",
+  "bnP": "লোগো বা আইকনের এসভিজি (SVG) ফাইলকে পিএনজি ছবিতে বদলান, যাতে যেকোনো জায়গায় আপলোড করা যায়। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "svg-to-jpg",
+   "svg-to-pdf",
+   "jpg-to-png"
+  ]
+ },
+ "svg-to-jpg": {
+  "title": "SVG to JPG Converter – Free Online",
+  "description": "Convert SVG to JPG online for free. Make a JPEG copy of your vector file privately in your browser – no upload, no sign-up.",
+  "extra": "Need a JPG version of your SVG logo or illustration? Use this SVG to JPEG converter to create a flattened copy for older apps, forms and websites.",
+  "faq": [
+   [
+    "What happens to a transparent SVG?",
+    "JPG has no transparency, so transparent parts are filled with white."
+   ],
+   [
+    "Should I choose JPG or PNG?",
+    "Choose JPG for smaller files, and PNG when you need sharp edges. Use SVG to PNG if transparency matters."
+   ]
+  ],
+  "bnH": "এসভিজি থেকে জেপিজি কনভার্ট",
+  "bnP": "এসভিজি ফাইল থেকে জেপিজি ছবি বানাতে এই টুল ব্যবহার করুন। স্বচ্ছ অংশ সাদা হয়ে যায়। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "svg-to-png",
+   "svg-to-pdf",
+   "png-to-jpg"
+  ]
+ },
+ "svg-to-pdf": {
+  "title": "SVG to PDF Converter – Free & Online",
+  "description": "Convert SVG to PDF online for free. Choose page size, orientation, margins and resolution. Private, in your browser – no upload.",
+  "extra": "This SVG to PDF converter places your logo, icon or illustration on a PDF page so you can print or share it. You control page size, orientation, fit, margins and render resolution.",
+  "faq": [
+   [
+    "Will the PDF be an editable vector file?",
+    "No. SnapKit rasterizes the SVG and places it on a PDF page, so the result is printable but not editable as vector paths."
+   ],
+   [
+    "What resolution should I choose?",
+    "Higher resolution gives sharper printing but uses more memory. Try 2× first and increase it for large prints."
+   ]
+  ],
+  "bnH": "এসভিজি থেকে পিডিএফ কনভার্ট",
+  "bnP": "এসভিজি (SVG) লোগো বা ডিজাইন পিডিএফ পেজে বসিয়ে প্রিন্ট বা শেয়ার করতে পারবেন। লক্ষ্য রাখুন, ফলাফল ইমেজ-ভিত্তিক পিডিএফ। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "image-to-pdf",
+   "svg-to-png",
+   "svg-to-jpg"
+  ]
+ },
+ "image-to-pdf": {
+  "title": "Image to PDF Converter – JPG, PNG to PDF",
+  "description": "Convert images to PDF online for free. Turn JPG, PNG and photos into one PDF, A4 or Letter. Private in your browser – no upload.",
+  "extra": "Use this image to PDF converter to turn photos, scans and screenshots into a single PDF. It is a quick way to convert a picture to PDF, add an image to a PDF, or create a PDF from several images for email, forms and printing.",
+  "faq": [
+   [
+    "Can I put multiple images in one PDF?",
+    "Yes. Choose several images and each one is placed on its own page in the same PDF."
+   ],
+   [
+    "Does it work for JPG and PNG?",
+    "Yes. JPG and PNG work, and other browser-readable image formats are rendered as PNG. You can also use our JPG to PDF or PNG to PDF pages."
+   ],
+   [
+    "How do I convert a photo to PDF on my phone?",
+    "Open this page in your phone's browser, choose the photo from your gallery or camera, pick A4 or Letter and select Create PDF. The file is created on your device."
+   ]
+  ],
+  "bnH": "ছবি থেকে পিডিএফ বানানো",
+  "bnP": "এক বা একাধিক ছবি থেকে একটি পিডিএফ ফাইল বানাতে SnapKit-এর ফ্রি টুল ব্যবহার করুন। ফর্ম জমা, ইমেইল বা প্রিন্টের জন্য খুবই কাজের। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "jpg-to-pdf",
+   "png-to-pdf",
+   "merge-pdf",
+   "image-to-text"
+  ]
+ },
+ "jpg-to-pdf": {
+  "title": "JPG to PDF Converter – Free & Online",
+  "description": "Convert JPG to PDF online for free. Turn one or many JPG photos into a PDF, A4 or Letter. Private in your browser – no upload.",
+  "extra": "This JPG to PDF converter turns photos and scans into a PDF in a few clicks. Choose one JPG or many, pick A4 or Letter, and download a PDF that is easy to email, print or submit with an online form.",
+  "faq": [
+   [
+    "How do I convert a JPG to PDF?",
+    "Open the tool, choose your JPG file or files, pick A4 or Letter and select Create PDF. Then download the document."
+   ],
+   [
+    "Can I combine several JPG photos into one PDF?",
+    "Yes. Select multiple JPG files and each becomes one page of the same PDF."
+   ],
+   [
+    "Can I merge JPG and PDF files?",
+    "Yes. Convert your JPG to PDF here, then use Merge PDF to combine it with other PDF files."
+   ]
+  ],
+  "bnH": "জেপিজি থেকে পিডিএফ কনভার্ট",
+  "bnP": "মোবাইলে তোলা ছবি বা স্ক্যান করা জেপিজি ফাইল পিডিএফ বানিয়ে ফর্মে জমা দিতে বা ইমেইলে পাঠাতে পারবেন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "image-to-pdf",
+   "png-to-pdf",
+   "merge-pdf"
+  ]
+ },
+ "png-to-pdf": {
+  "title": "PNG to PDF Converter – Free & Online",
+  "description": "Convert PNG to PDF online for free. Turn screenshots and PNG images into a PDF, A4 or Letter. Private in your browser – no upload.",
+  "extra": "Turn screenshots, graphics and other PNG files into a PDF with this PNG to PDF converter. PNG files keep their transparency inside the PDF page, and several images can be combined into one document.",
+  "faq": [
+   [
+    "Does PNG to PDF keep the quality?",
+    "PNG is lossless, and the image is fitted inside the page margins. PNG transparency is kept."
+   ],
+   [
+    "Can I convert screenshots to PDF?",
+    "Yes. Screenshots are usually PNG files, so you can convert them here."
+   ],
+   [
+    "Can I convert several PNG images into one PDF?",
+    "Yes. Select multiple PNG files and each image becomes one page of the same PDF."
+   ]
+  ],
+  "bnH": "পিএনজি থেকে পিডিএফ কনভার্ট",
+  "bnP": "স্ক্রিনশট বা পিএনজি ছবি পিডিএফ ফাইলে বদলাতে এই টুল ব্যবহার করুন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "image-to-pdf",
+   "jpg-to-pdf",
+   "merge-pdf"
+  ]
+ },
+ "merge-pdf": {
+  "title": "Merge PDF Online Free – Combine PDF Files",
+  "description": "Merge PDF files online for free. Combine two or more PDFs, or merge PDF and JPG into one document. No upload, no sign-up.",
+  "extra": "Use this PDF merger to combine PDF files into one, whether you want to join two PDFs, merge invoices or put scanned pages together. To add pages to an existing PDF, merge it with another PDF that holds the new pages. To merge a PDF and a JPG, turn the picture into a PDF with Image to PDF first, then merge both PDFs here.",
+  "faq": [
+   [
+    "How do I combine two PDFs into one?",
+    "Select both PDF files, check the order, then merge and download the combined file."
+   ],
+   [
+    "Can I add pages to an existing PDF?",
+    "Yes. Merge your existing PDF with a second PDF that has the pages you want to add. Use Extract PDF Pages afterwards if you need to remove some."
+   ],
+   [
+    "How do I merge a PDF and a JPG into one PDF?",
+    "Convert the JPG to a PDF with our Image to PDF tool, then select that PDF together with your other PDF here and merge them in the order you want."
+   ],
+   [
+    "Can I merge PDF files online for free without uploading them?",
+    "Yes. The files are merged in your browser and are not uploaded to SnapKit. There is no sign-up."
+   ],
+   [
+    "Can I split and merge PDF files online?",
+    "Yes. Use Split PDF to break a document into pages or parts, and this tool to merge PDFs again in a new order."
+   ]
+  ],
+  "bnH": "পিডিএফ মার্জ করা",
+  "bnP": "একাধিক পিডিএফ ফাইল এক ফাইলে জোড়া লাগাতে SnapKit-এর ফ্রি পিডিএফ মার্জ টুল ব্যবহার করুন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "split-pdf",
+   "extract-pdf-pages",
+   "rotate-pdf",
+   "image-to-pdf"
+  ]
+ },
+ "extract-pdf-pages": {
+  "title": "Extract PDF Pages – Save Selected Pages as New PDF",
+  "description": "Extract pages from a PDF online for free. Enter page numbers or ranges like 1-3,5 and save them as a new PDF. Private in your browser.",
+  "extra": "Only need a few pages from a long document? Extract them into one new, smaller PDF. To break a PDF into several files at once, such as one file per page, use Split PDF.",
+  "faq": [
+   [
+    "How do I separate pages from a PDF?",
+    "Choose the PDF, type the pages to keep (for example 2 or 4-6), and select Extract Pages. The pages are saved as a new PDF and the original stays unchanged."
+   ],
+   [
+    "Does the original PDF change?",
+    "No. A new PDF is created and your original file stays unchanged."
+   ],
+   [
+    "What is the difference between extract and split?",
+    "Extract keeps the pages you choose in one new PDF. Split cuts the whole document into several PDFs at once, for example one file per page."
+   ]
+  ],
+  "bnH": "পিডিএফ থেকে নির্দিষ্ট পৃষ্ঠা আলাদা করা",
+  "bnP": "বড় পিডিএফ থেকে শুধু প্রয়োজনীয় পৃষ্ঠাগুলো আলাদা ফাইলে নিতে এই টুল ব্যবহার করুন। উদাহরণ: 1-3,5 লিখলে পৃষ্ঠা ১, ২, ৩ ও ৫ আসবে। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "split-pdf",
+   "merge-pdf",
+   "rotate-pdf",
+   "pdf-page-count"
+  ]
+ },
+ "rotate-pdf": {
+  "title": "Rotate PDF Pages Online – Free & Easy",
+  "description": "Rotate PDF pages 90, 180 or 270 degrees online for free. Fix sideways PDFs privately in your browser – no upload.",
+  "extra": "Fix a scanned PDF that opens sideways or upside down. Choose 90, 180 or 270 degrees and save a corrected copy. The rotation is applied to every page of the document.",
+  "faq": [
+   [
+    "Can I rotate only some pages?",
+    "This tool rotates all pages by the angle you pick. To rotate only some pages, extract them first with Extract PDF Pages."
+   ],
+   [
+    "Is the rotation saved in the new file?",
+    "Yes. The downloaded copy keeps the new orientation, and your original file is not changed."
+   ]
+  ],
+  "bnH": "পিডিএফ রোটেট করা",
+  "bnP": "পিডিএফ উল্টো বা কাত হয়ে খুললে ৯০, ১৮০ বা ২৭০ ডিগ্রি ঘুরিয়ে ঠিক করে নিন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "merge-pdf",
+   "extract-pdf-pages",
+   "pdf-page-count"
+  ]
+ },
+ "pdf-page-count": {
+  "title": "PDF Page Counter – Count Pages in a PDF",
+  "description": "Count the pages in a PDF online for free. Select a file and get the page count privately in your browser – no upload.",
+  "extra": "Forms, printers and online portals often have page limits. Use this PDF page counter to check how many pages a file has before you upload, print or send it.",
+  "faq": [
+   [
+    "How do I check how many pages my PDF has?",
+    "Select your PDF and the tool shows the page count in your browser."
+   ],
+   [
+    "Does it work with password-protected PDFs?",
+    "Password-protected or damaged PDFs may not open. Remove the password first if you can."
+   ]
+  ],
+  "bnH": "পিডিএফের পৃষ্ঠা সংখ্যা গোনা",
+  "bnP": "আপলোড বা প্রিন্টের আগে পিডিএফে কতগুলো পৃষ্ঠা আছে তা মুহূর্তে জেনে নিন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "merge-pdf",
+   "extract-pdf-pages",
+   "rotate-pdf"
+  ]
+ },
+ "pdf-to-image": {
+  "title": "PDF to Image Converter – PDF to PNG or JPG",
+  "description": "Convert a PDF page to PNG or JPG online for free. Private in your browser – no upload, no sign-up. Download the image fast.",
+  "extra": "Turn a PDF page into a picture for slides, social posts or chats. Pick the page number, choose PNG or JPG and download the image. You can also start from the PDF to JPG or PDF to PNG pages.",
+  "faq": [
+   [
+    "Can I save one page as an image?",
+    "Yes. Enter the page number and the tool renders just that page."
+   ],
+   [
+    "Should I choose PNG or JPG?",
+    "PNG keeps text and line art sharp. JPG gives smaller files and suits photos."
+   ]
+  ],
+  "bnH": "পিডিএফ থেকে ছবি বানানো",
+  "bnP": "পিডিএফের যেকোনো একটি পৃষ্ঠা পিএনজি বা জেপিজি ছবি হিসেবে সেভ করুন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "pdf-to-jpg",
+   "pdf-to-png",
+   "extract-pdf-pages",
+   "merge-pdf"
+  ]
+ },
+ "pdf-to-jpg": {
+  "title": "PDF to JPG Converter – Free & Online",
+  "description": "Convert a PDF page to JPG online for free. Choose the page, select JPG and download. Private in your browser – no upload.",
+  "extra": "This PDF to JPG converter saves a page of your PDF as a JPG image. Select the PDF, enter the page number, choose JPG in the format menu and download the picture.",
+  "faq": [
+   [
+    "How do I convert a PDF to JPG?",
+    "Open the tool, choose your PDF, enter the page number, select JPG as the image format and convert the page."
+   ],
+   [
+    "Can I convert all pages at once?",
+    "The tool renders one page at a time. Repeat with another page number for each page you need."
+   ]
+  ],
+  "bnH": "পিডিএফ থেকে জেপিজি কনভার্ট",
+  "bnP": "পিডিএফের পৃষ্ঠা জেপিজি ছবি বানাতে টুলে পৃষ্ঠা নম্বর দিন এবং ফরম্যাট থেকে JPG বাছুন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "pdf-to-png",
+   "pdf-to-image",
+   "extract-pdf-pages"
+  ]
+ },
+ "pdf-to-png": {
+  "title": "PDF to PNG Converter – Free & Online",
+  "description": "Convert a PDF page to PNG online for free. Sharp text and graphics, private in your browser – no upload, no sign-up.",
+  "extra": "PNG keeps text and line art crisp, which makes it a good choice for slides and documents. Choose your PDF, enter the page number, select PNG in the format menu and download the image.",
+  "faq": [
+   [
+    "Why choose PNG for a PDF page?",
+    "PNG is lossless, so text and graphics stay sharp. The file is usually larger than a JPG."
+   ],
+   [
+    "Can I convert only one page?",
+    "Yes. Enter the page number you need. Repeat for other pages."
+   ]
+  ],
+  "bnH": "পিডিএফ থেকে পিএনজি কনভার্ট",
+  "bnP": "টেক্সট ও গ্রাফিক্স স্পষ্ট রাখতে পিডিএফ পৃষ্ঠা পিএনজি ছবিতে বদলান। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "pdf-to-jpg",
+   "pdf-to-image",
+   "extract-pdf-pages"
+  ]
+ },
+ "word-counter": {
+  "title": "Word Counter – Count Words & Characters",
+  "description": "Free online word counter. Count words, characters, sentences and lines, plus reading time. Runs in your browser – paste text and see results instantly.",
+  "extra": "Check the length of an essay, article, post or message with this word counter. Paste your text to see words, characters, sentences, lines and estimated reading time instantly.",
+  "faq": [
+   [
+    "Does it also count characters?",
+    "Yes. You get words, characters, sentences and lines, so you can match limits for essays, posts and forms."
+   ],
+   [
+    "How accurate is the word count?",
+    "Words are counted by spacing. Other programs may count hyphenated words or numbers slightly differently."
+   ]
+  ],
+  "bnH": "শব্দ গণনা (Word Counter)",
+  "bnP": "লেখা পেস্ট করলেই শব্দ, অক্ষর, বাক্য ও লাইনের সংখ্যা দেখতে পাবেন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "character-counter",
+   "essay-word-counter",
+   "ocr-online"
+  ]
+ },
+ "essay-word-counter": {
+  "title": "Essay Word Counter – Check Essay Length",
+  "description": "Free essay word counter. Paste your essay to count words, characters and reading time instantly. Private in your browser – no sign-up.",
+  "extra": "Students can use this essay word counter to check whether a paper meets the required length. Paste your essay and read the word and character count. Remove the title or references first if your limit does not include them.",
+  "faq": [
+   [
+    "How many words is a typical essay?",
+    "It depends on the assignment. Always follow your teacher’s or exam’s word limit. Short school essays are often a few hundred words, while longer papers can be much longer."
+   ],
+   [
+    "Does the count include the title and references?",
+    "It counts whatever text you paste. Remove parts that your limit does not include, then check the count again."
+   ]
+  ],
+  "bnH": "এসে বা রচনার শব্দ গণনা",
+  "bnP": "রচনা, অ্যাসাইনমেন্ট বা আবেদনপত্রের শব্দসংখ্যা নির্দিষ্ট সীমার মধ্যে আছে কি না যাচাই করুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "word-counter",
+   "character-counter",
+   "text-compare"
+  ]
+ },
+ "character-counter": {
+  "title": "Character Counter – With & Without Spaces",
+  "description": "Free online character counter. Count characters with and without spaces, plus UTF-8 bytes. Runs in your browser – paste text and see the result.",
+  "extra": "Use this character counter to check the length of SEO titles, meta descriptions, bios, captions and messages. It shows characters with spaces, without spaces and UTF-8 bytes.",
+  "faq": [
+   [
+    "Are spaces counted?",
+    "The tool shows the count both with and without spaces."
+   ],
+   [
+    "Why count characters?",
+    "Many fields have limits, such as SEO titles, meta descriptions, bios and SMS messages."
+   ]
+  ],
+  "bnH": "অক্ষর গণনা (Character Counter)",
+  "bnP": "পোস্ট, বায়ো বা মেটা ডেসক্রিপশনের অক্ষর সংখ্যা স্পেসসহ ও স্পেস ছাড়া দেখুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "word-counter",
+   "essay-word-counter",
+   "ocr-online"
+  ]
+ },
+ "lorem-ipsum-generator": {
+  "title": "Lorem Ipsum Generator – Free Placeholder Text",
+  "description": "Free Lorem Ipsum generator. Create placeholder paragraphs for mockups and layouts instantly in your browser – no sign-up.",
+  "extra": "Designers and developers use Lorem Ipsum to fill layouts before the real copy is ready. Choose the number of paragraphs and copy the dummy text into your design.",
+  "faq": [
+   [
+    "What is Lorem Ipsum?",
+    "It is dummy text used to fill layouts before real content is ready."
+   ],
+   [
+    "Should I publish pages with Lorem Ipsum?",
+    "No. Replace placeholder text with real content before publishing."
+   ]
+  ],
+  "bnH": "লরেম ইপসাম টেক্সট তৈরি",
+  "bnP": "ডিজাইন বা ওয়েবসাইটের মকআপের জন্য ডামি টেক্সট দরকার হলে এখান থেকে তৈরি করে নিন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "text-compare",
+   "word-counter",
+   "character-counter"
+  ]
+ },
+ "text-compare": {
+  "title": "Text Compare – Find Differences in Text",
+  "description": "Compare two texts online for free. See added, removed and unchanged lines. Private in your browser – no sign-up.",
+  "extra": "Paste an original and a revised version to spot changes quickly. It is useful for editing, proofreading, versions of a contract or checking small differences you might miss by eye.",
+  "faq": [
+   [
+    "What can I compare?",
+    "Any two pieces of text, such as essays, lists, notes or code snippets. Differences are shown line by line."
+   ],
+   [
+    "Does it compare line by line?",
+    "Yes. It shows added, removed and unchanged lines."
+   ]
+  ],
+  "bnH": "দুটি লেখার পার্থক্য খোঁজা",
+  "bnP": "মূল লেখা ও সংশোধিত লেখা পাশাপাশি দিলে কোন লাইন যোগ বা বাদ হয়েছে তা দেখা যায়। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "word-counter",
+   "json-formatter",
+   "lorem-ipsum-generator"
+  ]
+ },
+ "json-formatter": {
+  "title": "JSON Formatter & Validator – Free Online",
+  "description": "Free online JSON formatter and validator. Beautify JSON, find syntax errors and copy clean output. Runs in your browser.",
+  "extra": "Paste JSON to validate it and get a neatly indented version for debugging or sharing. If the JSON has a syntax error, the formatter helps you notice it.",
+  "faq": [
+   [
+    "Why is my JSON invalid?",
+    "Common causes are missing commas, single quotes instead of double quotes, and an extra comma at the end of a list."
+   ],
+   [
+    "What does a JSON formatter do?",
+    "It adds indentation and line breaks so JSON is easy to read, without changing the data."
+   ]
+  ],
+  "bnH": "জেসন ফরম্যাট ও যাচাই",
+  "bnP": "জেসন (JSON) কোড সুন্দরভাবে সাজাতে এবং ভুল আছে কি না দেখতে এখানে পেস্ট করুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "json-minifier",
+   "json-to-csv",
+   "csv-to-json"
+  ]
+ },
+ "json-minifier": {
+  "title": "JSON Minifier – Compress JSON Online Free",
+  "description": "Free online JSON minifier. Remove whitespace to make JSON compact while keeping the data unchanged. Runs in your browser.",
+  "extra": "Minify JSON to create a compact one-line version for APIs, config files and storage. Only whitespace is removed, so the data stays the same.",
+  "faq": [
+   [
+    "What does minify JSON mean?",
+    "It removes spaces and line breaks to make the JSON smaller without changing its data."
+   ],
+   [
+    "Is minified JSON still valid?",
+    "Yes. Only unnecessary whitespace is removed."
+   ]
+  ],
+  "bnH": "জেসন মিনিফাই",
+  "bnP": "জেসনের অতিরিক্ত স্পেস ও লাইন সরিয়ে ফাইল ছোট করতে এই টুল ব্যবহার করুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "json-formatter",
+   "json-to-csv",
+   "csv-to-json"
+  ]
+ },
+ "json-to-csv": {
+  "title": "JSON to CSV Converter – Free Online",
+  "description": "Convert JSON to CSV online for free. Turn a JSON array of objects into a CSV table for Excel or Google Sheets. Runs in your browser.",
+  "extra": "Paste a JSON array of objects to create CSV text with a header row. You can open the result in Excel, Google Sheets or any spreadsheet app.",
+  "faq": [
+   [
+    "What JSON works best?",
+    "An array of objects with the same keys converts cleanly into rows and columns."
+   ],
+   [
+    "Can I open the CSV in Excel?",
+    "Yes. CSV opens in Excel, Google Sheets and most spreadsheet apps."
+   ]
+  ],
+  "bnH": "জেসন থেকে সিএসভি কনভার্ট",
+  "bnP": "জেসন ডেটাকে সিএসভি টেবিলে বদলে এক্সেল বা গুগল শিটে খুলুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "csv-to-json",
+   "json-formatter",
+   "json-minifier"
+  ]
+ },
+ "csv-to-json": {
+  "title": "CSV to JSON Converter – Free Online",
+  "description": "Convert CSV to JSON online for free. Turn rows with a header into a JSON array of objects. Runs in your browser – no upload.",
+  "extra": "Paste CSV with a header row and get a JSON array where each column name becomes a property. Handy for APIs, testing and importing data into apps.",
+  "faq": [
+   [
+    "Does the first row become the keys?",
+    "Yes. The header row provides the property names, so make sure your CSV has one."
+   ],
+   [
+    "How do I convert a spreadsheet?",
+    "Export it as CSV from Excel or Google Sheets, then paste it here."
+   ]
+  ],
+  "bnH": "সিএসভি থেকে জেসন কনভার্ট",
+  "bnP": "সিএসভি ডেটা পেস্ট করলেই জেসন অ্যারে পাবেন, যেখানে কলামের নামগুলো কী হিসেবে বসে। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "json-to-csv",
+   "json-formatter",
+   "json-minifier"
+  ]
+ },
+ "password-generator": {
+  "title": "Password Generator – Strong Random Passwords",
+  "description": "Free password generator. Create strong random passwords locally in your browser. Nothing is sent to a server.",
+  "extra": "Choose a length and create a random password on your own device. Use a different password for every account and store them in a password manager.",
+  "faq": [
+   [
+    "What makes a password strong?",
+    "Length and randomness. Use a long password and a different one for each account."
+   ],
+   [
+    "Is the password created in my browser?",
+    "Yes. It is generated locally and is not sent to a server."
+   ]
+  ],
+  "bnH": "শক্তিশালী পাসওয়ার্ড তৈরি",
+  "bnP": "নিজের ডিভাইসেই র‍্যান্ডম পাসওয়ার্ড তৈরি করুন। প্রতিটি অ্যাকাউন্টের জন্য আলাদা পাসওয়ার্ড ব্যবহার করুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "uuid-generator",
+   "sha256-generator",
+   "base64-encoder"
+  ]
+ },
+ "uuid-generator": {
+  "title": "UUID Generator – Random UUID v4 Online",
+  "description": "Free UUID v4 generator. Create random UUIDs with browser cryptography for development and testing. Runs in your browser.",
+  "extra": "Generate a version 4 UUID for database records, tests and APIs. The identifier is created locally with your browser’s cryptography.",
+  "faq": [
+   [
+    "What is a UUID v4?",
+    "It is a randomly generated 128-bit identifier written as 36 characters with hyphens."
+   ],
+   [
+    "Can two UUIDs be the same?",
+    "The chance of a collision is extremely small, which is why UUIDs are widely used as unique IDs."
+   ]
+  ],
+  "bnH": "ইউইউআইডি জেনারেটর",
+  "bnP": "ডেভেলপমেন্ট বা টেস্টিংয়ের জন্য এক ক্লিকে UUID v4 তৈরি করুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "password-generator",
+   "sha256-generator",
+   "base64-encoder"
+  ]
+ },
+ "base64-encoder": {
+  "title": "Base64 Encoder – Encode Text to Base64",
+  "description": "Free online Base64 encoder. Convert UTF-8 text to Base64 instantly in your browser. Remember: Base64 is encoding, not encryption.",
+  "extra": "Paste text to encode its UTF-8 bytes as Base64. Base64 is used in emails, APIs and data URLs.",
+  "faq": [
+   [
+    "What is Base64?",
+    "A way to write data using plain text characters. It is common in emails, APIs and data URLs."
+   ],
+   [
+    "Is Base64 encryption?",
+    "No. Anyone can decode Base64, so never use it to protect secrets."
+   ]
+  ],
+  "bnH": "বেস৬৪ এনকোড",
+  "bnP": "লেখাকে Base64-এ এনকোড করুন। মনে রাখবেন, এটি এনক্রিপশন নয়। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "url-encoder",
+   "sha256-generator",
+   "json-formatter"
+  ]
+ },
+ "url-encoder": {
+  "title": "URL Encoder – Percent-Encode Text Online",
+  "description": "Free online URL encoder. Convert spaces and special characters to percent-encoding for URL parameters. Runs in your browser.",
+  "extra": "Encode text for use in a URL query parameter. Spaces and reserved characters are turned into percent codes such as %20.",
+  "faq": [
+   [
+    "What is URL encoding?",
+    "It replaces unsafe characters, like spaces, with percent codes so a link works correctly."
+   ],
+   [
+    "When should I encode a URL?",
+    "When a link contains spaces, symbols or non-English letters, or when you pass text as a query parameter."
+   ]
+  ],
+  "bnH": "ইউআরএল এনকোড",
+  "bnP": "লিংকে স্পেস বা বিশেষ চিহ্ন থাকলে সেগুলো নিরাপদ কোডে বদলে নিন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "url-parser",
+   "base64-encoder",
+   "regex-tester"
+  ]
+ },
+ "url-parser": {
+  "title": "URL Parser – Inspect URL Parts & Parameters",
+  "description": "Free online URL parser. Break a URL into protocol, host, path, query and fragment. Runs in your browser – nothing is sent.",
+  "extra": "Paste a full URL to see its protocol, host, path, query parameters and fragment. Useful for debugging links and tracking parameters.",
+  "faq": [
+   [
+    "What parts does a URL have?",
+    "Protocol, host, path, query parameters and the fragment after the # sign."
+   ],
+   [
+    "Is my URL sent anywhere?",
+    "No. The URL is parsed in your browser."
+   ]
+  ],
+  "bnH": "ইউআরএল পার্সার",
+  "bnP": "যেকোনো লিংক পেস্ট করে তার অংশগুলো আলাদা করে দেখুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "url-encoder",
+   "regex-tester",
+   "base64-encoder"
+  ]
+ },
+ "regex-tester": {
+  "title": "Regex Tester – Test Regular Expressions Online",
+  "description": "Free online regex tester. Try a regular expression on sample text and see matches with positions. Runs in your browser.",
+  "extra": "Enter a pattern, optional flags and sample text to list matches and their positions. Because it runs in your browser, it follows JavaScript regular expression rules.",
+  "faq": [
+   [
+    "What is a regular expression?",
+    "A pattern used to search, match or replace text."
+   ],
+   [
+    "Which regex flavor does it use?",
+    "It runs in your browser, so it follows JavaScript regex rules."
+   ]
+  ],
+  "bnH": "রেগুলার এক্সপ্রেশন টেস্ট",
+  "bnP": "রেজেক্স প্যাটার্ন লিখে নমুনা টেক্সটে কী কী মিলছে তা দেখুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "url-parser",
+   "json-formatter",
+   "text-compare"
+  ]
+ },
+ "sha256-generator": {
+  "title": "SHA-256 Hash Generator – Free Online",
+  "description": "Free SHA-256 hash generator. Create a SHA-256 digest from text with the Web Crypto API in your browser. Hashing is one-way.",
+  "extra": "Enter text to calculate its SHA-256 hash locally. The same text always gives the same hash, and the hash cannot be turned back into the text.",
+  "faq": [
+   [
+    "What is SHA-256?",
+    "A hash function that turns text into a fixed-length code. The same input always gives the same output."
+   ],
+   [
+    "Can a SHA-256 hash be reversed?",
+    "No. It is a one-way function."
+   ]
+  ],
+  "bnH": "এসএইচএ-২৫৬ হ্যাশ তৈরি",
+  "bnP": "লেখা থেকে SHA-256 হ্যাশ তৈরি করুন। হ্যাশ থেকে মূল লেখা ফেরত পাওয়া যায় না। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "base64-encoder",
+   "password-generator",
+   "uuid-generator"
+  ]
+ },
+ "percentage-calculator": {
+  "title": "Percentage Calculator – Free Online",
+  "description": "Free percentage calculator. Find a percentage of any number instantly in your browser – quick, simple, no sign-up.",
+  "extra": "Enter a percentage and a number to find the value. For example, 20% of 150 is 30.",
+  "faq": [
+   [
+    "How do I calculate a percentage of a number?",
+    "Multiply the number by the percentage and divide by 100. For example, 20% of 150 is 150 × 20 ÷ 100 = 30."
+   ],
+   [
+    "How do I find a percentage increase?",
+    "Subtract the old value from the new value, divide by the old value and multiply by 100."
+   ]
+  ],
+  "bnH": "শতকরা হিসাব (Percentage)",
+  "bnP": "কোনো সংখ্যার শতকরা মান মুহূর্তে বের করুন। যেমন ১৫০-এর ২০% = ৩০। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "discount-calculator",
+   "tip-calculator",
+   "age-calculator"
+  ]
+ },
+ "discount-calculator": {
+  "title": "Discount Calculator – Sale Price & Savings",
+  "description": "Free discount calculator. Enter a price and discount percentage to see your savings and final sale price. Runs in your browser.",
+  "extra": "Check the final price before you buy. Enter the original price and the discount to see how much you save.",
+  "faq": [
+   [
+    "How do I calculate a discount?",
+    "Multiply the price by the discount percentage and divide by 100 to get the savings, then subtract it from the price. For example, 25% off 80 saves 20, so you pay 60."
+   ],
+   [
+    "Can I check the final price before buying?",
+    "Yes. Enter the original price and discount to see the sale price."
+   ]
+  ],
+  "bnH": "ডিসকাউন্ট হিসাব",
+  "bnP": "দাম ও ছাড়ের শতকরা হার দিলে কত টাকা বাঁচবে এবং শেষ দাম কত হবে তা দেখুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "percentage-calculator",
+   "tip-calculator",
+   "age-calculator"
+  ]
+ },
+ "tip-calculator": {
+  "title": "Tip Calculator – Tip & Bill Total Free",
+  "description": "Free tip calculator. Enter your bill and tip percentage to get the tip amount and total. Runs in your browser.",
+  "extra": "Enter the bill amount and a tip rate to see the tip and the total to pay.",
+  "faq": [
+   [
+    "How is the tip calculated?",
+    "The tip is the bill multiplied by the tip percentage. Add it to the bill for the total."
+   ],
+   [
+    "How much should I tip?",
+    "Tipping customs differ by country and service, so choose the rate that fits your situation."
+   ]
+  ],
+  "bnH": "টিপ হিসাব",
+  "bnP": "বিলের পরিমাণ ও টিপের হার দিলে টিপ কত এবং মোট কত দিতে হবে তা জানুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "percentage-calculator",
+   "discount-calculator",
+   "age-calculator"
+  ]
+ },
+ "age-calculator": {
+  "title": "Age Calculator – Calculate Age from Birth Date",
+  "description": "Free age calculator. Choose a date of birth and see your age in years based on today’s date. Runs in your browser.",
+  "extra": "Pick your birth date to calculate your age based on today’s date. Handy for forms, eligibility checks and birthdays.",
+  "faq": [
+   [
+    "How do I calculate my age from my date of birth?",
+    "Choose your date of birth and the tool shows your age in years."
+   ],
+   [
+    "Is today’s date used?",
+    "Yes. The age is calculated against today’s date on your device."
+   ]
+  ],
+  "bnH": "বয়স হিসাব (Age Calculator)",
+  "bnP": "জন্ম তারিখ দিলে আজকের তারিখ অনুযায়ী আপনার বয়স জানতে পারবেন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "date-difference-calculator",
+   "percentage-calculator",
+   "discount-calculator"
+  ]
+ },
+ "date-difference-calculator": {
+  "title": "Date Difference Calculator – Days Between Dates",
+  "description": "Free date difference calculator. Count the days between two dates, inclusive. Runs in your browser – quick and simple.",
+  "extra": "Choose a start date and an end date to count the days between them. The count is inclusive, so both dates are included.",
+  "faq": [
+   [
+    "How do I count days between two dates?",
+    "Choose a start date and an end date and the tool shows the number of days between them, inclusive."
+   ],
+   [
+    "When is this useful?",
+    "For deadlines, project plans, travel countdowns and contract periods."
+   ]
+  ],
+  "bnH": "দুই তারিখের মধ্যে কত দিন",
+  "bnP": "শুরুর ও শেষ তারিখ দিলে মাঝের দিনের সংখ্যা জানা যায় (দুই তারিখসহ গণনা)। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "age-calculator",
+   "percentage-calculator",
+   "tip-calculator"
+  ]
+ },
+ "color-contrast-checker": {
+  "title": "Color Contrast Checker – WCAG Contrast Ratio",
+  "description": "Free color contrast checker. Check WCAG AA contrast between two HEX colors for normal and large text. Runs in your browser.",
+  "extra": "Enter foreground and background HEX colors to see the contrast ratio and WCAG AA results for normal and large text. Good contrast makes text readable for everyone.",
+  "faq": [
+   [
+    "What contrast ratio does WCAG AA require?",
+    "For normal text, at least 4.5:1. For large text, at least 3:1."
+   ],
+   [
+    "Why does contrast matter?",
+    "Good contrast makes text readable for people with low vision or in bright light, and helps meet accessibility guidelines."
+   ]
+  ],
+  "bnH": "রঙের কনট্রাস্ট যাচাই",
+  "bnP": "টেক্সট ও ব্যাকগ্রাউন্ডের রঙ দিয়ে WCAG কনট্রাস্ট রেশিও যাচাই করুন। কোনো সাইনআপ লাগে না এবং আপনার লেখা বা ডেটা সার্ভারে পাঠানো হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "lorem-ipsum-generator",
+   "text-compare",
+   "json-formatter"
+  ]
+ },
+ "ocr-online": {
+  "title": "Free Online OCR – Extract Text from Images",
+  "description": "Free online OCR: extract text from photos, scans and screenshots. Copy it or save as TXT or Word. Runs in your browser – no upload to SnapKit.",
+  "extra": "Use this free OCR online tool to copy text out of a picture instead of typing it again. It works with photos of documents, screenshots, signs and scanned pages, and you can save the result as a text file or a Word document.",
+  "faq": [
+   [
+    "What is OCR?",
+    "OCR stands for optical character recognition. It finds letters in an image and converts them to text you can edit and search."
+   ],
+   [
+    "Why is some of my text wrong?",
+    "OCR can misread blurry, small or decorative text, and handwriting is usually not recognized well. Use a sharp, high-resolution image and proofread the result."
+   ]
+  ],
+  "bnH": "অনলাইন OCR",
+  "bnP": "ছবি থেকে লেখা কপি করতে ছবি বাছুন, ভাষা ঠিক করুন এবং Extract text চাপুন। ফলাফল কপি করুন বা TXT/Word ফাইলে নামান। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "image-to-text",
+   "image-to-word",
+   "bangla-ocr",
+   "word-counter"
+  ]
+ },
+ "image-to-text": {
+  "title": "Image to Text Converter – Free Online OCR",
+  "description": "Convert an image to text online for free. Turn photos and screenshots into editable text with OCR. Private in your browser – no sign-up.",
+  "extra": "Looking for a picture to text converter? Choose an image with printed text and the tool turns it into text you can copy, edit or save. It is handy for screenshots, scanned notes, receipts and book pages.",
+  "faq": [
+   [
+    "Which images work best?",
+    "Sharp, well-lit images with dark text on a plain background work best. Crop away extra background before you run the tool."
+   ],
+   [
+    "Can it read handwriting?",
+    "Not reliably. The tool is made for printed text, and handwriting often comes out wrong."
+   ]
+  ],
+  "bnH": "ছবি থেকে টেক্সট",
+  "bnP": "ছবিতে থাকা ছাপানো লেখাকে এডিট করার মতো টেক্সটে বদলান। স্ক্রিনশট, স্ক্যান করা নোট বা বইয়ের পাতার জন্য কাজের। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "ocr-online",
+   "image-to-word",
+   "bangla-ocr",
+   "word-counter"
+  ]
+ },
+ "image-to-word": {
+  "title": "Image to Word Converter – Photo to DOCX Free",
+  "description": "Convert an image or photo to a Word (.docx) file online for free. OCR in your browser – no upload to SnapKit, no sign-up.",
+  "extra": "Need a photo to Word converter? Take a picture of a page, run OCR and download the recognized text as a .docx file you can open in Microsoft Word or Google Docs. The file holds text only, so you will need to restore formatting yourself.",
+  "faq": [
+   [
+    "Does the Word file keep the layout?",
+    "No. It contains the recognized text only. Pictures, tables and the original page layout are not recreated."
+   ],
+   [
+    "Can I open the .docx in Google Docs?",
+    "Yes. Word documents open in Microsoft Word, Google Docs and most word processors."
+   ],
+   [
+    "Can I convert a PDF to Word here?",
+    "SnapKit does not convert PDF files into editable Word documents. For a scanned PDF page, use PDF to Image to save the page as a picture, then run it through Image to Word to recognize the text and save a .docx file."
+   ]
+  ],
+  "bnH": "ছবি থেকে ওয়ার্ড ফাইল",
+  "bnP": "পাতার ছবি তুলে OCR চালান এবং লেখাটি .docx ফাইল হিসেবে নামান। শুধু টেক্সট আসে, মূল ডিজাইন বা টেবিল আসে না। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "image-to-text",
+   "ocr-online",
+   "bangla-ocr",
+   "word-counter"
+  ]
+ },
+ "bangla-ocr": {
+  "title": "Bangla OCR Online – Image to Bengali Text",
+  "description": "Bangla OCR online: read Bengali text from photos, scans and screenshots and copy it. Free, in your browser – no upload to SnapKit.",
+  "extra": "This Bangla OCR (Bengali OCR) tool reads printed Bangla from images and turns it into text you can copy. Accuracy is lower than for English, so use a clear, high-resolution image and proofread the output.",
+  "faq": [
+   [
+    "How accurate is Bangla OCR?",
+    "It is less accurate than English OCR. Clean printed text works best, while small print, old books and handwriting often have mistakes."
+   ],
+   [
+    "Can it read Bangla and English together?",
+    "Yes. Choose English + Bangla for pages with both languages."
+   ]
+  ],
+  "bnH": "বাংলা OCR",
+  "bnP": "ছবি থেকে বাংলা লেখা বের করতে এখানে ছবি দিন। ভাষা বাংলা সিলেক্ট থাকবে। ফলাফলে ভুল থাকতে পারে, তাই কপি করার আগে মিলিয়ে নিন। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু ব্রাউজারেই হয়।",
+  "related": [
+   "ocr-online",
+   "image-to-text",
+   "image-to-word",
+   "word-counter"
+  ]
+ },
+ "image-compressor": {
+  "title": "Image Compressor – Compress Image to 100KB Online",
+  "description": "Compress image online for free. Reduce JPG, PNG and WebP size, or compress a photo to 100 KB. Private in your browser – no upload.",
+  "extra": "Use this image compressor to reduce photo size for online forms, email attachments, websites and chat apps. Pick a quality level, or enter a target such as 50 KB, 100 KB or 200 KB and let the tool find the smallest file that fits. You can compress several pictures at once.",
+  "faq": [
+   [
+    "How do I compress an image to 100 KB?",
+    "Choose your image, type 100 in the Max size (KB) box, and select Compress. The tool lowers the quality and, if needed, the dimensions until the file is under 100 KB. The same steps work for 50 KB, 200 KB or any other size."
+   ],
+   [
+    "How do I reduce the size of a JPG photo without losing visible quality?",
+    "Start with a quality around 70 to 80. Most photos look the same on screen at that level while the file becomes much smaller. If you need a smaller file, lower the quality further or reduce the maximum width."
+   ],
+   [
+    "Can I compress a PNG?",
+    "PNG is lossless, so changing quality does not shrink it. For a much smaller file choose WebP or JPG as the output, or set a maximum size. JPG does not keep transparent areas; WebP does."
+   ],
+   [
+    "Can I compress multiple images at once?",
+    "Yes. Select several images, compress them together, and download each result or use Download all."
+   ],
+   [
+    "How do I reduce a picture from MB to KB?",
+    "Set a maximum size in KB, for example 200, and optionally a maximum width such as 1920 px. Large camera photos often shrink from several MB to a few hundred KB with little visible change."
+   ]
+  ],
+  "bnH": "ছবির সাইজ কমানো (ইমেজ কমপ্রেসার)",
+  "bnP": "ছবির সাইজ কমাতে বা ১০০ KB-এর মতো নির্দিষ্ট সাইজে কমপ্রেস করতে SnapKit-এর ফ্রি টুল ব্যবহার করুন। ফর্ম, ইমেইল বা ওয়েবসাইটে আপলোডের জন্য উপযোগী। কোনো সাইনআপ লাগে না এবং আপনার ছবি SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "compress-image-to-50kb",
+   "compress-image-to-100kb",
+   "compress-image-to-200kb",
+   "compress-image-to-500kb"
+  ]
+ },
+ "compress-image-to-50kb": {
+  "title": "Compress Image to 50KB Online Free – JPG, PNG",
+  "description": "Compress a JPG, PNG or WebP image to 50 KB or less in your browser. Free, private, no upload and no sign-up.",
+  "extra": "Use this page when a form says the file must be under 50 KB. The result is the highest quality that still fits the limit, so it usually lands a little below 50 KB rather than exactly on it.",
+  "faq": [
+   [
+    "How do I make a photo 50 KB or less?",
+    "Choose the photo, leave the limit at 50, and select Compress. The tool lowers quality, then the dimensions in small steps, until the file fits."
+   ],
+   [
+    "Will my photo look blurry at 50 KB?",
+    "Small files need lower quality or fewer pixels, so some softness is possible. For passport-size photos and signatures it is usually hard to notice at normal size."
+   ],
+   [
+    "Why is my result under 50 KB, not exactly 50?",
+    "The tool picks the best quality that is at or below your limit. A result a few KB under the limit is normal."
+   ]
+  ],
+  "related": [
+   "image-compressor",
+   "compress-image-to-100kb",
+   "compress-image-to-150kb",
+   "compress-image-to-200kb"
+  ]
+ },
+ "compress-image-to-100kb": {
+  "title": "Compress Image to 100KB Online Free – JPG, PNG, WebP",
+  "description": "Reduce an image to 100 KB or less online. Compress JPG, PNG or WebP in your browser, free, with no upload and no sign-up.",
+  "extra": "This is the most common size limit for uploads. If you have several pictures, add them all at once and compress them in one go.",
+  "faq": [
+   [
+    "How do I compress a JPG to 100 KB?",
+    "Choose the JPG, keep the limit at 100 and select Compress. The tool finds the highest quality that fits under 100 KB and reduces the dimensions only if it must."
+   ],
+   [
+    "Can I compress a PNG to 100 KB?",
+    "Yes, but PNG is lossless. When you set a size limit, the PNG is saved as WebP (or JPG if WebP is unavailable) so it can reach the target."
+   ],
+   [
+    "Can I compress several images to 100 KB at once?",
+    "Yes. Select multiple images; each one is compressed to its own file under the limit."
+   ]
+  ],
+  "related": [
+   "image-compressor",
+   "compress-image-to-50kb",
+   "compress-image-to-150kb",
+   "compress-image-to-200kb"
+  ]
+ },
+ "compress-image-to-150kb": {
+  "title": "Compress Image to 150KB Online – Free JPG & PNG",
+  "description": "Compress an image to 150 KB or less online. Keep more detail than a 100 KB limit. Free, private, no upload.",
+  "extra": "Choose 150 KB when 100 KB makes the picture look too soft but your upload form still has a limit.",
+  "faq": [
+   [
+    "How do I reduce an image to 150 KB?",
+    "Select the image, keep the limit at 150 and compress. The tool lowers quality first and shrinks the dimensions only if needed."
+   ],
+   [
+    "Is 150 KB enough for a clear photo?",
+    "For screen use, usually yes. Detailed photos shown full-screen may look soft, so check the result before uploading."
+   ]
+  ],
+  "related": [
+   "image-compressor",
+   "compress-image-to-50kb",
+   "compress-image-to-100kb",
+   "compress-image-to-200kb"
+  ]
+ },
+ "compress-image-to-200kb": {
+  "title": "Compress Image to 200KB Online – Free Image Compressor",
+  "description": "Compress a photo to 200 KB or less online. Good for email, chat apps and web pages. Free, no upload, no sign-up.",
+  "extra": "200 KB is a practical balance of size and clarity for sharing photos online.",
+  "faq": [
+   [
+    "How do I compress an image to 200 KB?",
+    "Choose the image, keep the limit at 200 and select Compress. The result is saved as a new file; your original is unchanged."
+   ],
+   [
+    "Will compressing to 200 KB reduce quality?",
+    "Yes, a little. The tool picks the best quality that fits, so a photo that is already small loses very little."
+   ]
+  ],
+  "related": [
+   "image-compressor",
+   "compress-image-to-50kb",
+   "compress-image-to-100kb",
+   "compress-image-to-150kb"
+  ]
+ },
+ "compress-image-to-500kb": {
+  "title": "Reduce Image Size to 500KB Online – Free Compressor",
+  "description": "Reduce a JPG, PNG or WebP image to under 500 KB in your browser. Keeps more detail. Free, private, no upload.",
+  "extra": "Use this page for website images, blog photos and scans that must stay readable but are too heavy to upload.",
+  "faq": [
+   [
+    "How do I reduce a JPG to under 500 KB?",
+    "Select the JPG, keep the limit at 500 and compress. A multi-MB photo usually reaches 500 KB with little visible change."
+   ],
+   [
+    "How do I reduce a picture from MB to KB?",
+    "Set the size you need in KB, for example 500, and compress. 1 MB is about 1,024 KB."
+   ]
+  ],
+  "related": [
+   "image-compressor",
+   "compress-image-to-50kb",
+   "compress-image-to-100kb",
+   "compress-image-to-150kb"
+  ]
+ },
+ "split-pdf": {
+  "title": "Split PDF – Separate Pages or Ranges Online Free",
+  "description": "Split a PDF online for free. Make one file per page, split by page range, or every N pages, and download a ZIP. Private in your browser.",
+  "extra": "Use this PDF splitter to separate a long document into pages or sections. It works as a PDF divider for scans, reports and invoices, and the pieces can be merged again later with Merge PDF.",
+  "faq": [
+   [
+    "How do I split a PDF into separate pages?",
+    "Choose the PDF, pick Every page as its own PDF and select Split PDF. You get one file per page, which you can download one by one or as a ZIP."
+   ],
+   [
+    "Can I split a PDF by page range?",
+    "Yes. Choose the ranges mode and type ranges such as 1-3, 4-6, 9. Each range becomes its own PDF."
+   ],
+   [
+    "Can I split a PDF into equal parts?",
+    "Yes. Choose One PDF for every N pages. With 10 pages and N = 5 you get two PDFs of five pages each."
+   ],
+   [
+    "How do I split and merge PDF files?",
+    "Split the document here, then use Merge PDF to combine any of the pieces in the order you want."
+   ]
+  ],
+  "bnH": "পিডিএফ ভাগ করা",
+  "bnP": "একটি পিডিএফকে প্রতিটি পৃষ্ঠা, নিজের রেঞ্জ বা সমান ভাগে আলাদা করতে SnapKit-এর ফ্রি টুল ব্যবহার করুন। কোনো সাইনআপ লাগে না এবং আপনার ফাইল SnapKit-এ আপলোড হয় না, সবকিছু আপনার ব্রাউজারেই হয়।",
+  "related": [
+   "extract-pdf-pages",
+   "merge-pdf",
+   "rotate-pdf",
+   "pdf-page-count"
+  ]
+ }
+}
