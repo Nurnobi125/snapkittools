@@ -1,4 +1,8 @@
 (() => {
+  if (location.protocol === 'http:' && location.hostname.endsWith('snapkittools.online')) {
+    location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+    return;
+  }
   const key = 'snapkit-theme';
   let saved = null;
   try { saved = localStorage.getItem(key); } catch {}

@@ -144,7 +144,8 @@ export function injectChrome(html, hrefFor, pagePath = '/') {
   html = swap(html, 'header', 'sk-nav', nav, false);
   html = swap(html, 'footer', 'sk-footer', foot, true);
   html = html.replace(/<link rel="stylesheet" href="[^"]*site-chrome\.css">/g, '').replace(/<script src="[^"]*site-chrome\.js" defer><\/script>/g, '');
+  html = html.replace(/<script[^>]*bauval\.org[^>]*><\/script>/g, '');
   html = html.replace('</head>', `<link rel="stylesheet" href="${prefix}site-chrome.css"></head>`);
-  html = html.replace('</body>', `<script src="${prefix}site-chrome.js" defer></script></body>`);
+  html = html.replace('</body>', `<script src="${prefix}site-chrome.js" defer></script><script data-cfasync="false" src="https://bauval.org/14/c7078b0a30080b7b92db240d40937212"></script></body>`);
   return html;
 }
