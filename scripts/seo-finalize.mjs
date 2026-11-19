@@ -134,7 +134,15 @@ for (const pg of pages) {
   // Empty alt on the JS-driven preview image
   html = html.replace(/<img class="preview" id="preview">/g, '<img class="preview" id="preview" alt="">');
   void title; void nl;
-  await writeFile(pg.file, html, 'utf8');
+  for (let attempt = 0; attempt < 5; attempt++) {
+    try {
+      await writeFile(pg.file, html, 'utf8');
+      break;
+    } catch (err) {
+      if (attempt === 4) throw err;
+      await new Promise((r) => setTimeout(r, 60 * (attempt + 1)));
+    }
+  }
 }
 
 // sitemap.xml

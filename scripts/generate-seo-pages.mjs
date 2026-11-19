@@ -51,6 +51,22 @@ for (const route of routes) {
   const faqItems = [[faqWhat, faqAnswer], [inputQuestion, inputAnswer], [utilityTool ? "What if the result doesn't look right?" : "Why can't my file open or tool run?", whyAnswer.replace(/<[^>]+>/g, '')], ...extraFaq];
   const faqLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqItems.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) })}</script>`;
   const crumbLd = publishable ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` }, { '@type': 'ListItem', position: 2, name: 'Tools', item: `${siteUrl}/tools/` }, { '@type': 'ListItem', position: 3, name: heading, item: url }] })}</script>` : '';
+  const howToLd = publishable ? `<script type="application/ld+json">${JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: howTitle,
+    description: `Step-by-step instructions: ${description}`,
+    totalTime: 'PT1M',
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '0' },
+    tool: [{ '@type': 'HowToTool', name: 'Modern Web Browser (Chrome, Firefox, Safari, Edge)' }],
+    step: steps.map((s, idx) => ({
+      '@type': 'HowToStep',
+      position: idx + 1,
+      name: `Step ${idx + 1}`,
+      text: s,
+      url: `${url}#step-${idx + 1}`
+    }))
+  })}</script>` : '';
 
   const webAppLd = `<script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org',
@@ -117,9 +133,10 @@ for (const route of routes) {
 <meta property="og:type" content="website"><meta property="og:site_name" content="SnapKit"><meta property="og:locale" content="en_US"><meta property="og:title" content="${esc(ogTitle)}"><meta property="og:description" content="${esc(description)}">${publishable ? `<meta property="og:url" content="${url}">` : ''}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(ogTitle)}"><meta name="twitter:description" content="${esc(description)}">${publishable ? `<link rel="canonical" href="${url}">` : ''}
 ${webAppLd}
-${faqLd}${crumbLd}<title>${esc(displayTitle)} | SnapKit</title><link rel="stylesheet" href="../../tool-pages.css"><link rel="stylesheet" href="../../theme.css"><script src="../../theme.js"></script></head>
+${faqLd}${crumbLd}${howToLd}<title>${esc(displayTitle)} | SnapKit</title><link rel="stylesheet" href="../../tool-pages.css"><link rel="stylesheet" href="../../theme.css"><script src="../../theme.js"></script></head>
 <body><header class="top"><a class="brand" href="../../">✳ snapkit</a><a class="back" href="../../tools/">All tools</a> <a class="back" href="../../applications.html">Windows apps</a></header>
 <main><p class="eyebrow">${category}</p><h1>${esc(heading)}</h1><p class="lead">${esc(route.intro)}</p>
+<div class="sk-summary" style="background:var(--card,#fff);border:1px solid var(--line,#e2e8f0);border-left:4px solid #16a34a;border-radius:10px;padding:12px 16px;margin:16px 0;font-size:14px;line-height:1.6"><strong style="color:#16a34a">Quick Summary:</strong> ${esc(description)} Runs locally on your device with 100% private, client-side processing.</div>
 ${toolMountHtml}
 <section><h2>${esc(howTitle)}</h2><ol>${steps.map((step) => `<li>${esc(step)}</li>`).join('')}</ol><p>${esc(route.detail)}</p>${s.extra ? `<p>${esc(s.extra)}</p>` : ''}</section>
 <section><h2>Frequently asked questions</h2><details><summary>${esc(faqWhat)}</summary><p>${esc(faqAnswer)}</p></details><details><summary>${esc(inputQuestion)}</summary><p>${esc(inputAnswer)}</p></details><details><summary>${esc(utilityTool ? "What if the result doesn't look right?" : "Why can't my file open or tool run?")}</summary><p>${whyAnswer}</p></details>${extraFaq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}</section>
