@@ -78,7 +78,8 @@ const icons = '<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link r
 const STRIP = [
   /<link rel="canonical"[^>]*>/g, /<meta property="og:url"[^>]*>/g, /<meta property="og:image[^>]*>/g,
   /<meta name="twitter:card"[^>]*>/g, /<meta name="twitter:image[^>]*>/g, /<link rel="alternate" hreflang="[^"]*"[^>]*>/g,
-  /<link rel="describedby"[^>]*>/g, /<link rel="icon"[^>]*>/g, /<link rel="apple-touch-icon"[^>]*>/g, /<meta name="robots"[^>]*>/g
+  /<link rel="describedby"[^>]*>/g, /<link rel="icon"[^>]*>/g, /<link rel="apple-touch-icon"[^>]*>/g, /<meta name="robots"[^>]*>/g,
+  /<meta name="msvalidate\.01"[^>]*>/g
 ];
 const esc = (s) => s.replaceAll('&', '&amp;').replaceAll('"', '&quot;');
 const sitemapEntries = [];
@@ -112,6 +113,9 @@ for (const pg of pages) {
     inject += `<meta property="og:image" content="${ogImage}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="SnapKit – free online PDF, image and everyday tools">`;
     inject += `<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${ogImage}">`;
     inject += icons;
+    if (pg.cl?.key === 'home') {
+      inject += '<meta name="msvalidate.01" content="3CF657B9ABE0C0BE8413D14B17C15387">';
+    }
     if (pg.cl && !legacy) {
       const cluster = clusters.get(pg.cl.key);
       const codes = allCodes.filter((c) => cluster[c]);
